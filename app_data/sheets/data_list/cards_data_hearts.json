@@ -1,0 +1,116 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "cards_data_hearts",
+  "status": "released",
+  "rows": [
+    {
+      "title": "Kaprekar’s Number",
+      "metadata - type": "fun fact",
+      "main version - statement": "Choose a four digit number where the digits are not all the same.\nRearrange the digits to get the largest and smallest possible numbers these digits can make.\nSubtract the smallest number from the largest to get a new number, and carry on repeating the operation for each new number. You will always end up at the same number.",
+      "main version - hint": "For example if you start with 4252, you should do the calculation 5422 - 2245 = 3177. Then do 7731 - 1377 and keep going.",
+      "main version - explanation": "You always end up with the number 6174. This is known as Kaprekar’s number. For example 5432 – 2345 = 3087\n8730 – 0378 = 8352\n8532 – 2358 = 6174\n7641 – 1467 = 6174",
+      "extension 1 - statement": "What happens when you do this process with 3 digit numbers (where not all the digits are the same)? Can you explain why you always end up at the same number? Note that if you find 99 as an answer at any stage, this would then give 099 as the smallest number and 990 as the biggest.",
+      "extension 1 - hint": "For example, if you start with 792, the first calculation you have to do is 972 - 279 = 693.",
+      "extension 1 - explanation": "We can write a three digit number abc (imagine it is as big as possible) as 100×a + 10×b + c. If we rearrange the digits to make it as small as possible it would be cba which we can write as 100×c + 10×b + a. We then subtract to give 100×a + 10×b + c - (100×c + 10×b + a) = 99×a - 99×c = 99×(a - c). So after one step, the number will be a multiple of 99. The only 3 digit numbers that are multiples of 99 are 099, 198, 297, 396, 495, 594, 693, 792, 891, and 990. We only need to check the first five of these (as we will be rearranging the digits anyway) and we can verify that all of them end up giving the answer 495.",
+      "additional information - about": "D. R. Kaprekar (1905 - 1986) was an Indian school maths teacher who loved playing with numbers. He discovered a number of results in number theory and described various properties of numbers.",
+      "additional information - references": "https://en.wikipedia.org/wiki/D._R._Kaprekar\nhttps://plus.maths.org/content/mysterious-number-6174"
+    },
+    {
+      "title": "Palindrome Cube",
+      "metadata - type": "fun fact",
+      "main version - statement": "10662526601 = 2201³ is the only known palindromic cube whose cube root is not palindromic (a palindrome is a number that reads the same backwards as forwards).",
+      "main version - hint": "Take the number 1030301. It is a palindrome. It’s cube root is 101, which is also a palindrome. Can you find other examples that are both palindromes? (Remember that all one digit numbers are palindromes!)",
+      "main version - explanation": "According to the On-line Encyclopedia of Integer Sequences, The sequence of positive integers whose cube is palindromic begins:\n1, 2, 7, 11, 101, 111, 1001, 2201, 10001, 10101, …\nThe corresponding sequence of palindromic cubes begins:\n1, 8, 343, 1331, 1030301, 1367631, 1003003001, 10662526601, 1000300030001, …\n2201 is the smallest (and only one known so far) which is itself non-palindromic.",
+      "extension 1 - statement": "There are 5 palindromic square numbers between 1 and 100 (inclusive) whose square root is also a palindrome. Can you find them all?",
+      "extension 1 - hint": "Remember all one digit numbers are palindromes.",
+      "extension 1 - explanation": "The five numbers are 1²=1, 2²=4, 3²=9, 11²=121, 22²=484",
+      "additional information - about": "People have used computers to try and find another palindromic number whose cube root is not palindromic but no one has found one. This might be because there exists one that is bigger than the numbers that have been tested so far, or it might be that no more exist.",
+      "additional information - references": "https://proofwiki.org/wiki/Sequence_of_Palindromic_Cubes\nhttps://oeis.org/"
+    },
+    {
+      "title": "Four Colours",
+      "metadata - type": "Fun fact",
+      "main version - statement": "It takes at most four colours to colour every map such that no two adjacent regions (regions that share a border) are the same colour.",
+      "main version - hint": "Can you colour a map of Africa with five colours so that no two countries that touch are filled in with the same colour? Can you also succeed with four colours? How about three colours?",
+      "main version - explanation": "The four color theorem says that given any separation of a plane into contiguous regions, producing a figure called a map, no more than four colours are required to colour the regions of the map so that no two adjacent regions have the same colour. We can see why it is not possible with three colours by looking at the situation around Rwanda: \n\n\n\nIf we try using red, blue and green we can get this far:\n\n\nBut we can’t colour Rwanda using red (because it shares a border with Uganda and Burundi) green (because of Tanzania) or blue (Democratic Republic of Congo). We definitely need another colour. \n\nThe proof that only four colours are needed is very tricky, but the extension will give you an insight into how it is done.",
+      "extension 1 - statement": "Can you draw a map with 12 countries such that every country has exactly five neighbours, and then colour it in using only 4 colours?",
+      "extension 1 - hint": "Your map should essentially look like this:",
+      "extension 1 - explanation": "The idea of the proof of the four colour theorem is to find necessary conditions for being a minimal counterexample (this means a minimal non-4-colourable map) and thus to concentrate on maps with these necessary conditions. One of these many necessary conditions is to show that in a minimal counterexample with 12 countries, all countries must have exactly five neighbours. However this can be coloured in like this:\n\n\nThe proof involves checking around 1500 maps like this!",
+      "additional information - about": "The proof of the four colour theorem was famously tricky, and comes from graph theory, where mathematicians investigate an equivalent problem of colouring vertices of a network so that no edge has endpoints the same colour. The original four-colour proof was attempted by Alfred Kempe in 1879, but unfortunately Percy John Heawood found an error 11 years later. However his work was not useless, as Percy was able to prove the five-colour theorem (that one can colour a map with no two adjacent regions the sample colour using at most 5 colours) based on Kempe's work. The four colour theorem was finally proved in 1976 by Kenneth Appel, Wolfgang Haken, and John Koch using a computer to check it. This was the first major theorem to be proved using a computer. They checked around 1500 configurations using about 1200 hours of computer time. Some people were sceptical about a proof using a computer but independent verification soon convinced everyone that the four colour theorem had finally been proved.",
+      "additional information - references": "https://mathshistory.st-andrews.ac.uk/HistTopics/The_four_colour_theorem/\nhttps://www.mathsisfun.com/activity/coloring.html"
+    },
+    {
+      "title": "Ramanujan",
+      "metadata - type": "fun fact",
+      "main version - statement": "1729 is the smallest number that can be written as a sum of two cubed numbers in two different ways.",
+      "main version - hint": "72 can be expressed as 2³ + 4³ but it is the only way with two positive cubes. Can you find the two ways to make 1729?",
+      "main version - explanation": "1³ + 12³ = 1 + 1728 = 1729 and also 9³ + 10³ = 729 + 1000 = 1729",
+      "extension 1 - statement": "If you change the problem to allow the cube of a negative number e.g. (-3)³=27 then the smallest number you can make is under a 100. Can you find the number and the two ways to make it?",
+      "extension 1 - hint": "The number is between 90 and 100.",
+      "extension 1 - explanation": "91 can be written as 6³+(-5)³ = 216 - 125 =91 or 4³+3³=64+27=91",
+      "additional information - about": "Bernard Frénicle de Bessy wrote about the number 1729 in 1657, but it was made popular by G. H. Hardy telling a story about Srinivasa Ramanujan in about 1919: “I remember once going to see him when he was ill at Putney. I had ridden in taxi cab number 1729 and remarked that the number seemed to me rather a dull one, and that I hoped it was not an unfavourable omen. \"No,\" he replied, \"it is a very interesting number; it is the smallest number expressible as the sum of two cubes in two different ways.\" 1729 is now called a “taxicab” number. It is the second taxi cab number. The first is 2 because it is the smallest number that can be written in one way as the sum of two cubes. 87539319 is the third taxi cab number because it is the smallest number that can be written in three different ways as the sum of two cubes. No one knows what the taxicab numbers are above the 6th one.",
+      "additional information - references": "https://en.wikipedia.org/wiki/Bernard_Fr%C3%A9nicle_de_Bessy\nhttps://en.wikipedia.org/wiki/1729_(number)\nhttps://en.wikipedia.org/wiki/Taxicab_number"
+    },
+    {
+      "title": "Folding Paper",
+      "metadata - type": "fun fact",
+      "main version - statement": "If you could fold a piece of paper in half only 42 times, it would reach the Moon!",
+      "main version - hint": "Let us say that the paper thickness is about 0.1 millimeter (or 0.0039 inch). If you fold it once on itself, how thick would it be? What about it you fold it once more on itself? What about if you fold it 10 times?",
+      "main version - explanation": "The distance between the Earth and the Moon is a bit less than 400000 kilometers (or 250000 miles). For us the paper is 0.1 millimeter (mm) thick. If we fold the paper once, its thickness would be doubled, so it becomes 0.2mm. Folding it again gives 0.4mm. If we fold it 10 times, it becomes (0.1mm)×2¹⁰ (two to the power 10). Now, if we compute (0.1mm)×2⁴², the result is 440 000km!",
+      "extension 1 - statement": "How many times would you need to fold the same piece of paper to reach the height of Britam Tower, the highest skyscraper in Nairobi? (200m, or 640 ft)",
+      "extension 1 - hint": "Make sure you convert 0.1mm to meters or 200m to millimeters first.",
+      "extension 1 - explanation": "You would need to fold the paper 21 times. 200m is 200000mm. You need to solve (0.1mm)×2ⁿ = 200000 for n. We can solve equations like these using logarithms or just trial and error - keep multiplying by 2 until you have reached the height of the tower … 20 is nearly enough, but you would need 21 folds to reach over 200m tall.",
+      "additional information - about": "Try to fold a piece paper 6 times, remember to fold it completely over itself at each repetition. Can you fold it a seventh time? An eighth? How far can you go? Maybe we need a larger piece of paper to begin with! It was thought for years that 7 was the maximum number of times a piece of paper could be folded, but in 2002 American teenager Britney Gallivan demonstrated that a sheet of paper can be folded 12 times, provided that it is long enough and thin enough.  Britney Gallivan demonstrated this by using a 1200m length of toilet paper, which provided her with both the length and thinness which she required.  Britney even came up with a formula that showed how long the piece of paper would have to be so it can be folded n times:\n\n\\[$$ L = \\frac{\\pi \\times t}{6} (2^n + 4)(2^n - 1) $$\\]\\< L = π×t×(2ⁿ + 4)(2ⁿ - 1) ∕ 6 \\>\n\nL is the length of paper required, t is the thickness of the paper and n is how many folds you can make.\n\nTen years later in 2012 a group of students beat Britney’s record by taking 16km of toilet roll and folding it in one direction 13 times.",
+      "additional information - references": "https://www.mathscareers.org.uk/article/how-many-times-can-you-fold-a-sheet-of-paper/"
+    },
+    {
+      "title": "Prime Removal",
+      "metadata - type": "fun fact",
+      "main version - statement": "73939133 is the largest prime number that, if you keep removing digits from the right, will always leave a prime number.",
+      "main version - hint": "If you take away the last digit the number would be 7393913, which is a prime number. Keep going ...",
+      "main version - explanation": "A right-truncatable prime is a prime number that remains a prime when you successively remove the last digit. We can look for the biggest right-truncatable prime by starting with the one digit primes 2, 3, 5, and 7. Then try to add another digit to the right of these so that the new numbers are also prime. We could have 23, 29, 31, 37, 53, 59, 71, 73, and 79. Now we try to add another digit. We could have 233, 239, 293, 311, 313, 317, 373, 379, 593, 599, 719, 733, 739, and 797. If we keep going with this process we end up with these eight digit numbers 23399339, 29399999, 37337999, 59393339, and 73939133. There are no nine digit prime numbers that start with any of these eight digits so the biggest right-truncatable number is 73939133.",
+      "extension 1 - statement": "A left-truncatable prime is a prime number that remains a prime when you successively remove the first digit. E.g. 137 is a prime number, so is 37 and so is 7 so 137 is a left-truncatable prime. The biggest one is 357686312646216567629137. There are eleven 2 digit ones, can you find them all? Can you find more 3 digit ones?",
+      "extension 1 - hint": "23 is the first one because 23 and 3 are both prime numbers.",
+      "extension 1 - explanation": "The two digit left-truncatable primes are: 13, 17, 23, 37, 43, 47, 53, 67, 73, 83, 97\nThe three digit left-truncatable primes are: 113, 137, 167, 173, 197, 223, 283, 313, 317, 337, 347, 353, 367, 373, 383, 397, 443, 467, 523, 547, 613, 617, 643, 647, 653, 673, 683, 743, 773, 797, 823, 853, 883, 937, 947, 953, 967, 983, 997",
+      "additional information - about": "Interestingly there are 4260 left-truncatable primes but only 83 right-truncatable primes. If you repeatedly remove the first and last digit of a prime number and it stays prime, it is called a left-and-right-truncatable prime. There are 920720315 of those!",
+      "additional information - references": "https://en.wikipedia.org/wiki/Truncatable_prime"
+    },
+    {
+      "title": "Shuffling Cards",
+      "metadata - type": "fun fact",
+      "main version - statement": "If you shuffle a deck of cards properly, it’s more than likely that the exact order of the cards you get has never been seen before in the whole history of the universe.",
+      "main version - hint": "How many arrangements of the 52 cards can we have? Maybe this is too big to start with. Let's try out a smaller number of 3 cards, how many different arrangements can we have? Now try 4 cards?\nCan we now use this to get to the 52 cards?",
+      "main version - explanation": "We want to work out how many different combinations of 52 cards there are. Let us start with thinking about just 3 cards. We could compare this to thinking about the number of ways 3 people could sit in three numbered chairs. Any of the three people could sit on the first chair, then either of the 2 remaining people could sit on the second chair and then there is 1 person left who would have no choice but to sit on the only remaining chair. We can multiply the number of choices for each chair (3×2×1 = 6) to find how many different ways there are for the 3 people to be arranged. It is interesting to note that the pattern here is taking the initial number then multiplying consecutively by the next smallest integer until you reach 1. This process has a name, it is called Factorial. The symbol for it is !. e.g. 3! = 6. Generally if you want to find the number of different ways you can rearrange n items, you can find n! = n!×(n - 1)!×(n - 2)!×…×1 The number of ways to shuffle 52 cards is 52! = 52×51×50×…×3×2×1 which is roughly equal to  8×10⁶⁷",
+      "extension 1 - statement": "Take a deck of 52 cards, shuffle them as much as you can, then try to guess which exact cards will be the top 3 cards (in order). Did you get your guess right? \nNow if we assume that there are 1 million people doing exactly this procedure, we would expect around 7 people to guess right.",
+      "extension 1 - hint": "What is the chance of guessing the top card correctly?",
+      "extension 1 - explanation": "The chance of guessing the first card is 1 ∕ 52. The chance of then getting the second card right is 1 ∕ 51 and then 1 ∕ 50 for the third card. So the chance of guessing all three correctly is (1 ∕ 52)×(1 ∕ 51)×(1 ∕ 50) = 0.0000075415. Multiply this by the 1000000 people guessing gives you 7.51478.. So you would only expect around 7 people to guess correctly.",
+      "additional information - about": "52! is around 8×10⁶⁷. If someone shuffled a deck of cards once per second since the beginning of the universe (let’s say around 14 billion years ago) they would only have shuffled the deck 10¹⁸ times.\n\nTherefore when you shuffle a deck, it is almost certain that you are the first person to play with the cards in exactly that order.",
+      "additional information - references": "https://nrich.maths.org/5402\nhttps://math.hmc.edu/funfacts/making-history-by-card-shuffling/"
+    },
+    {
+      "title": "Square numbers and triangular numbers",
+      "metadata - type": "Fun fact",
+      "main version - statement": "The first six triangular numbers are 1, 3, 6, 10, and 15\nThe first six square numbers are 1, 4, 9, 16, and 25\nAny square number bigger than 1 is the sum of two consecutive triangular numbers.",
+      "main version - hint": "Triangular numbers can be drawn with dots in the shape of a triangle. Square numbers can be drawn with dots in the shape of a square grid. See if you can work this one out visually first. Can you express it algebraically as well?",
+      "main version - explanation": "We first show this visually, in the image below you can see that 4 = 1 + 3,  9 = 3 + 6, 16 = 6 + 10, and 25 = 10 + 15. \n\n\nIf we take T = triangular and S = square, then we can draw the S-number as an S-grid of points, the smaller T-number forms the upper T of points, the larger T-number forms the lower T AND the diagonal of points.\nThese are consecutive triangular numbers making a square.\nThe side length in points of the bigger T-number is the square root of the S-number.",
+      "extension 1 - statement": "Find the 250ᵗʰ triangular number.",
+      "extension 1 - hint": "Starting with a small triangular number might help. Can you use the pattern of triangles and squares to help you? What square could be the sum of the 250ᵗʰ triangular number and another triangular number? Think about the 250ᵗʰ square number and how it relates to the 250ᵗʰ triangular number.",
+      "extension 1 - explanation": "Let us look at a smaller example first. We could find the 5ᵗʰ triangular number using this square:\n\n\n\nWe are looking for the number of purple squares. We can do ½×(5×5 - 5) = 10 to get the pink triangle. And then adding on the 5 squares in the diagonal gives the purple triangle. So we have 15.\n\nFor the 250ᵗʰ triangular number, we are looking for the number of squares in the black “triangle”. It will be roughly ½×250×250, except that the diagonal will be included. So we calculate ½×(250×250 - 5) to find the blue triangle and then add 250 on to find the black triangle. The answer is 31375.\n\nWe can extend this logic to find a formula for the nth triangular number\n½×(n×n - n) + n = ½×(n² +2×n - n) = ½×(n² + n) = ½×n×(n + 1)\n\nCheck: ½×250×251 = 31375\n\nUsing the formula, we can also see that consecutive triangular numbers add to a square number. Consecutive triangular numbers can be represented as ½×(n - 1)×n and ½×n×(n + 1).\nIf we add these consecutive triangular numbers and simplify we can find:\n ½×(n - 1)×n + ½×n×(n + 1)=  ½×((n - 1)×n + n×(n + 1)) = ½×(n² - n + n²  + n) = n²",
+      "additional information - about": "The formula for the nᵗʰ triangular number is also exactly equal to the summation 1 + 2 + 3 + … + n and so it is a quick way to add up lists of consecutive numbers! This formula was written down by the Irish monk Dicuil in about 816AD but was possibly already known to the Pythagoreans in the 5th century BC.",
+      "additional information - references": "https://www.geogebra.org/m/ZXAP0QPv \nhttps://nrich.maths.org/2274\nhttps://en.wikipedia.org/wiki/Triangular_number#Applications"
+    },
+    {
+      "title": "Lychrel Numbers",
+      "metadata - type": "fun fact",
+      "main version - statement": "Take a positive integer (whole number). Reverse the digits to get a new number. Add the two numbers together. Repeat this process until you get a palindrome (a number that reads the same forwards and backwards).\nCan you find a starting number that doesn’t end up at a palindrome? Nobody knows if this is possible.",
+      "main version - hint": "Pick a positive integer (whole number), e.g. 57. Reverse the digits to get 75. Adding gives 57 +75 = 132. Then reverse this new number and add together. You get 132 + 231 = 353. This is a palindrome as it reads the same forwards as backwards, so we stop. Can you find a number that takes longer to reach a palindrome?",
+      "main version - explanation": "Some numbers end up in a palindrome after one step, e.g. 243: 243 +342 = 585. Some take a bit longer, e.g. 87: \n87 + 78 = 165, \n165 + 561 = 726, \n726 + 627 = 1353, \n1353 + 3531 = 4884.\nSome numbers take a very long time – 89 takes an unusually large 24 steps (the most of any number under 10,000) to reach the palindrome 8813200023188.\nA number is called a Lychrel number if it never reaches a palindrome. No one has proved that a Lychrel number exists. One possibility is 196 - the first billion steps have been carried out by computers and it hasn’t reached a palindrome… but this does not prove it never will!",
+      "extension 1 - statement": "Can you find different 3-digit numbers that take 1, 2, 3, and 4 steps to become a palindrome?",
+      "extension 1 - hint": "Most smaller 3-digit numbers take only 1 step to become a palindrome, but try using bigger digits that will mean you have to carry when you add (e.g. 8 + 9 = 17 so you will have to carry the 1).",
+      "extension 1 - explanation": "There are lots of options, but 122 takes 1 step, 109 takes 2 steps, 199 takes 3 steps and 192 takes 4 steps.",
+      "additional information - about": "If you change the base of the problem to binary then 10110 (22 in decimal) is a Lychrel number. The name Lychrel comes from a rough anagram of Wade Van Landingham’s girlfriend Cheryl.",
+      "additional information - references": "https://lycee.samicharity.co.uk/2020/02/06/lychrel-numbers/\nhttps://en.wikipedia.org/wiki/Lychrel_number#196_palindrome_quest\nhttp://datagenetics.com/blog/october12015/index.html"
+    }
+  ],
+  "_xlsxPath": "cards_data.xlsx"
+}
