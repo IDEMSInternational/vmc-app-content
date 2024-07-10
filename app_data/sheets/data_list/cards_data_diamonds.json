@@ -4,48 +4,86 @@
   "status": "released",
   "rows": [
     {
-      "title": "Knockdown",
-      "main_statement": "Pegs numbered 1 to 50 are placed in order in a line, with number 1 on the left.\nThey are then knocked over, one at a time, following these two rules:\nStarting with the first standing peg on the left, alternate pegs are knocked down, until the end of the row is reached.\nEach time the end of the row is reached, repeat the previous rule.\nWhat is the number of the last peg to be knocked down?\n\n(second version with QR code)",
-      "main_hint": "What happens if you only had 5 pegs? What about 10 or 20? Can you spot the pattern?",
-      "extension_1_statement": "Pegs numbered 1 to 1050 are placed in order in a line, with number 1 on the left.\nThey are then knocked over, one at a time, following these two rules:\nStarting with the first standing peg on the left, alternate pegs are knocked down, until the end of the row is reached.\nEach time the end of the row is reached, repeat the previous rule.\nWhat is the number of the last peg to be knocked down?",
-      "extension 2 - statement": "Pegs numbered 1 to 10000050 are placed in order in a line, with number 1 on the left.\nThey are then knocked over, one at a time, following these two rules:\nStarting with the first standing peg on the left, 9 pegs are knocked down and the tenth is left standing, until the end of the row is reached.\nEach time the end of the row is reached, repeat the previous rule.\nWhat is the number of the last peg to be knocked down?"
-    },
-    {
-      "id": "title",
-      "title": "metadata - type",
-      "main_statement": "main_statement",
-      "main_image_1": "main_answer",
-      "main_image_2": "main_hint",
-      "main_hint": "main_explanation",
-      "main_answer": "extension_1_statement",
-      "main_explanation": "extension_1_hint",
-      "extension_1_statement": "extension_1_answer",
-      "extension_1_hint": "extension_1_explanation",
-      "extension_1_answer": "extension_2_ statement",
-      "extension 1 - explanation": "extension_2_hint",
-      "extension 2 - statement": "extension_2_answer",
-      "extension 2 - qr code": "extension_2_explanation",
-      "metadata - type": "additional_information_about",
-      "extension 2 - hint": "additional information - references"
-    },
-    {
-      "id": "Different Paths",
-      "title": "Counting",
+      "id": "diff_paths",
+      "card_no": "DJ",
+      "references": "https://en.wikipedia.org/wiki/Factorial\nhttps://www.mathsisfun.com/numbers/factorial.html",
+      "metadata_type": "Activities",
+      "_translations": {
+        "metadata_type": {},
+        "title": {},
+        "main_statement": {},
+        "main_hint": {},
+        "main_explanation": {},
+        "extension_1_statement": {},
+        "extension_1_hint": {},
+        "extension_1_explanation": {},
+        "extension_2_ statement": {},
+        "extension_2_hint": {},
+        "extension_2_explanation": {},
+        "about": {}
+      },
+      "_translatedFields": {
+        "metadata_type": {
+          "eng": "Activities"
+        },
+        "title": {
+          "eng": "Different Paths"
+        },
+        "main_statement": {
+          "eng": "There are 5 different paths you could take to get from home to school. In a week (from Monday to Friday) you would like to try a different path every day. In how many different ways can you organise your walk to school for the week?"
+        },
+        "main_answer": {
+          "eng": 120
+        },
+        "main_hint": {
+          "eng": "Think about how many options you have to select the first path, then how many you have for the second and so on. Be careful that you can not choose the same path twice in a week."
+        },
+        "main_explanation": {
+          "eng": "You have 5 possible days of the week and you would like to have one different path per day. ON the first day you have a choice of 5 paths. On the second day, you only have 4 paths left to choose from because you can’t take the one you took on Monday. On the third day you have 3 to choose from and so on. The solution is therefore 5×4×3×2×1 =120. This is counting how many ways you can order 5 objects (paths) in 5 positions (days of the week). This is a problem on permutations (without repetition). \nThe mathematical symbol ! is called factorial and represents multiplying by decreasing integers until you reach 1. So 5×4×3×2×1 can be written as 5!"
+        },
+        "extension_1_statement": {
+          "eng": "What if you had to go to school on Saturdays as well and you also found a new path? In how many ways can you arrange your week such that every day you go to school walking on different paths?"
+        },
+        "extension_1_hint": {
+          "eng": "Is there a way to use the result of the previous problem? Think about how many ways you can now walk to school on Monday."
+        },
+        "extension_1_answer": {
+          "eng": 720
+        },
+        "extension_1_explanation": {
+          "eng": "You have now 6 possible days of the week and 6 different paths. You would like to have one different path per day. The solution is obtained by counting how many ways you can order 6 objects (paths) in 6 positions (days of the week). The solution is obtained as 6×5×4×3×2×1 = 120  Notice this is 6×120 (6 times the previous solution). You have just discovered a recursive property of factorials: n! = n×(n - 1)!."
+        },
+        "extension_2_ statement": {
+          "eng": "What if you had to go to school on Sundays as well and you also found four new paths so there are now 10 paths to choose from? In how many ways can you arrange your week such that every day you go to school walking on different paths?"
+        },
+        "extension_2_hint": {
+          "eng": "Is this exactly the same style of problem as before? Think about how many ways you can now walk to school on Monday etc but when you get to Sunday there will still be more than one to choose from."
+        },
+        "extension_2_answer": {
+          "eng": 604800
+        },
+        "extension_2_explanation": {
+          "eng": "You have now 7 possible days of the week and 10 different paths. You would like to have one different path per day. The solution is obtained by counting how many ways you can order 10 objects (paths) in 7 positions (days of the week). The solution is obtained by 10×9×8×7×6×5×4 =  604800. If you wanted to calculate this using factorials, 10! is close to the answer, but we don’t want 3×2×1 at the end. 3×2×1 is 3! so we can do 10! ∕ 3! =604800."
+        },
+        "about": {
+          "eng": "Factorials were used to count permutations at least as early as the 12th century, by Indian scholars. The notation n! was introduced by the French mathematician Christian Kramp in 1808.\nFactorials get big very quickly. 5! = 120, but 20! = 2432902008176640000."
+        }
+      },
+      "title": "Different Paths",
       "main_statement": "There are 5 different paths you could take to get from home to school. In a week (from Monday to Friday) you would like to try a different path every day. In how many different ways can you organise your walk to school for the week?",
-      "main_image_1": 120,
-      "main_image_2": "Think about how many options you have to select the first path, then how many you have for the second and so on. Be careful that you can not choose the same path twice in a week.",
-      "main_hint": "You have 5 possible days of the week and you would like to have one different path per day. ON the first day you have a choice of 5 paths. On the second day, you only have 4 paths left to choose from because you can’t take the one you took on Monday. On the third day you have 3 to choose from and so on. The solution is therefore 5×4×3×2×1 =120. This is counting how many ways you can order 5 objects (paths) in 5 positions (days of the week). This is a problem on permutations (without repetition). \nThe mathematical symbol ! is called factorial and represents multiplying by decreasing integers until you reach 1. So 5×4×3×2×1 can be written as 5!",
-      "main_answer": "What if you had to go to school on Saturdays as well and you also found a new path? In how many ways can you arrange your week such that every day you go to school walking on different paths?",
-      "main_explanation": "Is there a way to use the result of the previous problem? Think about how many ways you can now walk to school on Monday.",
-      "extension_1_statement": 720,
-      "extension_1_hint": "You have now 6 possible days of the week and 6 different paths. You would like to have one different path per day. The solution is obtained by counting how many ways you can order 6 objects (paths) in 6 positions (days of the week). The solution is obtained as 6×5×4×3×2×1 = 120  Notice this is 6×120 (6 times the previous solution). You have just discovered a recursive property of factorials: n! = n×(n - 1)!.",
-      "extension_1_answer": "What if you had to go to school on Sundays as well and you also found four new paths so there are now 10 paths to choose from? In how many ways can you arrange your week such that every day you go to school walking on different paths?",
-      "extension 1 - explanation": "Is this exactly the same style of problem as before? Think about how many ways you can now walk to school on Monday etc but when you get to Sunday there will still be more than one to choose from.",
-      "extension 2 - statement": 604800,
-      "extension 2 - qr code": "You have now 7 possible days of the week and 10 different paths. You would like to have one different path per day. The solution is obtained by counting how many ways you can order 10 objects (paths) in 7 positions (days of the week). The solution is obtained by 10×9×8×7×6×5×4 =  604800. If you wanted to calculate this using factorials, 10! is close to the answer, but we don’t want 3×2×1 at the end. 3×2×1 is 3! so we can do 10! ∕ 3! =604800.",
-      "metadata - type": "Factorials were used to count permutations at least as early as the 12th century, by Indian scholars. The notation n! was introduced by the French mathematician Christian Kramp in 1808.\nFactorials get big very quickly. 5! = 120, but 20! = 2432902008176640000.",
-      "extension 2 - hint": "https://en.wikipedia.org/wiki/Factorial\nhttps://www.mathsisfun.com/numbers/factorial.html"
+      "main_answer": 120,
+      "main_hint": "Think about how many options you have to select the first path, then how many you have for the second and so on. Be careful that you can not choose the same path twice in a week.",
+      "main_explanation": "You have 5 possible days of the week and you would like to have one different path per day. ON the first day you have a choice of 5 paths. On the second day, you only have 4 paths left to choose from because you can’t take the one you took on Monday. On the third day you have 3 to choose from and so on. The solution is therefore 5×4×3×2×1 =120. This is counting how many ways you can order 5 objects (paths) in 5 positions (days of the week). This is a problem on permutations (without repetition). \nThe mathematical symbol ! is called factorial and represents multiplying by decreasing integers until you reach 1. So 5×4×3×2×1 can be written as 5!",
+      "extension_1_statement": "What if you had to go to school on Saturdays as well and you also found a new path? In how many ways can you arrange your week such that every day you go to school walking on different paths?",
+      "extension_1_hint": "Is there a way to use the result of the previous problem? Think about how many ways you can now walk to school on Monday.",
+      "extension_1_answer": 720,
+      "extension_1_explanation": "You have now 6 possible days of the week and 6 different paths. You would like to have one different path per day. The solution is obtained by counting how many ways you can order 6 objects (paths) in 6 positions (days of the week). The solution is obtained as 6×5×4×3×2×1 = 120  Notice this is 6×120 (6 times the previous solution). You have just discovered a recursive property of factorials: n! = n×(n - 1)!.",
+      "extension_2_ statement": "What if you had to go to school on Sundays as well and you also found four new paths so there are now 10 paths to choose from? In how many ways can you arrange your week such that every day you go to school walking on different paths?",
+      "extension_2_hint": "Is this exactly the same style of problem as before? Think about how many ways you can now walk to school on Monday etc but when you get to Sunday there will still be more than one to choose from.",
+      "extension_2_answer": 604800,
+      "extension_2_explanation": "You have now 7 possible days of the week and 10 different paths. You would like to have one different path per day. The solution is obtained by counting how many ways you can order 10 objects (paths) in 7 positions (days of the week). The solution is obtained by 10×9×8×7×6×5×4 =  604800. If you wanted to calculate this using factorials, 10! is close to the answer, but we don’t want 3×2×1 at the end. 3×2×1 is 3! so we can do 10! ∕ 3! =604800.",
+      "about": "Factorials were used to count permutations at least as early as the 12th century, by Indian scholars. The notation n! was introduced by the French mathematician Christian Kramp in 1808.\nFactorials get big very quickly. 5! = 120, but 20! = 2432902008176640000."
     }
   ],
-  "_xlsxPath": "cards_data.xlsx"
+  "_xlsxPath": "data/cards_data.xlsx"
 }

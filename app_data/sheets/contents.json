@@ -4,27 +4,38 @@
     "cards_data_clubs": {
       "flow_type": "data_list",
       "flow_name": "cards_data_clubs",
-      "_xlsxPath": "cards_data.xlsx"
+      "_xlsxPath": "data/cards_data.xlsx"
     },
     "cards_data_diamonds": {
       "flow_type": "data_list",
       "flow_name": "cards_data_diamonds",
-      "_xlsxPath": "cards_data.xlsx"
+      "_xlsxPath": "data/cards_data.xlsx"
     },
     "cards_data_hearts": {
       "flow_type": "data_list",
       "flow_name": "cards_data_hearts",
-      "_xlsxPath": "cards_data.xlsx"
+      "_xlsxPath": "data/cards_data.xlsx"
     },
     "cards_data_spades": {
       "flow_type": "data_list",
       "flow_name": "cards_data_spades",
-      "_xlsxPath": "cards_data.xlsx"
+      "_xlsxPath": "data/cards_data.xlsx"
     }
   },
   "data_pipe": {},
   "generator": {},
   "global": {},
-  "template": {},
+  "template": {
+    "card_button": {
+      "flow_type": "template",
+      "flow_name": "card_button",
+      "_xlsxPath": "templates/cards_template.xlsx"
+    },
+    "cards": {
+      "flow_type": "template",
+      "flow_name": "cards",
+      "_xlsxPath": "templates/cards_template.xlsx"
+    }
+  },
   "tour": {}
 }
