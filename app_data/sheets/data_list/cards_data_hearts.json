@@ -330,6 +330,9 @@
       "card_no": "H10",
       "title": "Square numbers and triangular numbers",
       "metadata_type": "Fun fact",
+      "image_asset_1": "images/square_triangular_numbers/image_0.png",
+      "image_asset_2": "images/square_triangular_numbers/image_1.png",
+      "image_asset_3": "images/square_triangular_numbers/image_2.png",
       "references": "https://www.geogebra.org/m/ZXAP0QPv \nhttps://nrich.maths.org/2274\nhttps://en.wikipedia.org/wiki/Triangular_number#Applications",
       "main_statement": "The first six triangular numbers are 1, 3, 6, 10, and 15\nThe first six square numbers are 1, 4, 9, 16, and 25\nAny square number bigger than 1 is the sum of two consecutive triangular numbers.",
       "_translations": {

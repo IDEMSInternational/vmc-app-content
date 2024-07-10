@@ -1,0 +1,17 @@
+{
+  "flow_type": "template",
+  "flow_name": "home_screen",
+  "status": "released",
+  "rows": [
+    {
+      "type": "title",
+      "name": "title_home",
+      "value": "Home",
+      "_translations": {
+        "value": {}
+      },
+      "_nested_name": "title_home"
+    }
+  ],
+  "_xlsxPath": "templates/navigation.xlsx"
+}
