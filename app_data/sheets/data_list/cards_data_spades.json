@@ -1,0 +1,118 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "cards_data_spades",
+  "status": "released",
+  "rows": [
+    {
+      "title": "Fifteen",
+      "metadata - type": "game",
+      "main version - statement": "This is a game for two players (or a group split into two teams). Take the A and 2 to 9 cards of any suit and place them face up in order. A = 1 in this game. Take it in turns to choose one of the cards and place it in front of you. The first player that has exactly three cards that add up to 15 is the winner. You can have more than three cards, but you only win if three of them add up to 15.",
+      "main version - further instructions": "Remember you can’t use two numbers to make 15, you can’t use four numbers, it must be three numbers. You can have more than three cards in your hand and use only 3 of them. The game is a draw if all the cards have been chosen and nobody can make 15.",
+      "main version - strategy tips": "Write down all the combinations of three numbers that add up to 15. How can you be sure that you have found all the combinations? Which numbers appear in 2, 3, and 4 of these combinations?\nThink about other games you might have played that this is similar to. Is it an advantage to go first or second?",
+      "extension 1 - statement": "Try playing the game again, but with the cards arranged like this to start with. \n\nWhat do you notice about the way the numbers are arranged? Does it remind you of any other game?",
+      "additional information - about": "This game is interesting because it is the same as the game tic-tac-toe/naughts and crosses. The technical term for this is isomorphic. In mathematics it is often helpful, when faced with a new problem, to relate it to one you already know how to solve.",
+      "additional information - references": "https://www.ms.uky.edu/~lee/ma310sp15/gameoffifteen.pdf\nhttps://en.wikipedia.org/wiki/Number_Scrabble"
+    },
+    {
+      "title": "Patience",
+      "metadata - type": "game",
+      "main version - statement": "This is a one player game of patience. Lay out a grid of 8 cards in 2 rows of 4 cards, face up and hold the remaining cards. If you find two cards in the grid that sum to 11 you can put new cards from your hand on top of them (here A = 1). If you find the J, Q or K cards you can also put a new card on top of each. The objective of the game is to put down all the cards.",
+      "main version - further instructions": "Remove the Jokers before starting. A has a value of 1 in this game. If you manage to play all your cards, the last stage of the game is to pick up pairs of piles of cards whose top cards add up to 11, or three piles whose top cards are J, Q, K. You have won the game if you can pick up all the cards. If you can’t put down all your cards, count how many are left",
+      "main version - strategy tips": "This game is mostly luck - but you need to think carefully about how many J, Q and K you cover to win the final stage!",
+      "extension 1 - statement": "A similar game uses 10 cards face up and you have to remove pairs that add up to 13 (A = 1, J = 11, Q = 12, and K=13). The K can be removed on its own. Each time you remove cards you replace them with new ones. The aim is to finish playing all the cards in the deck. \nYou could make up your own version of this type of game by choosing the number to sum to, how many cards are face up to start with and what to do with the face cards. Can you design a game that can be won about half of the time?",
+      "additional information - about": "These types of games are often called Patience or Solitaire. Patience because you need a lot of patience to try and win, and Solitaire because you can play them on your own. Although many variations of Patience are down to chance, it is interesting to use mathematics to analyse the probability of winning.",
+      "additional information - references": "https://nrich.maths.org/1194\nhttps://www.solsuite.com/games/elevens.htm"
+    },
+    {
+      "title": "Twenty-one",
+      "metadata - type": "game",
+      "main version - statement": "Two players take it in turn to count up, starting from 1 and counting 1, 2, or 3 numbers at a time. Each player continues counting from where the other player stops. The player who says 21 loses.",
+      "main version - further instructions": "An example game: P1 = Player 1, P2 = Player 2. \nP1: 1,2,3       P2: 4 \nP1: 5,6          P2: 7,8,9 \nP1: 10           P2: 11,12,13\nP1: 14,15,16 P2:17,18,19\nP1: 20           P2: 21\nPlayer 1 wins!",
+      "main version - strategy tips": "The person who says 20 wins, as they force the next person to say 21. How can you make sure you say 20? Try to work backwards. After you have played several times you might work out who is going to win before you reach 20 - think about how you know this. Can you work out if it is better to go first or second? Can you make sure you always win?",
+      "extension 1 - statement": "There are many ways to change this game. You could be allowed to say up to 4 consecutive numbers instead of 3, or change the goal number of 21 to something different, or change the rule so that the player who says 21 is now the winner, not the loser. Can you still work out how to win when the rules are changed? \n\nThe original game can be changed to a group of players who play in a circle, starting clockwise. Just for fun you can have new rules that if someone says two numbers in a row, the direction is reversed. If someone says three numbers in a row you skip one person in the circle. The person to say 21 makes up a new rule e.g. “Instead of the number 5 you have to say potato”. The game starts again at number 1 but you have to remember the new rule! If anyone makes a mistake you start again at 1. You can play that if someone makes two mistakes they are out of the game. The last person still playing is the winner!",
+      "additional information - about": "21 is a simple version of the set of games, Nim. It is sometimes called a Misère game - meaning a game that you play to lose. It is thought to have originated in China and is first mentioned in European history at the start of the 16ᵗʰ century. The game was originally played with 21 stones, and you have to pick 1, 2, or 3 stones at a time and the loser is the last one to pick a stone.",
+      "additional information - references": "https://en.wikipedia.org/wiki/Nim\nhttps://en.wikipedia.org/wiki/Nim#The_21_game"
+    },
+    {
+      "title": "Nim",
+      "metadata - type": "game",
+      "main version - statement": "|\n| | |\n| | | | |\n\nArrange 9 sticks in 3 rows as shown. Two players take it in turn to remove one or more sticks from a single row. The loser is the person to take the last stick. Can you find a winning strategy?",
+      "main version - further instructions": "You can remove as many sticks as you like each turn as long as they come from the same row. For example an opening move could be to take all 5 sticks from the bottom row. You must take at least one stick each turn. You are trying to leave just one stick left for your opponent to be forced to take and therefore lose the game.",
+      "main version - strategy tips": "Try to think a few moves ahead. For example if you can remove a stick to leave this pattern\n| |\n| | \nthen you will be able to win.\nTry to work out if it is better to go first or second.",
+      "extension 1 - statement": "Try changing the starting number and pattern of sticks. You could try rows of 3,5,7 or 1,3,5,7 sticks.",
+      "additional information - about": "This is an ancient game that owes its current name to Charles Bouton, who also developed a theory for how you can always play to win. His strategy involves binary numbers and can be found here https://plus.maths.org/content/play-win-nim. You can play different variations of the game (also called drips) online here https://wild.maths.org/tags/fun-drips",
+      "additional information - references": "https://wild.maths.org/tags/fun-drips\nhttps://plus.maths.org/content/play-win-nim"
+    },
+    {
+      "title": "Mastermind",
+      "metadata - type": "game",
+      "main version - statement": "This is a two player game. Player 1 secretly chooses four cards and puts them in a row face down. Player 2 has seven attempts to guess the suits (clubs, diamonds, hearts, spades) of these cards, in order. Player 2 guesses by laying four cards in a row face up. Player 1 looks at the suits, and tells them how many suits they guessed in the correct position (x), and how many other suits they have guessed correctly but in the wrong position (o). Player 2 uses this information to make a better guess next time.",
+      "main version - further instructions": "Here is how a game might work:\nPlayer 1 chooses 1) 4 of Hearts, 2) 3 of Clubs, 3) 8 of Spades, 4) 10 of Spades and places them face down.\nPlayer 2 lays down for example: 1) 6 of Hearts, 2) 4 of Spades, 3) J of Diamonds, 4) 3 of Spades.\nPlayer 2 has three correct suits (Heart, Spade and Spade) and two in the correct position - 1) and 4) so Player 1 would say “you have two in the correct position and one in the wrong position”, but doesn’t say which ones - an easy way to record this would be xxo. Then player 2 would guess again. They might think that it was the last two cards that were perfectly correct, so keep these and guess a different first two. Recording the results on pen and paper will be necessary and would look like this:\nHSDS  xxo\nCCDS  xoo \nNote that it is just the suits we are interested in, not the numbers. Player 1 is not saying which ones are correct, just saying how many are correct. Player 2 keeps guessing until all four are correct.",
+      "main version - strategy tips": "For the guesser: Your first guess will be at random but after that you should be using logic to work out what the solution might be. One good strategy for beginners is just change one card at a time, but as you play more you may find a better optimal strategy.\nFor the setter: Think about whether it is best to have all the same suit, all different, or some the same.",
+      "extension 1 - statement": "Try playing the game by having to guess the numbers of the cards - 1 (A) to 10 - instead of the suits. There will be more options so it will be a lot harder. You could even use J, Q, K too.",
+      "additional information - about": "This game can be played with numbers, letters, symbols or colours as in the popular board game.",
+      "additional information - references": "https://en.wikipedia.org/wiki/Mastermind_(board_game)\nhttps://lycee.samicharity.co.uk/2017/09/21/mastermind-problems/"
+    },
+    {
+      "title": "Latin Squares",
+      "metadata - type": "game",
+      "main version - statement": "Select the 16 J, Q, K and A cards from a pack. Try to put them in a 4 by 4 square so that each rank (J, Q, K, A) and each suit (Clubs, Diamonds, Hearts, Spades) appears only once in each row and column.",
+      "main version - further instructions": "This could be a one player puzzle or get a group of people to try it together as it is quite tricky!",
+      "main version - strategy tips": "Start by ignoring the suits and try to get the ranks in a square so that each rank appears only once in every row and column.",
+      "extension 1 - statement": "Create a 5 x 5 square with the same rules but this time include all the 10,J,Q,K,A. You will need an extra suit: you could draw a 10, J, Q, K and A on five separate pieces of paper, making up a new suit of your choice.",
+      "additional information - about": "This puzzle is an example of a Latin square. Interestingly, if the problem had involved 6 ranks of playing cards it would have been impossible. But with 7 ranks it is quite easy to find a solution. Latin squares are used in medical trials to ensure every participant is allocated to each treatment for the same time period to prove which is the best treatment.",
+      "additional information - references": "https://www.mathsisfun.com/puzzles/index.html\nhttps://www.wikiwand.com/en/Mutually_orthogonal_Latin_squares"
+    },
+    {
+      "title": "Gomoku",
+      "metadata - type": "Game",
+      "main version - statement": "Start by drawing a square grid of 15 by 15 lines. Two players take it in turns to place a counter on any point where lines cross. The player who gets five of their counters in a straight line wins. The line can be vertical, horizontal or diagonal.",
+      "main version - further instructions": "This game is traditionally played with black and white counters, but you could use any different counters, or little pieces of paper. You could also draw the grid in pen and then use pencil to mark x or o for each player and then rub them out when you are finished to be able to use the grid again.",
+      "main version - strategy tips": "It is very important to be watching your opponents moves as well as trying to make a line of 5 yourself. If your opponent has three in a row with nothing at either end - this is called “open 3” - then it is a good idea to use your turn to block one end. If they manage to get “open 4” you have certainly lost! A good attacking strategy might be to aim for two overlapping lines of open 3s - like a cross - so that it is very hard for your opponent to defend.",
+      "extension 1 - statement": "For advanced players, the first player has a big advantage. This advantage can be removed by starting the game using the “Swap 2” rule. Let’s say at the start of the game player one is crosses (x) and player two is circles (o).\nPlayer one begins the game by marking 3 intersections (two with x, and one with o), player two then chooses one of these three options (i) they take crosses, ending their turn (player one becomes circles and it is now their go), (ii) they stay as circles and add one circle as normal, (iii) they add two circles to the board, but then player one now gets to decide whether they want to steal circles. After this, play as normal.",
+      "additional information - about": "There is a World Championship tournament for Gomuku. Since 2009 it has used the Swap 2 rule to make it a fair game, no matter who starts. There are also championships for computers to play at Gomuku! So people write an artificial intelligence program and their program plays against someone else’s program to see who wins. There are also computer vs. human competitions - in 2017 a computer called Yixin beat the world champion human player Rudolf Dupszki 2-0.",
+      "additional information - references": "https://en.wikipedia.org/wiki/Gomoku"
+    },
+    {
+      "title": "Sim",
+      "metadata - type": "game",
+      "main version - statement": "Draw six points in a hexagonal arrangement. Players take turns to draw a straight line between any two points, trying to avoid making a triangle. Each player should use a different colour. The player that completes a triangle with their colour first loses the game.",
+      "main version - further instructions": "You might want to draw all the possible lines between the points to start with and then colour over them. This would make the game a bit easier to play. If you don’t have two different colours you could use solid and dotted lines for the two players.",
+      "main version - strategy tips": "Try to make moves in a way that removes options from your opponent. You might want to try and complete triangles that are of mixed colour.",
+      "extension 1 - statement": "Draw a 5 by 5 grid of dots. Two players take it in turn to colour a dot (use different colours or an x and a +). The winner is the first player to make a square with four of their points. Squares can be tilted as well as straight.",
+      "additional information - about": "The Sim pencil game was invented in 1969 by Gustavus Simmons, a cryptographer, who described it in the Journal of Recreational Mathematics. Frank P. Ramsey proved that there always has to be a winner in this game by the “Theorem on Friends and Strangers”. He showed that on completing all the edges of the graph, there must be one triangle that is all the same colour.",
+      "additional information - references": "https://www.whatdowedoallday.com/sim-pencil-game/\nhttp://web.math.ucsb.edu/~padraic/ucsb_2013_14/mathcs103_s2014/images/SIM_game.pdf\nhttps://nrich.maths.org/2526\nhttps://en.wikipedia.org/wiki/Theorem_on_friends_and_strangers"
+    },
+    {
+      "title": "Stop or Dare",
+      "metadata - type": "game",
+      "main version - statement": "This is a game for two or three players. Shuffle the deck and place it face down. The first player turns over the top card and continues turning over cards, adding together the value of each card, until they decide to stop and record their score. J = 11 and Q = 12.\nIf an A or a K is turned over, no points are scored in that turn and the turn is finished.\nPlayers take turns until someone reaches 100 or more - this player is the winner.",
+      "main version - further instructions": "If the cards are all turned over before the target is reached, just reshuffle the pack and continue.",
+      "main version - strategy tips": "Try and keep count of how many K and A cards have come up already. This could change how daring you are feeling. If someone else is close to 100 it might be best to turn over more cards than you would normally.",
+      "extension 1 - statement": "You could try changing the target number, or changing how many cards wipe out your score for that turn. You could also try having K as resetting your entire score to zero to make it more daring.",
+      "additional information - about": "This game can also be played with Dice and is sometimes called Pig. There are one and two dice versions, and even a version where you can choose how many dice to throw rather than how many times to throw a set number of dice.",
+      "additional information - references": "https://en.wikipedia.org/wiki/Pig_(dice_game)\nhttps://nrich.maths.org/1193"
+    },
+    {
+      "title": "Twenty-four",
+      "metadata - type": "game",
+      "main version - statement": "Remove the 10, J, Q, K, and Joker cards from the deck. Shuffle the rest and deal four cards face up on the table so that every player can see them. Each player attempts to make the number 24 silently using all four numbers (A count as 1), and as many operations +, −, × and ÷ and brackets () as needed. The first person to give an answer with an explanation wins and keeps the 4 cards. Keep playing until there are no cards left.",
+      "main version - further instructions": "This is a game for two or more players. \nA few combinations might be impossible. In this case, put the cards back and shuffle again to choose another 4.",
+      "main version - strategy tips": "Think of the factors of 24 to cover i.e, 1×24, 2×12, 3×8, and 4×6. If you have either of the factors in your list, say 1, 2, 3, 4, 6, 8, …  use the remaining numbers to make the other number, or use your numbers to create combinations.",
+      "extension 1 - statement": "You can play this game like Snap, with 2 or 4 players. Deal the cards (without the 10, J, Q, K, or Jokers) equally to all players. For two players, on the count of three, they each turn over the top two cards from their pile. For four players, they each just turn over one card. Everyone tries to make 24 using all four cards. The first person to do so takes the cards and puts them at the bottom of their pile. Play continues until one player has run out of cards - then the player with the most cards is the winner.",
+      "additional information - about": "The number 24 is used because it has so many factors. However, an analysis of all the possible combinations of 4 cards shows that the number 2 would have been the best target number! 99.19% of the combinations could be solved, compared to 80.20% for 24. If you are allowed to use factorials (e.g. 3! = 3×2×1 = 6), then you can solve many more combinations for 24.",
+      "additional information - references": "https://nrich.maths.org/7669\nhttps://nrich.maths.org/1262\nhttp://www.ijastnet.com/journals/Vol_1_No_5_September_2011/20.pdf\nhttps://gottfriedville.net/games/24/index.shtml"
+    },
+    {
+      "title": "WinTwoThreeFour",
+      "metadata - type": "game",
+      "main version - statement": "Remove the 10, J, Q, K, and Jokers. Deal each player 9 cards (A = 1 here). Players secretly arrange their cards to make a 4-digit number, a 3-digit number and a 2-digit number. All at once, the players show their three numbers.\nThe biggest 2-digit number gets 2 points, biggest 3-digit gets 3 points, biggest 4-digit gets 4 points. If there is a tie then the points are split between the players.",
+      "main version - further instructions": "You could play a certain number of rounds or play until a player gets to a certain score, e.g. 25.",
+      "main version - strategy tips": "It is tempting to focus on making your 4 digit number as big as possible, but maybe everyone else is trying to do this too! It is important to watch how your opponents are playing and try and adapt your strategy to beat them.",
+      "extension 1 - statement": "Try playing this so that the smallest 2-digit number gets 2 points, smallest 3-digit number gets 3 points and smallest 4-digit number gets 4 points.",
+      "additional information - about": "This game featured in Andrew Jeffrey’s Leader of the Pack book - which has 52 games and activities to do with a deck of cards. It is simple to understand the rules but very interesting to try and find a strategy to win.",
+      "additional information - references": "http://andrewjeffrey.co.uk/product/leader-of-the-pack/\nhttps://www.jennettspark.bracknell-forest.sch.uk/wp-content/uploads/2020/04/52-Card-Activities-for-Mathematics.pdf"
+    }
+  ],
+  "_xlsxPath": "cards_data.xlsx"
+}
