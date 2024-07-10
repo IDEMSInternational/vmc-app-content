@@ -1,6 +1,11 @@
 {
   "asset_pack": {},
   "data_list": {
+    "cards": {
+      "flow_type": "data_list",
+      "flow_name": "cards",
+      "_xlsxPath": "data/cards_data.xlsx"
+    },
     "cards_data_clubs": {
       "flow_type": "data_list",
       "flow_name": "cards_data_clubs",
@@ -26,6 +31,11 @@
   "generator": {},
   "global": {},
   "template": {
+    "app_menu": {
+      "flow_type": "template",
+      "flow_name": "app_menu",
+      "_xlsxPath": "templates/navigation.xlsx"
+    },
     "card_button": {
       "flow_type": "template",
       "flow_name": "card_button",
@@ -35,6 +45,16 @@
       "flow_type": "template",
       "flow_name": "cards",
       "_xlsxPath": "templates/cards_template.xlsx"
+    },
+    "home_screen": {
+      "flow_type": "template",
+      "flow_name": "home_screen",
+      "_xlsxPath": "templates/navigation.xlsx"
+    },
+    "nav_buttons": {
+      "flow_type": "template",
+      "flow_name": "nav_buttons",
+      "_xlsxPath": "templates/navigation.xlsx"
     }
   },
   "tour": {}

@@ -1,0 +1,33 @@
+{
+  "flow_type": "template",
+  "flow_name": "app_menu",
+  "status": "released",
+  "rows": [
+    {
+      "type": "debug_toggle",
+      "name": "debug_toggle",
+      "_nested_name": "debug_toggle"
+    },
+    {
+      "type": "button",
+      "name": "button_templates",
+      "value": "Templates",
+      "_translations": {
+        "value": {}
+      },
+      "action_list": [
+        {
+          "trigger": "click",
+          "action_id": "go_to",
+          "args": [
+            "/template"
+          ],
+          "_raw": "click | go_to:/template",
+          "_cleaned": "click | go_to:/template"
+        }
+      ],
+      "_nested_name": "button_templates"
+    }
+  ],
+  "_xlsxPath": "templates/navigation.xlsx"
+}

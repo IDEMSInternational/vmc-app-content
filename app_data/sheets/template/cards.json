@@ -6,7 +6,7 @@
     {
       "type": "title",
       "name": "title",
-      "value": "@global.activities",
+      "value": "@data.cards_data_clubs.title",
       "_translations": {
         "value": {}
       },
@@ -14,15 +14,15 @@
       "_dynamicFields": {
         "value": [
           {
-            "fullExpression": "@global.activities",
-            "matchedExpression": "@global.activities",
-            "type": "global",
-            "fieldName": "activities"
+            "fullExpression": "@data.cards_data_clubs.title",
+            "matchedExpression": "@data.cards_data_clubs.title",
+            "type": "data",
+            "fieldName": "cards_data_clubs"
           }
         ]
       },
       "_dynamicDependencies": {
-        "@global.activities": [
+        "@data.cards_data_clubs.title": [
           "value"
         ]
       }
@@ -33,7 +33,7 @@
       "rows": [
         {
           "type": "items",
-          "value": "@data.learn_play",
+          "value": "@data.cards_data_clubs",
           "parameter_list": {
             "shuffle": "true",
             "limit": "1"
@@ -42,7 +42,7 @@
             {
               "type": "button",
               "name": "button_random",
-              "value": "Give me one idea",
+              "value": "Shuffle cards",
               "_translations": {
                 "value": {}
               },
@@ -184,15 +184,15 @@
           "_dynamicFields": {
             "value": [
               {
-                "fullExpression": "@data.learn_play",
-                "matchedExpression": "@data.learn_play",
+                "fullExpression": "@data.cards_data_clubs",
+                "matchedExpression": "@data.cards_data_clubs",
                 "type": "data",
-                "fieldName": "learn_play"
+                "fieldName": "cards_data_clubs"
               }
             ]
           },
           "_dynamicDependencies": {
-            "@data.learn_play": [
+            "@data.cards_data_clubs": [
               "value"
             ]
           }
@@ -326,7 +326,7 @@
           "rows": [
             {
               "type": "items",
-              "value": "@data.learn_play",
+              "value": "@data.cards_data_clubs",
               "rows": [
                 {
                   "type": "template",
@@ -335,13 +335,13 @@
                   "condition": "@item.group == @local.group_id",
                   "rows": [
                     {
-                      "name": "activity_id",
+                      "name": "card_id",
                       "value": "@item.id",
                       "_translations": {
                         "value": {}
                       },
                       "type": "set_variable",
-                      "_nested_name": "items_5.carousel_@item.title.items_1.card_button_@item.id.activity_id",
+                      "_nested_name": "items_5.carousel_@item.title.items_1.card_button_@item.id.card_id",
                       "_dynamicFields": {
                         "value": [
                           {
@@ -353,14 +353,14 @@
                         ],
                         "_nested_name": [
                           {
-                            "fullExpression": "items_5.carousel_@item.title.items_1.card_button_@item.id.activity_id",
+                            "fullExpression": "items_5.carousel_@item.title.items_1.card_button_@item.id.card_id",
                             "matchedExpression": "@item.title.items_1.card_button_",
                             "type": "item",
                             "fieldName": "title"
                           },
                           {
-                            "fullExpression": "items_5.carousel_@item.title.items_1.card_button_@item.id.activity_id",
-                            "matchedExpression": "@item.id.activity_id",
+                            "fullExpression": "items_5.carousel_@item.title.items_1.card_button_@item.id.card_id",
+                            "matchedExpression": "@item.id.card_id",
                             "type": "item",
                             "fieldName": "id"
                           }
@@ -373,7 +373,7 @@
                         "@item.title.items_1.card_button_": [
                           "_nested_name"
                         ],
-                        "@item.id.activity_id": [
+                        "@item.id.card_id": [
                           "_nested_name"
                         ]
                       }
@@ -440,10 +440,10 @@
               "_dynamicFields": {
                 "value": [
                   {
-                    "fullExpression": "@data.learn_play",
-                    "matchedExpression": "@data.learn_play",
+                    "fullExpression": "@data.cards_data_clubs",
+                    "matchedExpression": "@data.cards_data_clubs",
                     "type": "data",
-                    "fieldName": "learn_play"
+                    "fieldName": "cards_data_clubs"
                   }
                 ],
                 "_nested_name": [
@@ -456,7 +456,7 @@
                 ]
               },
               "_dynamicDependencies": {
-                "@data.learn_play": [
+                "@data.cards_data_clubs": [
                   "value"
                 ],
                 "@item.title.items_1": [
