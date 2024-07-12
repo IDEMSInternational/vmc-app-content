@@ -8,11 +8,13 @@ config.google_drive = {
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/vmc-app-content",
-  content_tag_latest: "0.0.3"
+  content_tag_latest: "0.0.4"
 }
 
 // Override any app constants here
 config.app_config.APP_HEADER_DEFAULTS.title = "Virtual Maths Camp"
 config.app_config.APP_SIDEMENU_DEFAULTS.title = "Virtual Maths Camp"
+config.app_config.APP_THEMES.available = ["professional"]
+config.app_config.APP_THEMES.defaultThemeName = "professional"
 
 export default config;

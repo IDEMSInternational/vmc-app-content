@@ -6,6 +6,7 @@
     {
       "id": "fifteen",
       "card_number": "S1",
+      "ext_1_expl_image_asset": "images/fifteen/image_1.png",
       "references": "https://www.ms.uky.edu/~lee/ma310sp15/gameoffifteen.pdf\nhttps://en.wikipedia.org/wiki/Number_Scrabble",
       "title": "Fifteen",
       "_translations": {
@@ -444,7 +445,7 @@
       "about": "The number 24 is used because it has so many factors. However, an analysis of all the possible combinations of 4 cards shows that the number 2 would have been the best target number! 99.19% of the combinations could be solved, compared to 80.20% for 24. If you are allowed to use factorials (e.g. 3! = 3×2×1 = 6), then you can solve many more combinations for 24."
     },
     {
-      "id": "win_twothreedour",
+      "id": "win_twothreefour",
       "card_number": "SK",
       "references": "http://andrewjeffrey.co.uk/product/leader-of-the-pack/\nhttps://www.jennettspark.bracknell-forest.sch.uk/wp-content/uploads/2020/04/52-Card-Activities-for-Mathematics.pdf",
       "title": "WinTwoThreeFour",
