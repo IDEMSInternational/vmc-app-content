@@ -1,0 +1,44 @@
+{
+  "flow_name": "card_page_mastermind",
+  "flow_subtype": "generated",
+  "flow_type": "template",
+  "rows": [
+    {
+      "type": "template",
+      "name": "card_page",
+      "value": "card_page",
+      "action_list": [
+        {
+          "trigger": "completed",
+          "action_id": "emit",
+          "args": [
+            "completed"
+          ],
+          "_raw": "completed | emit: completed",
+          "_cleaned": "completed | emit: completed"
+        },
+        {
+          "trigger": "uncompleted",
+          "action_id": "emit",
+          "args": [
+            "uncompleted"
+          ],
+          "_raw": "uncompleted | emit: uncompleted",
+          "_cleaned": "uncompleted | emit: uncompleted"
+        }
+      ],
+      "rows": [
+        {
+          "name": "card_id",
+          "value": "mastermind",
+          "_translations": {
+            "value": {}
+          },
+          "type": "set_variable",
+          "_nested_name": "card_page.card_id"
+        }
+      ],
+      "_nested_name": "card_page"
+    }
+  ]
+}

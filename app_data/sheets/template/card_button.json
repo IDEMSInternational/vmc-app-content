@@ -13,6 +13,81 @@
       "_nested_name": "card_id"
     },
     {
+      "name": "card_no",
+      "value": "C1",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "card_no"
+    },
+    {
+      "name": "svg",
+      "value": "svg",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "svg"
+    },
+    {
+      "name": "card_asset_name",
+      "value": "@local.card_no.@local.svg",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "card_asset_name",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "@local.card_no.@local.svg",
+            "matchedExpression": "@local.card_no",
+            "type": "local",
+            "fieldName": "card_no"
+          },
+          {
+            "fullExpression": "@local.card_no.@local.svg",
+            "matchedExpression": "@local.svg",
+            "type": "local",
+            "fieldName": "svg"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.card_no": [
+          "value"
+        ],
+        "@local.svg": [
+          "value"
+        ]
+      }
+    },
+    {
+      "name": "card_asset",
+      "value": "playing_cards/@local.card_asset_name",
+      "_translations": {
+        "value": {}
+      },
+      "type": "set_variable",
+      "_nested_name": "card_asset",
+      "_dynamicFields": {
+        "value": [
+          {
+            "fullExpression": "playing_cards/@local.card_asset_name",
+            "matchedExpression": "@local.card_asset_name",
+            "type": "local",
+            "fieldName": "card_asset_name"
+          }
+        ]
+      },
+      "_dynamicDependencies": {
+        "@local.card_asset_name": [
+          "value"
+        ]
+      }
+    },
+    {
       "name": "card_concat",
       "value": "cards.@local.card_id",
       "_translations": {
@@ -209,16 +284,16 @@
     {
       "type": "button",
       "name": "button_@local.card_data.id",
-      "value": "@local.card_data.title",
+      "value": "@local.card_data.metadata_type:\n@local.card_data.title",
       "action_list": [
         {
           "trigger": "click",
           "action_id": "go_to",
           "args": [
-            "card_cover_@local.card_data.id"
+            "card_page_@local.card_data.id"
           ],
-          "_raw": "click | go_to: card_cover_@local.card_data.id",
-          "_cleaned": "click | go_to: card_cover_@local.card_data.id"
+          "_raw": "click | go_to: card_page_@local.card_data.id",
+          "_cleaned": "click | go_to: card_page_@local.card_data.id"
         },
         {
           "trigger": "click",
@@ -233,7 +308,7 @@
       ],
       "parameter_list": {
         "variant": "card-portrait",
-        "image_asset": "@local.card_data.image_cover_asset"
+        "image_asset": "@local.card_asset"
       },
       "rows": [],
       "_nested_name": "button_@local.card_data.id",
@@ -248,7 +323,13 @@
         ],
         "value": [
           {
-            "fullExpression": "@local.card_data.title",
+            "fullExpression": "@local.card_data.metadata_type:\n@local.card_data.title",
+            "matchedExpression": "@local.card_data.metadata_type",
+            "type": "local",
+            "fieldName": "card_data"
+          },
+          {
+            "fullExpression": "@local.card_data.metadata_type:\n@local.card_data.title",
             "matchedExpression": "@local.card_data.title",
             "type": "local",
             "fieldName": "card_data"
@@ -259,7 +340,7 @@
             "args": {
               "0": [
                 {
-                  "fullExpression": "card_cover_@local.card_data.id",
+                  "fullExpression": "card_page_@local.card_data.id",
                   "matchedExpression": "@local.card_data.id",
                   "type": "local",
                   "fieldName": "card_data"
@@ -268,7 +349,7 @@
             },
             "_raw": [
               {
-                "fullExpression": "click | go_to: card_cover_@local.card_data.id",
+                "fullExpression": "click | go_to: card_page_@local.card_data.id",
                 "matchedExpression": "@local.card_data.id",
                 "type": "local",
                 "fieldName": "card_data"
@@ -276,7 +357,7 @@
             ],
             "_cleaned": [
               {
-                "fullExpression": "click | go_to: card_cover_@local.card_data.id",
+                "fullExpression": "click | go_to: card_page_@local.card_data.id",
                 "matchedExpression": "@local.card_data.id",
                 "type": "local",
                 "fieldName": "card_data"
@@ -335,10 +416,10 @@
         "parameter_list": {
           "image_asset": [
             {
-              "fullExpression": "@local.card_data.image_cover_asset",
-              "matchedExpression": "@local.card_data.image_cover_asset",
+              "fullExpression": "@local.card_asset",
+              "matchedExpression": "@local.card_asset",
               "type": "local",
-              "fieldName": "card_data"
+              "fieldName": "card_asset"
             }
           ]
         },
@@ -359,6 +440,9 @@
           "action_list.0._cleaned",
           "_nested_name"
         ],
+        "@local.card_data.metadata_type": [
+          "value"
+        ],
         "@local.card_data.title": [
           "value"
         ],
@@ -372,7 +456,7 @@
           "action_list.1._raw",
           "action_list.1._cleaned"
         ],
-        "@local.card_data.image_cover_asset": [
+        "@local.card_asset": [
           "parameter_list.image_asset"
         ]
       }

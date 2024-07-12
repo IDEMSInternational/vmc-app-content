@@ -162,5 +162,225 @@
   "images/two_distances/image_2.png": {
     "md5Checksum": "7bd209eafbf2309d084250c49b681cc7",
     "size_kb": 29.8
+  },
+  "playing_cards/C1.svg": {
+    "md5Checksum": "9ee19a01f3b58dbf7d41bdc0eedf853b",
+    "size_kb": 11.1
+  },
+  "playing_cards/C10.svg": {
+    "md5Checksum": "669c20fcb83ddabc3bda3e8162af6569",
+    "size_kb": 14.9
+  },
+  "playing_cards/C2.svg": {
+    "md5Checksum": "94b4a5b0b35e4db0d7587815dcdcdb91",
+    "size_kb": 8.4
+  },
+  "playing_cards/C3.svg": {
+    "md5Checksum": "4281c3d1982ca4e277ae289a56f7fda1",
+    "size_kb": 9
+  },
+  "playing_cards/C4.svg": {
+    "md5Checksum": "037d8c2373b81694a9519c060d0951a3",
+    "size_kb": 9.7
+  },
+  "playing_cards/C5.svg": {
+    "md5Checksum": "12408f645f540e569f639eec07b24140",
+    "size_kb": 10.3
+  },
+  "playing_cards/C6.svg": {
+    "md5Checksum": "3708c7e5593573328d639c71e58d7090",
+    "size_kb": 10.9
+  },
+  "playing_cards/C7.svg": {
+    "md5Checksum": "768d16acc808234b01ab27b85e8129c2",
+    "size_kb": 11.6
+  },
+  "playing_cards/C8.svg": {
+    "md5Checksum": "55a0952df2d2ac118fe526cc4cd234e4",
+    "size_kb": 12.2
+  },
+  "playing_cards/C9.svg": {
+    "md5Checksum": "cf6317bc33f1c6db87c7f41b05e0276a",
+    "size_kb": 13.5
+  },
+  "playing_cards/CJ.svg": {
+    "md5Checksum": "56c4541c77e2d646ff22ceaf382a6e3e",
+    "size_kb": 449.7
+  },
+  "playing_cards/CK.svg": {
+    "md5Checksum": "ff456a8035cfd447c7e461623c53789b",
+    "size_kb": 1108.9
+  },
+  "playing_cards/CQ.svg": {
+    "md5Checksum": "43122a93411b55fddce09a2562828e2c",
+    "size_kb": 1090.8
+  },
+  "playing_cards/D1.svg": {
+    "md5Checksum": "dd4d7167babf09261b89c5b882dce59f",
+    "size_kb": 11.6
+  },
+  "playing_cards/D10.svg": {
+    "md5Checksum": "dbb3850c770e43af9bc90d0cce873dbb",
+    "size_kb": 17.1
+  },
+  "playing_cards/D2.svg": {
+    "md5Checksum": "eaef1133f7cafc9f07a5dd8002d58f67",
+    "size_kb": 11.6
+  },
+  "playing_cards/D3.svg": {
+    "md5Checksum": "b9d5e12f600e3e441e26a2f460ace236",
+    "size_kb": 11.8
+  },
+  "playing_cards/D4.svg": {
+    "md5Checksum": "72d20001e3f712d041f5c98c0e36d73d",
+    "size_kb": 12.4
+  },
+  "playing_cards/D5.svg": {
+    "md5Checksum": "eda011102b5e3ed00502425e250a6e14",
+    "size_kb": 13
+  },
+  "playing_cards/D6.svg": {
+    "md5Checksum": "a8aabd2da27a433782343dbbe7f4e0f4",
+    "size_kb": 13.6
+  },
+  "playing_cards/D7.svg": {
+    "md5Checksum": "d00ed5bcb5b70ef0aee9566bedea6077",
+    "size_kb": 14.1
+  },
+  "playing_cards/D8.svg": {
+    "md5Checksum": "5f81e3253ead056953d4eb2006a1543f",
+    "size_kb": 14.7
+  },
+  "playing_cards/D9.svg": {
+    "md5Checksum": "a578d7b2d3c0912a5296ec854fdec2b1",
+    "size_kb": 15.3
+  },
+  "playing_cards/DJ.svg": {
+    "md5Checksum": "c38f31dcf6ccf50fffd429a3baa53c30",
+    "size_kb": 394.7
+  },
+  "playing_cards/DK.svg": {
+    "md5Checksum": "658998b13b66f8ea8c419eb4a2720ebd",
+    "size_kb": 650
+  },
+  "playing_cards/DQ.svg": {
+    "md5Checksum": "cdc326c08c278e49d397fa439845ac96",
+    "size_kb": 364.7
+  },
+  "playing_cards/H1.svg": {
+    "md5Checksum": "474283132c4129834526713217a2f99c",
+    "size_kb": 11.9
+  },
+  "playing_cards/H10.svg": {
+    "md5Checksum": "c63394108a986db8e02c9d2226007af8",
+    "size_kb": 15.6
+  },
+  "playing_cards/H2.svg": {
+    "md5Checksum": "1b2188a05b3339ac8f1c043c803d5d9a",
+    "size_kb": 10.6
+  },
+  "playing_cards/H3.svg": {
+    "md5Checksum": "dfb7b9c5da090e753693a0648e230423",
+    "size_kb": 11.1
+  },
+  "playing_cards/H4.svg": {
+    "md5Checksum": "6369d1c9530222380e3755d3dff0cd92",
+    "size_kb": 11.9
+  },
+  "playing_cards/H5.svg": {
+    "md5Checksum": "3a5059d0b4687cf3b0442ace92e47e88",
+    "size_kb": 12.1
+  },
+  "playing_cards/H6.svg": {
+    "md5Checksum": "13bea5a1b85d4f6fcff7f22da3fe9c7f",
+    "size_kb": 12.5
+  },
+  "playing_cards/H7.svg": {
+    "md5Checksum": "51aa35bf8fa6e3aa60e8215d642e4f83",
+    "size_kb": 13
+  },
+  "playing_cards/H8.svg": {
+    "md5Checksum": "f63258336d8695aaade082ed26d0b17c",
+    "size_kb": 13.5
+  },
+  "playing_cards/H9.svg": {
+    "md5Checksum": "71f253368c37179079e9ebfa66604bb3",
+    "size_kb": 14
+  },
+  "playing_cards/HJ.svg": {
+    "md5Checksum": "02d4f21be9842c36046fc2a4028582b6",
+    "size_kb": 616
+  },
+  "playing_cards/HK.svg": {
+    "md5Checksum": "09112d05f5b3dfbaffae8d0775e5a012",
+    "size_kb": 757
+  },
+  "playing_cards/HQ.svg": {
+    "md5Checksum": "c439a88183651c5b9a63d9807dd7ca7d",
+    "size_kb": 607.8
+  },
+  "playing_cards/S1.svg": {
+    "md5Checksum": "b9f81c2d91ad1ec3e349b5cc012ea516",
+    "size_kb": 23.7
+  },
+  "playing_cards/S10.svg": {
+    "md5Checksum": "3963b09b32d71eaf3904864d36a7e9f6",
+    "size_kb": 11.2
+  },
+  "playing_cards/S1_alt.svg": {
+    "md5Checksum": "223cd5d84ac18a7ede8a88e69be01b3b",
+    "size_kb": 11.5
+  },
+  "playing_cards/S2.svg": {
+    "md5Checksum": "b821dcd9a79616c0f95f935af2d623eb",
+    "size_kb": 5.7
+  },
+  "playing_cards/S3.svg": {
+    "md5Checksum": "471f3e5977ae8e34350702a5354b4dd3",
+    "size_kb": 6.3
+  },
+  "playing_cards/S4.svg": {
+    "md5Checksum": "e1ae315267bebee9e8b70bb2e1ec27d8",
+    "size_kb": 6.9
+  },
+  "playing_cards/S5.svg": {
+    "md5Checksum": "8f300fb5cd9845334b705d3dbdb9e86a",
+    "size_kb": 7.5
+  },
+  "playing_cards/S6.svg": {
+    "md5Checksum": "dd29ca5aa8ac92ff0c506fc350b52f57",
+    "size_kb": 8.1
+  },
+  "playing_cards/S7.svg": {
+    "md5Checksum": "00b5eed0e617c1754f2a002d8d000504",
+    "size_kb": 8.6
+  },
+  "playing_cards/S8.svg": {
+    "md5Checksum": "4ff481d5b35c16c2777c8338cbbe4757",
+    "size_kb": 9.2
+  },
+  "playing_cards/S9.svg": {
+    "md5Checksum": "46304258451a3d2c69fdfaa1ac51d00e",
+    "size_kb": 9.8
+  },
+  "playing_cards/SJ.svg": {
+    "md5Checksum": "a1f0114e1433a3a96ffa10c622d1b2a5",
+    "size_kb": 686
+  },
+  "playing_cards/SK.svg": {
+    "md5Checksum": "fe66fe030637c0b3bbef055a2494c064",
+    "size_kb": 400.8
+  },
+  "playing_cards/SQ.svg": {
+    "md5Checksum": "58d77ea50fe2f88b1fbef0c67bd533ed",
+    "size_kb": 425.5
+  },
+  "playing_cards/joker_1.svg": {
+    "md5Checksum": "7ce690e9a5d9fd4b323dcf7d6b988d3c",
+    "size_kb": 10.6
+  },
+  "playing_cards/joker_2.svg": {
+    "md5Checksum": "1ba0f353a1a7c70c82de47cd244654ad",
+    "size_kb": 11
   }
 }

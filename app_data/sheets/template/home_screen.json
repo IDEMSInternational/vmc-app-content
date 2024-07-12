@@ -6,11 +6,18 @@
     {
       "type": "title",
       "name": "title_home",
-      "value": "Home",
+      "value": "Virtual Maths Cards",
       "_translations": {
         "value": {}
       },
       "_nested_name": "title_home"
+    },
+    {
+      "type": "template",
+      "name": "cards_home",
+      "value": "cards",
+      "rows": [],
+      "_nested_name": "cards_home"
     }
   ],
   "_xlsxPath": "templates/navigation.xlsx"

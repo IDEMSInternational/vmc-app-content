@@ -13,8 +13,11 @@
         "title": {},
         "main_statement": {},
         "main_hint": {},
+        "main_answer": {},
         "extension_1_statement": {},
-        "extension_2_statement": {}
+        "extension_1_answer": {},
+        "extension_2_statement": {},
+        "extension_2_answer": {}
       },
       "_translatedFields": {
         "metadata_type": {
@@ -30,29 +33,29 @@
           "eng": "What happens if you only had 5 pegs? What about 10 or 20? Can you spot the pattern?"
         },
         "main_answer": {
-          "eng": 32
+          "eng": "The correct answer is 32"
         },
         "extension_1_statement": {
           "eng": "Pegs numbered 1 to 1050 are placed in order in a line, with number 1 on the left.\nThey are then knocked over, one at a time, following these two rules:\nStarting with the first standing peg on the left, alternate pegs are knocked down, until the end of the row is reached.\nEach time the end of the row is reached, repeat the previous rule.\nWhat is the number of the last peg to be knocked down?"
         },
         "extension_1_answer": {
-          "eng": 1024
+          "eng": "The correct answer is 1024"
         },
         "extension_2_statement": {
           "eng": "Pegs numbered 1 to 10000050 are placed in order in a line, with number 1 on the left.\nThey are then knocked over, one at a time, following these two rules:\nStarting with the first standing peg on the left, 9 pegs are knocked down and the tenth is left standing, until the end of the row is reached.\nEach time the end of the row is reached, repeat the previous rule.\nWhat is the number of the last peg to be knocked down?"
         },
         "extension_2_answer": {
-          "eng": 10000000
+          "eng": "The correct answer is 10000000"
         }
       },
       "title": "Knockdown",
       "main_statement": "Pegs numbered 1 to 50 are placed in order in a line, with number 1 on the left.\nThey are then knocked over, one at a time, following these two rules:\nStarting with the first standing peg on the left, alternate pegs are knocked down, until the end of the row is reached.\nEach time the end of the row is reached, repeat the previous rule.\nWhat is the number of the last peg to be knocked down?\n\n(second version with QR code)",
       "main_hint": "What happens if you only had 5 pegs? What about 10 or 20? Can you spot the pattern?",
-      "main_answer": 32,
+      "main_answer": "The correct answer is 32",
       "extension_1_statement": "Pegs numbered 1 to 1050 are placed in order in a line, with number 1 on the left.\nThey are then knocked over, one at a time, following these two rules:\nStarting with the first standing peg on the left, alternate pegs are knocked down, until the end of the row is reached.\nEach time the end of the row is reached, repeat the previous rule.\nWhat is the number of the last peg to be knocked down?",
-      "extension_1_answer": 1024,
+      "extension_1_answer": "The correct answer is 1024",
       "extension_2_statement": "Pegs numbered 1 to 10000050 are placed in order in a line, with number 1 on the left.\nThey are then knocked over, one at a time, following these two rules:\nStarting with the first standing peg on the left, 9 pegs are knocked down and the tenth is left standing, until the end of the row is reached.\nEach time the end of the row is reached, repeat the previous rule.\nWhat is the number of the last peg to be knocked down?",
-      "extension_2_answer": 10000000
+      "extension_2_answer": "The correct answer is 10000000"
     },
     {
       "id": "onetwothreefourfive",
@@ -64,12 +67,15 @@
         "title": {},
         "main_statement": {},
         "main_hint": {},
+        "main_answer": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
+        "extension_1_answer": {},
         "extension_1_explanation": {},
         "extension_2_statement": {},
         "extension_2 _hint": {},
+        "extension_2_answer": {},
         "extension_2_explanation": {},
         "about": {}
       },
@@ -87,7 +93,7 @@
           "eng": "How many times does the pattern 12345 appear in the 2000 digit number?"
         },
         "main_answer": {
-          "eng": 6000
+          "eng": "The correct answer is 6000"
         },
         "main_explanation": {
           "eng": "The five numbers 1, 2, 3, 4, and 5 add up to 15. If the pattern is continued for 2000 digits there will be 2000 ∕ 5 = 400 sets of these five numbers. 400×15 = 6000."
@@ -99,7 +105,7 @@
           "eng": "What do the numbers 1 + 2 + 3 + 4 + 5 + 6 + 7 add up to?"
         },
         "extension_1_answer": {
-          "eng": 8400
+          "eng": "The correct answer is 8400"
         },
         "extension_1_explanation": {
           "eng": "The seven numbers 1, 2, 3, 4, 5, 6, and 7 add up to 28. If the pattern is continued for 2100 digits there will be 2100 ∕ 7 = 300 sets of these seven numbers. 300×28 = 8400."
@@ -111,7 +117,7 @@
           "eng": "Try dividing 960000 by 120000. What does this answer represent?"
         },
         "extension_2_answer": {
-          "eng": 15
+          "eng": "The correct answer is 15"
         },
         "extension_2_explanation": {
           "eng": "960000 is the sum of all the digits. There are 120000 digits, so dividing 960000 by 120000 gives us the average of the digits. This is 8, so we are looking for a sequence of numbers 1, 2, 3, … with an average of 8. This must be 1, 2, 3, …, 15."
@@ -123,15 +129,15 @@
       "title": "OneTwoThreeFourFive",
       "main_statement": "The pattern 123451234512345... is continued to form a 2000 digit number.\n\nWhat is the sum of all 2000 digits?",
       "main_hint": "How many times does the pattern 12345 appear in the 2000 digit number?",
-      "main_answer": 6000,
+      "main_answer": "The correct answer is 6000",
       "main_explanation": "The five numbers 1, 2, 3, 4, and 5 add up to 15. If the pattern is continued for 2000 digits there will be 2000 ∕ 5 = 400 sets of these five numbers. 400×15 = 6000.",
       "extension_1_statement": "The pattern 123456712345671234567... is continued to form a 2100 digit number.\n\nWhat is the sum of all 2100 digits?",
       "extension_1_hint": "What do the numbers 1 + 2 + 3 + 4 + 5 + 6 + 7 add up to?",
-      "extension_1_answer": 8400,
+      "extension_1_answer": "The correct answer is 8400",
       "extension_1_explanation": "The seven numbers 1, 2, 3, 4, 5, 6, and 7 add up to 28. If the pattern is continued for 2100 digits there will be 2100 ∕ 7 = 300 sets of these seven numbers. 300×28 = 8400.",
       "extension_2_statement": "The pattern 1234...n,1234,...n,1234…,n is carried on for 120000 digits. If the sum of these digits is 960000, what is n equal to?",
       "extension_2 _hint": "Try dividing 960000 by 120000. What does this answer represent?",
-      "extension_2_answer": 15,
+      "extension_2_answer": "The correct answer is 15",
       "extension_2_explanation": "960000 is the sum of all the digits. There are 120000 digits, so dividing 960000 by 120000 gives us the average of the digits. This is 8, so we are looking for a sequence of numbers 1, 2, 3, … with an average of 8. This must be 1, 2, 3, …, 15.",
       "about": "There is a formula for adding the numbers 1, 2, 3, …, n together. It is ½×n×(n + 1). For example 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28 can be found by  ½×7×8  = 28. \nThe sequence of numbers that this formula gives are called triangular numbers. The first ten are 1, 3, 6, 10, 15, 21, 28, 36, 45, and 55."
     },
@@ -145,12 +151,15 @@
         "title": {},
         "main_statement": {},
         "main_hint": {},
+        "main_answer": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
+        "extension_1_answer": {},
         "extension_1_explanation": {},
         "extension_2_statement": {},
         "extension_2 _hint": {},
+        "extension_2_answer": {},
         "extension_2_explanation": {},
         "about": {}
       },
@@ -168,7 +177,7 @@
           "eng": "Make the first 15 (different) numbers as small as possible. What does this tell us about the 16th number?"
         },
         "main_answer": {
-          "eng": 136
+          "eng": "The correct answer is 136"
         },
         "main_explanation": {
           "eng": "If the mean of 16 numbers is 16, then the total of all the numbers is 16×16 = 256. We want to make one of the numbers as big as possible, so we should make the other 15 numbers as small as possible. The integers have to be different so we should choose 1, 2, 3, ..., 15. If you add them up this gives 120 (a quick way to do it is ½×15×16 = 120). So the biggest number is 256 - 120 = 136."
@@ -180,7 +189,7 @@
           "eng": "Could everyone be older than 16? If not, can you try and find the maximum number of people that could be older than 16 if just one of the people is as young as possible?"
         },
         "extension_1_answer": {
-          "eng": 5
+          "eng": "The correct answer is 5"
         },
         "extension_1_explanation": {
           "eng": "You cannot make all 7 people older than 16 because the average is 16. You could start with the youngest person being 1, and try to make the other 6 people older than 16 but the total must be 7×16 = 112. With this strategy, 112 - 1 = 111 and 16 + 17 + 18 + 19 + 20 + 21 = 111 so this only gives 5 people older than 16 as you can’t count 16 itself. This shows that you cannot do it with 6 people older than 16, but because you have a possibility with 5, this is the largest number you can have."
@@ -192,7 +201,7 @@
           "eng": "Think about Albert giving 4 years to all the people in the room and Belinda giving 3 years to everyone (including Albert)."
         },
         "extension_2_answer": {
-          "eng": 6
+          "eng": "The correct answer is 6"
         },
         "extension_2_explanation": {
           "eng": "There are different ways to solve this puzzle. For each method let n be the number of people in the room.\n\nIf Albert and Belinda walked in together, between them they would have added (n + 2)×7 onto the total of all the ages in the room. If just Albert walked in, then he would have added (n + 1)×4 to the total. It is the same for Belinda, so if they both walked in together it would be double this amount. So  (n + 2)×7 = 2×(n + 1)×4. Solving this gives n = 6.\n\nAlternatively, let a be Albert and Belinda’s age. The new mean after Albert walks in is (a - 4×n) because Albert has shared out 4 years to everyone in the room to make his age the same. After Belinda walks in the mean is (a - 3×(n + 1)) because she has given 3 years to everyone in the room including Albert. We know that this second expression must be 3 more than the first expression as the mean increased by 3 when Belinda walked in. So we can solve (a - 3×(n + 1)) = a - 4×n + 3  which gives n = 6.\n\nHere is another way. Let the original mean be m. The sum of all the ages is originally (m×n). Let Albert’s age be a. When Albert walks in, the new mean is (m + 4). This must be equal to (m×n + a) ∕ (n + 1). When Belinda walks in the room, the new mean is (m + 7). This must be equal to (m×n + 2×a) ∕ (n + 2). Rearranging these equations gives \nm×n + a = m×n + m + 4×n + 4\nand\nm×n + 2×a = m×n + 2×m + 7×n + 14\nWhich simplify to\na = m + 4×n + 4 and 2×a = 2×m + 7×n + 14. \nMultiplying the first equation by 2 and subtracting the second one gives n = 6. So there are 6 people in the room at the start."
@@ -204,15 +213,15 @@
       "title": "Mean",
       "main_statement": "The average (mean) of 16 different positive integers is 16. What is the greatest possible value that any of these integers could have?",
       "main_hint": "Make the first 15 (different) numbers as small as possible. What does this tell us about the 16th number?",
-      "main_answer": 136,
+      "main_answer": "The correct answer is 136",
       "main_explanation": "If the mean of 16 numbers is 16, then the total of all the numbers is 16×16 = 256. We want to make one of the numbers as big as possible, so we should make the other 15 numbers as small as possible. The integers have to be different so we should choose 1, 2, 3, ..., 15. If you add them up this gives 120 (a quick way to do it is ½×15×16 = 120). So the biggest number is 256 - 120 = 136.",
       "extension_1_statement": "The average (mean) age of 7 people is 16. Given that all their ages are different positive integers, what is the maximum number of people that could be older than 16?",
       "extension_1_hint": "Could everyone be older than 16? If not, can you try and find the maximum number of people that could be older than 16 if just one of the people is as young as possible?",
-      "extension_1_answer": 5,
+      "extension_1_answer": "The correct answer is 5",
       "extension_1_explanation": "You cannot make all 7 people older than 16 because the average is 16. You could start with the youngest person being 1, and try to make the other 6 people older than 16 but the total must be 7×16 = 112. With this strategy, 112 - 1 = 111 and 16 + 17 + 18 + 19 + 20 + 21 = 111 so this only gives 5 people older than 16 as you can’t count 16 itself. This shows that you cannot do it with 6 people older than 16, but because you have a possibility with 5, this is the largest number you can have.",
       "extension_2_statement": "When Albert entered the room, the average age increased by 4 years. When Belinda then entered the room, the average age increased by another 3 years. Albert and Belinda are twins. How many people were in the room before Albert entered?",
       "extension_2 _hint": "Think about Albert giving 4 years to all the people in the room and Belinda giving 3 years to everyone (including Albert).",
-      "extension_2_answer": 6,
+      "extension_2_answer": "The correct answer is 6",
       "extension_2_explanation": "There are different ways to solve this puzzle. For each method let n be the number of people in the room.\n\nIf Albert and Belinda walked in together, between them they would have added (n + 2)×7 onto the total of all the ages in the room. If just Albert walked in, then he would have added (n + 1)×4 to the total. It is the same for Belinda, so if they both walked in together it would be double this amount. So  (n + 2)×7 = 2×(n + 1)×4. Solving this gives n = 6.\n\nAlternatively, let a be Albert and Belinda’s age. The new mean after Albert walks in is (a - 4×n) because Albert has shared out 4 years to everyone in the room to make his age the same. After Belinda walks in the mean is (a - 3×(n + 1)) because she has given 3 years to everyone in the room including Albert. We know that this second expression must be 3 more than the first expression as the mean increased by 3 when Belinda walked in. So we can solve (a - 3×(n + 1)) = a - 4×n + 3  which gives n = 6.\n\nHere is another way. Let the original mean be m. The sum of all the ages is originally (m×n). Let Albert’s age be a. When Albert walks in, the new mean is (m + 4). This must be equal to (m×n + a) ∕ (n + 1). When Belinda walks in the room, the new mean is (m + 7). This must be equal to (m×n + 2×a) ∕ (n + 2). Rearranging these equations gives \nm×n + a = m×n + m + 4×n + 4\nand\nm×n + 2×a = m×n + 2×m + 7×n + 14\nWhich simplify to\na = m + 4×n + 4 and 2×a = 2×m + 7×n + 14. \nMultiplying the first equation by 2 and subtracting the second one gives n = 6. So there are 6 people in the room at the start.",
       "about": "The mean is one way of describing a whole set of data with just one number. The median is another way describing the set of data with one number. If the puzzle had asked “The median of 16 different positive integers is 16. What is the greatest possible value that any of these integers could have?”, then there would be no solution as you could choose any number as large as you like for the biggest number, as the value of the median of 16 numbers depends only on the eight and ninth biggest numbers!"
     },
@@ -228,12 +237,15 @@
         "title": {},
         "main_statement": {},
         "main_hint": {},
+        "main_answer": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
+        "extension_1_answer": {},
         "extension_1_explanation": {},
         "extension_2_statement": {},
         "extension_2 _hint": {},
+        "extension_2_answer": {},
         "extension_2_explanation": {},
         "about": {}
       },
@@ -251,7 +263,7 @@
           "eng": "Try starting from the bottom left vertex (point)."
         },
         "main_answer": {
-          "eng": 2
+          "eng": "The correct answer is 2"
         },
         "main_explanation": {
           "eng": "We can draw the figure in one uninterrupted movement if we start at the bottom left (or bottom right) vertex. For example starting at the bottom left we travel along edges 1 to 8:\n\n\n\n\nThis kind of path is called an Euler path, and it is called an Euler circuit if it starts and ends in the same point. The degree of a vertex is the number of edges joining onto that vertex, and vertices are said to be odd or even according to whether the degree is odd or even. Euler circuits exist only in networks where there are no odd vertices, that is where all the vertices have an even number of edges ending there.\n\nTwo edges are used each time the path visits and leaves a vertex because the circuit must use each edge only once. It follows that if the graph has an odd vertex then that vertex must be the start or end of the path and, as a circuit starts and ends at the same vertex, for a circuit to exist all the vertices must be even. When there are two odd vertices a walk can take place that traverses each edge exactly once but this will not be a circuit.\n\nCan you think why it is impossible to draw any graph with an odd number of odd vertices (e.g. one odd vertex)? Well the reason is that each edge has two ends so the total number of endings is even, so the sum of the degrees of all the vertices in a graph must be even, so there cannot be an odd number of odd vertices."
@@ -263,7 +275,7 @@
           "eng": "Start with the top vertex. Once you have followed each line, where do you end up? Can you make use of this information to find out where else you could start?"
         },
         "extension_1_answer": {
-          "eng": 7
+          "eng": "The correct answer is 7"
         },
         "extension_1_explanation": {
           "eng": "If you start with the point at the top, you will notice that after following all the lines, you end up at the start again. But this means you went in a loop! So you can start anywhere along this loop and simply follow the lines the same way you did before, and you will end up where you started. This means you can start from any of the vertices and visit all lines."
@@ -275,7 +287,7 @@
           "eng": "Look to see how many nodes have an odd number of edges."
         },
         "extension_2_answer": {
-          "eng": 4
+          "eng": "The correct answer is 4"
         },
         "extension_2_explanation": {
           "eng": "If there are no odd nodes or if there are two odd nodes, that means that the network is traversable. Graphs with only two odd nodes are in an Euler path and graphs with no odd nodes are in an Euler circuit. 2, 3, 7 and 9 have no odd nodes so they are the four graphs with Euler circuits."
@@ -287,15 +299,15 @@
       "title": "House",
       "main_statement": "From how many vertices (points) is it possible to draw this figure without lifting the pen from the paper and going through each line exactly once?",
       "main_hint": "Try starting from the bottom left vertex (point).",
-      "main_answer": 2,
+      "main_answer": "The correct answer is 2",
       "main_explanation": "We can draw the figure in one uninterrupted movement if we start at the bottom left (or bottom right) vertex. For example starting at the bottom left we travel along edges 1 to 8:\n\n\n\n\nThis kind of path is called an Euler path, and it is called an Euler circuit if it starts and ends in the same point. The degree of a vertex is the number of edges joining onto that vertex, and vertices are said to be odd or even according to whether the degree is odd or even. Euler circuits exist only in networks where there are no odd vertices, that is where all the vertices have an even number of edges ending there.\n\nTwo edges are used each time the path visits and leaves a vertex because the circuit must use each edge only once. It follows that if the graph has an odd vertex then that vertex must be the start or end of the path and, as a circuit starts and ends at the same vertex, for a circuit to exist all the vertices must be even. When there are two odd vertices a walk can take place that traverses each edge exactly once but this will not be a circuit.\n\nCan you think why it is impossible to draw any graph with an odd number of odd vertices (e.g. one odd vertex)? Well the reason is that each edge has two ends so the total number of endings is even, so the sum of the degrees of all the vertices in a graph must be even, so there cannot be an odd number of odd vertices.",
       "extension_1_statement": "From how many vertices (points) is it possible to draw this figure by an uninterrupted movement of the pen, going through each line exactly once?",
       "extension_1_hint": "Start with the top vertex. Once you have followed each line, where do you end up? Can you make use of this information to find out where else you could start?",
-      "extension_1_answer": 7,
+      "extension_1_answer": "The correct answer is 7",
       "extension_1_explanation": "If you start with the point at the top, you will notice that after following all the lines, you end up at the start again. But this means you went in a loop! So you can start anywhere along this loop and simply follow the lines the same way you did before, and you will end up where you started. This means you can start from any of the vertices and visit all lines.",
       "extension_2_statement": "Remember that an Euler Path visits every edge once, and an Euler circuit does the same but starts and ends in the same point. How many of these graphs are Euler circuits?",
       "extension_2 _hint": "Look to see how many nodes have an odd number of edges.",
-      "extension_2_answer": 4,
+      "extension_2_answer": "The correct answer is 4",
       "extension_2_explanation": "If there are no odd nodes or if there are two odd nodes, that means that the network is traversable. Graphs with only two odd nodes are in an Euler path and graphs with no odd nodes are in an Euler circuit. 2, 3, 7 and 9 have no odd nodes so they are the four graphs with Euler circuits.",
       "about": "A version of this problem was originally solved by Leonard Euler. In a city consisting of 4 islands linked by bridges, the people of the town wondered if it was possible to go for a walk and cross each bridge exactly once. Euler solved this problem first by simplifying it with a vertex for each island, and a line between two vertices for each bridge to get a drawing like in this puzzle. In this way the study of Topology was born. The second extension gives lots of practice looking for Euler circuits and was taken from the brilliant NRICH website."
     },
@@ -309,12 +321,15 @@
         "title": {},
         "main_statement": {},
         "main_hint": {},
+        "main_answer": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
+        "extension_1_answer": {},
         "extension_1_explanation": {},
         "extension_2_statement": {},
         "extension_2 _hint": {},
+        "extension_2_answer": {},
         "extension_2_explanation": {},
         "about": {}
       },
@@ -332,7 +347,7 @@
           "eng": "How far can one bee travel with ten gallons of honey?"
         },
         "main_answer": {
-          "eng": 70000
+          "eng": "The correct answer is 70000"
         },
         "main_explanation": {
           "eng": "10 gallons would allow one bee to travel for 70 million miles. 70000000 ∕ 1000 = 70000 so 70000 bees could travel 1000 miles each."
@@ -344,7 +359,7 @@
           "eng": "How far can one bee can travel on 1 gallon of honey?"
         },
         "extension_1_answer": {
-          "eng": 9000000
+          "eng": "The correct answer is 9000000"
         },
         "extension_1_explanation": {
           "eng": "½×6000000×4 = 12000000. This is the number of miles one bee can travel on 1 gallon of honey. To find the answer, you can multiply this by 6 to find the total number of miles one bee can travel on 6 gallons of honey and then divide by 8 to find the distance per bee. The answer is 12000000×6 ∕ 8 = 9000000."
@@ -356,7 +371,7 @@
           "eng": "It might be easier to choose a number of hexagons to work with - try 120 and work out how many they can each do per minute."
         },
         "extension_2_answer": {
-          "eng": 24
+          "eng": "The correct answer is 24"
         },
         "extension_2_explanation": {
           "eng": "We can see this with an example with the number of hexagons in the hive. If there are 120 hexagons, then the worker bee makes 2 per minute and the queen bee makes 3 per minute. So together they make 5 per minute. 120 ∕ 5 = 24 . \n\nThe same argument works for any number of hexagons in a hive. Take the total number of hexagons as h. The worker bee will be working at a rate of (h  ∕ 60) hexagons per minute, and the queen bee at a rate of (h  ∕ 40) per minute. By simply adding the rates together, \n(h  ∕ 60) + (h  ∕ 40) = 100×h  ∕ 2400 = h ∕ 24, we can find the answer, 24 minutes."
@@ -368,15 +383,15 @@
       "title": "Honey Bees",
       "main_statement": "One gallon of honey provides fuel for one bee to fly for seven million miles.\nHow many bees could fly one thousand miles if they had ten gallons of honey?",
       "main_hint": "How far can one bee travel with ten gallons of honey?",
-      "main_answer": 70000,
+      "main_answer": "The correct answer is 70000",
       "main_explanation": "10 gallons would allow one bee to travel for 70 million miles. 70000000 ∕ 1000 = 70000 so 70000 bees could travel 1000 miles each.",
       "extension_1_statement": "Now suppose 4 bees can each travel 6 million miles on 2 gallons of honey. How far could 8 bees each travel with 6 gallons of honey?",
       "extension_1_hint": "How far can one bee can travel on 1 gallon of honey?",
-      "extension_1_answer": 9000000,
+      "extension_1_answer": "The correct answer is 9000000",
       "extension_1_explanation": "½×6000000×4 = 12000000. This is the number of miles one bee can travel on 1 gallon of honey. To find the answer, you can multiply this by 6 to find the total number of miles one bee can travel on 6 gallons of honey and then divide by 8 to find the distance per bee. The answer is 12000000×6 ∕ 8 = 9000000.",
       "extension_2_statement": "A worker bee can make a hive of hexagons in 60 minutes, and a queen bee can make the same size hive in 40 minutes. How many minutes will it take them if they do it together?",
       "extension_2 _hint": "It might be easier to choose a number of hexagons to work with - try 120 and work out how many they can each do per minute.",
-      "extension_2_answer": 24,
+      "extension_2_answer": "The correct answer is 24",
       "extension_2_explanation": "We can see this with an example with the number of hexagons in the hive. If there are 120 hexagons, then the worker bee makes 2 per minute and the queen bee makes 3 per minute. So together they make 5 per minute. 120 ∕ 5 = 24 . \n\nThe same argument works for any number of hexagons in a hive. Take the total number of hexagons as h. The worker bee will be working at a rate of (h  ∕ 60) hexagons per minute, and the queen bee at a rate of (h  ∕ 40) per minute. By simply adding the rates together, \n(h  ∕ 60) + (h  ∕ 40) = 100×h  ∕ 2400 = h ∕ 24, we can find the answer, 24 minutes.",
       "about": "Problems such as “If A people can dig a trench in B days, then how long will it take C people to dig the trench?” can be solved by calculating (A×B  ∕ C). This ancient technique is called “the rule of three” and was written about in a nursery rhyme in 1570:  “Multiplication is vexation;\nDivision is as bad; The Rule of Three doth puzzle me, And Practice drives me mad.”"
     },
@@ -390,12 +405,15 @@
         "title": {},
         "main_statement": {},
         "main_hint": {},
+        "main_answer": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
+        "extension_1_answer": {},
         "extension_1_explanation": {},
         "extension_2_statement": {},
         "extension_2 _hint": {},
+        "extension_2_answer": {},
         "extension_2_explanation": {},
         "about": {}
       },
@@ -413,7 +431,7 @@
           "eng": "What digit must the letter R represent? If you add two 3-digit numbers together, what is the largest sum you could make?"
         },
         "main_answer": {
-          "eng": 1510
+          "eng": "The correct answer is 1510"
         },
         "main_explanation": {
           "eng": "R must be equal to 1 since only the digit 1 can carry over from the hundreds column into the thousands column. So we now have CA1 + CAT = 1A1E.\n\nIf we look at the tens column we have A + A = 1 (or ends in 1). Since A + A is even, the only way for it to end in the digit 1 is for there to be a carry over from the ones column. \nThis gives us A = 5 or A = 0. \n\nSince we know there was a carry over from the ones column, T = 9 and hence E = 0. This means A = 5 since each letter represents a different digit. Therefore the word RARE = 1510. (Though not needed, it can be verified that C = 7). Finally we have 751 + 759 = 1510."
@@ -425,7 +443,7 @@
           "eng": "Once you figured out what digit F represents, you then want to consider what the largest possible value of O could be."
         },
         "extension_1_answer": {
-          "eng": 1876
+          "eng": "The correct answer is 1876"
         },
         "extension_1_explanation": {
           "eng": "F must be equal to 1 since only the digit 1 can carry over from the hundreds column.\nWe now have TWO + TWO = 1OUR.\n\nAs we are trying to find the largest possible value of FOUR, we next try O = 9. Which would give TW9 + TW9 = 19UR. Then the only possibility is T = 9 but this is not allowed since O = 9, making O = T.\n\nWe next try O = 8. So TW8 + TW8 = 18UR. Which leads to R = 6 and T = 9.  And we then have 9W8 + 9W8 = 18U6.\n\nWe still have a choice of answers for W and U.\nWe require W to be less than 5 to avoid carrying over into the hundreds column. If we tried W = 4, this would lead to U = 9 but this is not possible as T = 9. So we try W = 3.\nWe end up with  938 + 938 = 1876, and so the largest possible value of the word FOUR is 1876."
@@ -437,7 +455,7 @@
           "eng": "There are 10 different letters used in this sum so each digit from 0 to 9 will be used. You will need an organised approach to solve this one. You might want to make a table of all the possibilities and then cross out any values as you eliminate them. You can start with the fact that D = 1."
         },
         "extension_2_answer": {
-          "eng": 164816
+          "eng": "The correct answer is 164816"
         },
         "extension_2_explanation": {
           "eng": "There are many ways to solve this puzzle. First D = 1. To continue, we must use all the given information to eliminate possibilities. For example, we observe that E must be an even digit. S cannot be equal to 0 or 1 or 5. A lot of brute force is required to work through this problem, but with a table to organise all of the information, you should be able to whittle down the possible solutions until you have reached the correct answer. T = 0, D = 1, A = 2, S = 3, C = 4, H = 5, E = 6, M = 7, O = 8, G = 9."
@@ -449,15 +467,15 @@
       "title": "Alphanumerics",
       "main_statement": "In the sum CAR + CAT = RARE each letter represents a different digit from 0 to 9. What is the value of the word RARE?",
       "main_hint": "What digit must the letter R represent? If you add two 3-digit numbers together, what is the largest sum you could make?",
-      "main_answer": 1510,
+      "main_answer": "The correct answer is 1510",
       "main_explanation": "R must be equal to 1 since only the digit 1 can carry over from the hundreds column into the thousands column. So we now have CA1 + CAT = 1A1E.\n\nIf we look at the tens column we have A + A = 1 (or ends in 1). Since A + A is even, the only way for it to end in the digit 1 is for there to be a carry over from the ones column. \nThis gives us A = 5 or A = 0. \n\nSince we know there was a carry over from the ones column, T = 9 and hence E = 0. This means A = 5 since each letter represents a different digit. Therefore the word RARE = 1510. (Though not needed, it can be verified that C = 7). Finally we have 751 + 759 = 1510.",
       "extension_1_statement": "In the sum TWO + TWO = FOUR each letter represents a different digit from 0 to 9. There are 7 different solutions to this sum. For these 7 solutions, what is the largest value of the word FOUR?",
       "extension_1_hint": "Once you figured out what digit F represents, you then want to consider what the largest possible value of O could be.",
-      "extension_1_answer": 1876,
+      "extension_1_answer": "The correct answer is 1876",
       "extension_1_explanation": "F must be equal to 1 since only the digit 1 can carry over from the hundreds column.\nWe now have TWO + TWO = 1OUR.\n\nAs we are trying to find the largest possible value of FOUR, we next try O = 9. Which would give TW9 + TW9 = 19UR. Then the only possibility is T = 9 but this is not allowed since O = 9, making O = T.\n\nWe next try O = 8. So TW8 + TW8 = 18UR. Which leads to R = 6 and T = 9.  And we then have 9W8 + 9W8 = 18U6.\n\nWe still have a choice of answers for W and U.\nWe require W to be less than 5 to avoid carrying over into the hundreds column. If we tried W = 4, this would lead to U = 9 but this is not possible as T = 9. So we try W = 3.\nWe end up with  938 + 938 = 1876, and so the largest possible value of the word FOUR is 1876.",
       "extension_2_statement": "In the sum MATHS + GAMES = DECODE each letter represents a different digit from 0 to 9. What is the value of the word DECODE?",
       "extension_2 _hint": "There are 10 different letters used in this sum so each digit from 0 to 9 will be used. You will need an organised approach to solve this one. You might want to make a table of all the possibilities and then cross out any values as you eliminate them. You can start with the fact that D = 1.",
-      "extension_2_answer": 164816,
+      "extension_2_answer": "The correct answer is 164816",
       "extension_2_explanation": "There are many ways to solve this puzzle. First D = 1. To continue, we must use all the given information to eliminate possibilities. For example, we observe that E must be an even digit. S cannot be equal to 0 or 1 or 5. A lot of brute force is required to work through this problem, but with a table to organise all of the information, you should be able to whittle down the possible solutions until you have reached the correct answer. T = 0, D = 1, A = 2, S = 3, C = 4, H = 5, E = 6, M = 7, O = 8, G = 9.",
       "about": "These types of puzzles are called ‘Cryptarithms’ or ‘Verbal Arithmetic’. The most classic example was published in the July 1924 issue of Strand Magazine by English mathematician Henry Dudeney.  \n\nSEND + MORE = MONEY\n\nGiven the potentially large number of possibilities, computer programs are often used to generate and solve these types of puzzles."
     },
@@ -471,12 +489,15 @@
         "title": {},
         "main_statement": {},
         "main_hint": {},
+        "main_answer": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
+        "extension_1_answer": {},
         "extension_1_explanation": {},
         "extension_2_statement": {},
         "extension_2 _hint": {},
+        "extension_2_answer": {},
         "extension_2_explanation": {},
         "about": {}
       },
@@ -494,7 +515,7 @@
           "eng": "Can you work backwards from 8 to work out how many sheets would be underneath this one? You might want to use bits of paper and number them to help."
         },
         "main_answer": {
-          "eng": 17
+          "eng": "The correct answer is  17"
         },
         "main_explanation": {
           "eng": "On the back of the number 8 there must be the number 7. The sheet below must have the numbers 6 and 5. Keeping going there will be 4 and 3 and finally 2 and 1. So there are three sheets underneath. Adding on 7 to the 61 gives the last page as 68. Given each sheet has four pages, there are 68 ∕ 4 = 17 sheets."
@@ -506,7 +527,7 @@
           "eng": "How many 1 digit numbers are there? How many 2 digit numbers?"
         },
         "extension_1_answer": {
-          "eng": 320
+          "eng": "The correct answer is 320"
         },
         "extension_1_explanation": {
           "eng": "There are 9 one-digit numbers (the numbers 1 - 9), 90 two-digit numbers (the numbers 10 - 99) and 900 three-digits numbers (the numbers 100 - 999). Altogether this would make 9×1 + 90×2 + 900×3 = 9 + 180 + 2700 = 2889 digits, so the number of pages is less than 999. There are 852 - 9 - 180 = 663 digits used in three digit numbers. 663 ∕ 3 = 221, so there are 221 pages with three digit numbers. 99 + 221 = 320 gives us the answer."
@@ -518,7 +539,7 @@
           "eng": "How many 9s are there in the first 100 numbers?"
         },
         "extension_2_answer": {
-          "eng": 918
+          "eng": "The correct answer is 918"
         },
         "extension_2_explanation": {
           "eng": "Think about the numbers under 100 first. There are 10 numbers ending in 9, and 10 numbers having 9 as their upper digit (90‒99), making for a total of 20 9s. In the same way, we have 20 9s between 100 and 199, and between 200 and 299, etc. So we get 9×20 = 180 9s up to 899. We need 20 more to reach 200 9s. From 900‒999, every number has a 9 at the beginning. Because 909 has two 9s, we get the last 20 9s from the numbers from 900‒918."
@@ -530,15 +551,15 @@
       "title": "Newspaper",
       "main_statement": "Below is a single sheet from a newspaper. Given that each sheet has four pages, how many sheets are there altogether?",
       "main_hint": "Can you work backwards from 8 to work out how many sheets would be underneath this one? You might want to use bits of paper and number them to help.",
-      "main_answer": 17,
+      "main_answer": "The correct answer is  17",
       "main_explanation": "On the back of the number 8 there must be the number 7. The sheet below must have the numbers 6 and 5. Keeping going there will be 4 and 3 and finally 2 and 1. So there are three sheets underneath. Adding on 7 to the 61 gives the last page as 68. Given each sheet has four pages, there are 68 ∕ 4 = 17 sheets.",
       "extension_1_statement": "If it takes 852 digits to number all the pages of a book, in the usual order, what is the number on the last page of the book?",
       "extension_1_hint": "How many 1 digit numbers are there? How many 2 digit numbers?",
-      "extension_1_answer": 320,
+      "extension_1_answer": "The correct answer is 320",
       "extension_1_explanation": "There are 9 one-digit numbers (the numbers 1 - 9), 90 two-digit numbers (the numbers 10 - 99) and 900 three-digits numbers (the numbers 100 - 999). Altogether this would make 9×1 + 90×2 + 900×3 = 9 + 180 + 2700 = 2889 digits, so the number of pages is less than 999. There are 852 - 9 - 180 = 663 digits used in three digit numbers. 663 ∕ 3 = 221, so there are 221 pages with three digit numbers. 99 + 221 = 320 gives us the answer.",
       "extension_2_statement": "Numbering the pages of a book requires printing 200 nines. What is the minimum number of pages the book could have?",
       "extension_2 _hint": "How many 9s are there in the first 100 numbers?",
-      "extension_2_answer": 918,
+      "extension_2_answer": "The correct answer is 918",
       "extension_2_explanation": "Think about the numbers under 100 first. There are 10 numbers ending in 9, and 10 numbers having 9 as their upper digit (90‒99), making for a total of 20 9s. In the same way, we have 20 9s between 100 and 199, and between 200 and 299, etc. So we get 9×20 = 180 9s up to 899. We need 20 more to reach 200 9s. From 900‒999, every number has a 9 at the beginning. Because 909 has two 9s, we get the last 20 9s from the numbers from 900‒918.",
       "about": "You can try this puzzle with a real newspaper - take out one of the sheets and look at the numbers on it. Work out how many sheets there should be and then see if you are correct."
     },
@@ -552,9 +573,11 @@
         "title": {},
         "main_statement": {},
         "main_hint": {},
+        "main_answer": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
+        "extension_1_answer": {},
         "extension_1_explanation": {},
         "about": {}
       },
@@ -572,7 +595,7 @@
           "eng": "What happens if you only had 2 pegs? What about 3, 4, 5, 6, 7, or 8 pegs? Can you spot the pattern after considering these cases?"
         },
         "main_answer": {
-          "eng": 41
+          "eng": "The correct answer is 41"
         },
         "main_explanation": {
           "eng": "Starting with only 2 pegs, we know that the last peg to be knocked down would be number 1. We can work out which would be the last peg if we increase the number of pegs. To start, we record our results and look for a pattern.\n2 - 1\n3 - 3\n4 - 1\n5 - 3\n6 - 5\n7 - 7\n8 - 1\n9 - 3\nAnd so on. Each power of two (1, 2, 4, 8, …) “resets” the last peg standing to be number 1. You can see that the number of the last peg standing goes up in odd numbers after this. To work out the answer for 52, we know the last reset was the largest power of two. The largest power of two below 52 is 32, and 52 - 32 = 20. So it is the twentieth odd number that is calculated as 2×20 + 1 = 41."
@@ -584,7 +607,7 @@
           "eng": "What is the biggest power of 2 (1, 2, 4, 8, ...) that is less than 2000?"
         },
         "extension_1_answer": {
-          "eng": 1953
+          "eng": "The correct answer is 1953"
         },
         "extension_1_explanation": {
           "eng": "The biggest power of 2 below 2000 is 1024. As 2000 - 1024 = 976, the final peg will be the 976ᵗʰ odd number, 976×2 + 1 = 1953."
@@ -596,11 +619,11 @@
       "title": "Sword of Josephus",
       "main_statement": "Pegs numbered 1 to 52 are placed in a circle. Starting with number 2, alternate pegs are knocked down until only one is left.\nWhat is the number of the last peg to be knocked down?",
       "main_hint": "What happens if you only had 2 pegs? What about 3, 4, 5, 6, 7, or 8 pegs? Can you spot the pattern after considering these cases?",
-      "main_answer": 41,
+      "main_answer": "The correct answer is 41",
       "main_explanation": "Starting with only 2 pegs, we know that the last peg to be knocked down would be number 1. We can work out which would be the last peg if we increase the number of pegs. To start, we record our results and look for a pattern.\n2 - 1\n3 - 3\n4 - 1\n5 - 3\n6 - 5\n7 - 7\n8 - 1\n9 - 3\nAnd so on. Each power of two (1, 2, 4, 8, …) “resets” the last peg standing to be number 1. You can see that the number of the last peg standing goes up in odd numbers after this. To work out the answer for 52, we know the last reset was the largest power of two. The largest power of two below 52 is 32, and 52 - 32 = 20. So it is the twentieth odd number that is calculated as 2×20 + 1 = 41.",
       "extension_1_statement": "Pegs numbered 1 to 2000 are placed in a circle. Starting with number 2, alternate pegs are knocked down until only one is left.\nWhat is the number of the last peg to be knocked down?",
       "extension_1_hint": "What is the biggest power of 2 (1, 2, 4, 8, ...) that is less than 2000?",
-      "extension_1_answer": 1953,
+      "extension_1_answer": "The correct answer is 1953",
       "extension_1_explanation": "The biggest power of 2 below 2000 is 1024. As 2000 - 1024 = 976, the final peg will be the 976ᵗʰ odd number, 976×2 + 1 = 1953.",
       "about": "The legend of this puzzle is about a group of soldiers in a circle."
     },
@@ -614,12 +637,15 @@
         "title": {},
         "main_statement": {},
         "main_hint": {},
+        "main_answer": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
+        "extension_1_answer": {},
         "extension_1_explanation": {},
         "extension_2_statement": {},
         "extension_2 _hint": {},
+        "extension_2_answer": {},
         "extension_2_explanation": {},
         "about": {}
       },
@@ -637,7 +663,7 @@
           "eng": "Must there be an even or an odd number of children in the circle?"
         },
         "main_answer": {
-          "eng": 7
+          "eng": "The correct answer is 7"
         },
         "main_explanation": {
           "eng": "The teacher goes round the circle four times. If there was an even number of children, the sixth child would always receive a Jack each time and would have four Jacks by the end. Since they only have two Jacks, there must be an odd number of children in the circle.\n\rThe sixth child receives a Queen in the first round because 6 is a multiple of 3. She only receives one more Queen so the answer can’t be a multiple of 3.\n\nThe options are 7, 11, 13, 17, 19 … and so 7 is the fewest number of children."
@@ -649,7 +675,7 @@
           "eng": "Think about whether the number needs to be odd or even and if it needs to be divisible by 3 or 5."
         },
         "extension_1_answer": {
-          "eng": 10
+          "eng": "The correct answer is 10"
         },
         "extension_1_explanation": {
           "eng": "The child receives four Jacks so there must be an even number of children, but only receives two queens so the number of children cannot be a multiple of 3. As the child receives no Kings, 6 and 10 would both be options (try these out with cards or with pen and paper to check). But 6 is a multiple of 3 so the answer must be 10."
@@ -661,7 +687,7 @@
           "eng": "Which child will get a Queen next after the 999ᵗʰ child gets one on the first turn round?"
         },
         "extension_2_answer": {
-          "eng": 1334
+          "eng": "The correct answer is 1334"
         },
         "extension_2_explanation": {
           "eng": "There are an even number of children so the sixth child will always be in a position on each turn to receive a Jack. So she will have 1000 cards from that rule. For the Queens in the first round the students to receive one will be in position 3, 6, 9, 12, 15, …, 999, then it will be 2, 5, 8, …, 998 and then 1,4,7, ..., 997, 1000, and back to 3, 6, 9, …, 999.  So every third time she will get a Queen. Because 1000 ∕ 3 is 333 with a remainder of 1, she will get one on the 1000ᵗʰ turn too. So 1000 + 334 = 1334 is the total number of cards."
@@ -673,15 +699,15 @@
       "title": "Dealing Cards",
       "main_statement": "Children are sitting in a circle, and a teacher walks around the circle, dealing cards. The teacher gives a Jack to every second child, and a Queen to every third child.\nAfter going around four times, the sixth child in the circle from where the teacher started has two Jacks and two Queens.\nWhat is the smallest possible number of children in the circle?",
       "main_hint": "Must there be an even or an odd number of children in the circle?",
-      "main_answer": 7,
+      "main_answer": "The correct answer is 7",
       "main_explanation": "The teacher goes round the circle four times. If there was an even number of children, the sixth child would always receive a Jack each time and would have four Jacks by the end. Since they only have two Jacks, there must be an odd number of children in the circle.\n\rThe sixth child receives a Queen in the first round because 6 is a multiple of 3. She only receives one more Queen so the answer can’t be a multiple of 3.\n\nThe options are 7, 11, 13, 17, 19 … and so 7 is the fewest number of children.",
       "extension_1_statement": "Children are sitting in a circle, and a teacher walks around the circle, dealing cards. The teacher gives a Jack to every second child, a Queen to every third child and a King to every fifth child. \nAfter going around four times, the sixth child from where the teacher started has four Jacks, two Queens and no Kings.\nWhat is the fewest amount of children could there be?",
       "extension_1_hint": "Think about whether the number needs to be odd or even and if it needs to be divisible by 3 or 5.",
-      "extension_1_answer": 10,
+      "extension_1_answer": "The correct answer is 10",
       "extension_1_explanation": "The child receives four Jacks so there must be an even number of children, but only receives two queens so the number of children cannot be a multiple of 3. As the child receives no Kings, 6 and 10 would both be options (try these out with cards or with pen and paper to check). But 6 is a multiple of 3 so the answer must be 10.",
       "extension_2_statement": "1000 students are sitting in a circle, and a teacher walks around the circle, dealing cards. The teacher gives a Jack to every second child, and a Queen to every third child\nAfter the teacher goes around 1000 times, how many cards in total will the sixth child have?",
       "extension_2 _hint": "Which child will get a Queen next after the 999ᵗʰ child gets one on the first turn round?",
-      "extension_2_answer": 1334,
+      "extension_2_answer": "The correct answer is 1334",
       "extension_2_explanation": "There are an even number of children so the sixth child will always be in a position on each turn to receive a Jack. So she will have 1000 cards from that rule. For the Queens in the first round the students to receive one will be in position 3, 6, 9, 12, 15, …, 999, then it will be 2, 5, 8, …, 998 and then 1,4,7, ..., 997, 1000, and back to 3, 6, 9, …, 999.  So every third time she will get a Queen. Because 1000 ∕ 3 is 333 with a remainder of 1, she will get one on the 1000ᵗʰ turn too. So 1000 + 334 = 1334 is the total number of cards.",
       "about": "This puzzle was written by a student at the Lycee Francais Charles de Gaulle for a Christmas puzzle involving handing out red and blue presents."
     },
@@ -695,12 +721,15 @@
         "title": {},
         "main_statement": {},
         "main_hint": {},
+        "main_answer": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
+        "extension_1_answer": {},
         "extension_1_explanation": {},
         "extension_2_statement": {},
         "extension_2 _hint": {},
+        "extension_2_answer": {},
         "extension_2_explanation": {},
         "about": {}
       },
@@ -718,7 +747,7 @@
           "eng": "Think about remainders when dividing. If there are two left when divided amongst five people then the number must be two more than a multiple of 5, e.g. 7 or 32"
         },
         "main_answer": {
-          "eng": 47
+          "eng": "The correct answer is 47"
         },
         "main_explanation": {
           "eng": "As only a small number of cards have been lost, let us start by listing the numbers that work that are close to 52.\nIf there were no cards remaining when dealt between four people we would know that the number of cards was in the four times table, i.e …, 36, 40, 44, 48. But there are three left over, so the number of cards must be in the sequence …, 39, 43, 47, 51.\nFor dealing among three people with two left over we get the sequence …, 41,44,47,50\nFor dealing among five people with two left over we get the sequence …,32, 37,42,47\nThe number that appears on all three lists is 47.\nWe could also solve the puzzle starting with the last two clues. There is the same number of cards leftover when dealing to three or five people, so the answer must be two more than a multiple of 15, so 17, 32 or 47. The only one of these numbers that fits with the first clue is 47."
@@ -730,7 +759,7 @@
           "eng": "Think about multiples of 12."
         },
         "extension_1_answer": {
-          "eng": 4
+          "eng": "The correct answer is 4"
         },
         "extension_1_explanation": {
           "eng": "There must be two more than a multiple of 12, because there are two more than a multiple of 3 and two more than a multiple of 4. So there are four numbers … namely 14, 26, 38, 50."
@@ -742,7 +771,7 @@
           "eng": "Think about odd and even numbers."
         },
         "extension_2_answer": {
-          "eng": 0
+          "eng": "The correct answer is 0"
         },
         "extension_2_explanation": {
           "eng": "There are 0 options because it is impossible to have a number that is both one more than a multiple of 2 (must be odd) and two more than a multiple of 4 (must be even)."
@@ -754,15 +783,15 @@
       "title": "Lost cards",
       "main_statement": "A small number of cards has been lost from a complete pack of 52. I deal cards to players until all have the same number of cards and some cards are left. If I deal to four players, three cards remain. If I deal to three players, two cards remain and if I deal to five players, two cards remain. How many cards are there?",
       "main_hint": "Think about remainders when dividing. If there are two left when divided amongst five people then the number must be two more than a multiple of 5, e.g. 7 or 32",
-      "main_answer": 47,
+      "main_answer": "The correct answer is 47",
       "main_explanation": "As only a small number of cards have been lost, let us start by listing the numbers that work that are close to 52.\nIf there were no cards remaining when dealt between four people we would know that the number of cards was in the four times table, i.e …, 36, 40, 44, 48. But there are three left over, so the number of cards must be in the sequence …, 39, 43, 47, 51.\nFor dealing among three people with two left over we get the sequence …, 41,44,47,50\nFor dealing among five people with two left over we get the sequence …,32, 37,42,47\nThe number that appears on all three lists is 47.\nWe could also solve the puzzle starting with the last two clues. There is the same number of cards leftover when dealing to three or five people, so the answer must be two more than a multiple of 15, so 17, 32 or 47. The only one of these numbers that fits with the first clue is 47.",
       "extension_1_statement": "Some cards have been lost from a complete pack of 52. If I deal among three or four people there are always two cards remaining. How many different options are there for the number of cards remaining?",
       "extension_1_hint": "Think about multiples of 12.",
-      "extension_1_answer": 4,
+      "extension_1_answer": "The correct answer is 4",
       "extension_1_explanation": "There must be two more than a multiple of 12, because there are two more than a multiple of 3 and two more than a multiple of 4. So there are four numbers … namely 14, 26, 38, 50.",
       "extension_2_statement": "Some cards have been lost from a complete pack of 52. If I deal among two people there is one card remaining, and if I deal among four people there are two cards remaining. How many different options are there for the number of cards remaining?",
       "extension_2 _hint": "Think about odd and even numbers.",
-      "extension_2_answer": 0,
+      "extension_2_answer": "The correct answer is 0",
       "extension_2_explanation": "There are 0 options because it is impossible to have a number that is both one more than a multiple of 2 (must be odd) and two more than a multiple of 4 (must be even).",
       "about": "There is a special name for the operation of dividing by a number and finding the remainder in mathematics - it is called modular arithmetic. 47 mod 5 = 2 because when you divide 47 by 5 you have a remainder of 2. It is a powerful technique in mathematics to prove facts about numbers. We use it in everyday life when we tell the time with a 24 hour clock. \n(18 + 8) mod 24 = 2 or in other words 8 hours after 6pm is 2am!"
     },
@@ -776,9 +805,11 @@
         "title": {},
         "main_statement": {},
         "main_hint": {},
+        "main_answer": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
+        "extension_1_answer": {},
         "extension_1_explanation": {},
         "extension_2_statement": {},
         "extension_2_answer": {},
@@ -799,7 +830,7 @@
           "eng": "Think about how many options you have to select the first path, then how many you have for the second and so on. Be careful that you can not choose the same path twice in a week."
         },
         "main_answer": {
-          "eng": 120
+          "eng": "The correct answer is 120"
         },
         "main_explanation": {
           "eng": "You have 5 possible days of the week and you would like to have one different path per day. ON the first day you have a choice of 5 paths. On the second day, you only have 4 paths left to choose from because you can’t take the one you took on Monday. On the third day you have 3 to choose from and so on. The solution is therefore 5×4×3×2×1 =120. This is counting how many ways you can order 5 objects (paths) in 5 positions (days of the week). This is a problem on permutations (without repetition). \nThe mathematical symbol ! is called factorial and represents multiplying by decreasing integers until you reach 1. So 5×4×3×2×1 can be written as 5!"
@@ -811,7 +842,7 @@
           "eng": "Is there a way to use the result of the previous problem? Think about how many ways you can now walk to school on Monday."
         },
         "extension_1_answer": {
-          "eng": 720
+          "eng": "The correct answer is 720"
         },
         "extension_1_explanation": {
           "eng": "You have now 6 possible days of the week and 6 different paths. You would like to have one different path per day. The solution is obtained by counting how many ways you can order 6 objects (paths) in 6 positions (days of the week). The solution is obtained as 6×5×4×3×2×1 = 120  Notice this is 6×120 (6 times the previous solution). You have just discovered a recursive property of factorials: n! = n×(n - 1)!."
@@ -835,11 +866,11 @@
       "title": "Different Paths",
       "main_statement": "There are 5 different paths you could take to get from home to school. In a week (from Monday to Friday) you would like to try a different path every day. In how many different ways can you organise your walk to school for the week?",
       "main_hint": "Think about how many options you have to select the first path, then how many you have for the second and so on. Be careful that you can not choose the same path twice in a week.",
-      "main_answer": 120,
+      "main_answer": "The correct answer is 120",
       "main_explanation": "You have 5 possible days of the week and you would like to have one different path per day. ON the first day you have a choice of 5 paths. On the second day, you only have 4 paths left to choose from because you can’t take the one you took on Monday. On the third day you have 3 to choose from and so on. The solution is therefore 5×4×3×2×1 =120. This is counting how many ways you can order 5 objects (paths) in 5 positions (days of the week). This is a problem on permutations (without repetition). \nThe mathematical symbol ! is called factorial and represents multiplying by decreasing integers until you reach 1. So 5×4×3×2×1 can be written as 5!",
       "extension_1_statement": "What if you had to go to school on Saturdays as well and you also found a new path? In how many ways can you arrange your week such that every day you go to school walking on different paths?",
       "extension_1_hint": "Is there a way to use the result of the previous problem? Think about how many ways you can now walk to school on Monday.",
-      "extension_1_answer": 720,
+      "extension_1_answer": "The correct answer is 720",
       "extension_1_explanation": "You have now 6 possible days of the week and 6 different paths. You would like to have one different path per day. The solution is obtained by counting how many ways you can order 6 objects (paths) in 6 positions (days of the week). The solution is obtained as 6×5×4×3×2×1 = 120  Notice this is 6×120 (6 times the previous solution). You have just discovered a recursive property of factorials: n! = n×(n - 1)!.",
       "extension_2_statement": "What if you had to go to school on Sundays as well and you also found four new paths so there are now 10 paths to choose from? In how many ways can you arrange your week such that every day you go to school walking on different paths?",
       "extension_2 _hint": 604800,
@@ -848,97 +879,32 @@
       "about": "https://en.wikipedia.org/wiki/Factorial\nhttps://www.mathsisfun.com/numbers/factorial.html"
     },
     {
-      "id": "id",
-      "card_no": "card_no",
-      "image_asset_1": "image_asset_1",
-      "image_asset_2": "image_asset_2",
-      "metadata_type": "title",
+      "id": "kaprekars_no",
+      "card_no": "H2",
+      "references": "https://en.wikipedia.org/wiki/D._R._Kaprekar\nhttps://plus.maths.org/content/mysterious-number-6174",
+      "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
         "title": {},
         "main_statement": {},
         "main_hint": {},
-        "main_answer": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
-        "extension_1_answer": {},
         "extension_1_explanation": {},
-        "extension_2_statement": {}
+        "about": {}
       },
       "_translatedFields": {
         "metadata_type": {
-          "eng": "title"
+          "eng": "Fun Fact"
         },
         "title": {
-          "eng": "metadata_type"
-        },
-        "main_statement": {
-          "eng": "main_statement::eng"
-        },
-        "main_hint": {
-          "eng": "image_asset_3"
-        },
-        "main_answer": {
-          "eng": "main_hint::eng"
-        },
-        "main_explanation": {
-          "eng": "main_explanation::eng"
-        },
-        "extension_1_statement": {
-          "eng": "extension_1_statement::eng"
-        },
-        "extension_1_hint": {
-          "eng": "extension_1_hint::eng"
-        },
-        "extension_1_answer": {
-          "eng": "extension_1_explanation::eng"
-        },
-        "extension_1_explanation": {
-          "eng": "about::eng"
-        },
-        "extension_2_statement": {
-          "eng": "references"
-        }
-      },
-      "title": "metadata_type",
-      "main_statement": "main_statement::eng",
-      "main_hint": "image_asset_3",
-      "main_answer": "main_hint::eng",
-      "main_explanation": "main_explanation::eng",
-      "extension_1_statement": "extension_1_statement::eng",
-      "extension_1_hint": "extension_1_hint::eng",
-      "extension_1_answer": "extension_1_explanation::eng",
-      "extension_1_explanation": "about::eng",
-      "extension_2_statement": "references"
-    },
-    {
-      "id": "kaprekars_no",
-      "card_no": "H2",
-      "metadata_type": "Kaprekar’s Number",
-      "_translations": {
-        "metadata_type": {},
-        "title": {},
-        "main_statement": {},
-        "main_answer": {},
-        "main_explanation": {},
-        "extension_1_statement": {},
-        "extension_1_hint": {},
-        "extension_1_answer": {},
-        "extension_1_explanation": {},
-        "extension_2_statement": {}
-      },
-      "_translatedFields": {
-        "metadata_type": {
           "eng": "Kaprekar’s Number"
-        },
-        "title": {
-          "eng": "Fun fact"
         },
         "main_statement": {
           "eng": "Choose a four digit number where the digits are not all the same.\nRearrange the digits to get the largest and smallest possible numbers these digits can make.\nSubtract the smallest number from the largest to get a new number, and carry on repeating the operation for each new number. You will always end up at the same number."
         },
-        "main_answer": {
+        "main_hint": {
           "eng": "For example if you start with 4252, you should do the calculation 5422 - 2245 = 3177. Then do 7731 - 1377 and keep going."
         },
         "main_explanation": {
@@ -950,53 +916,49 @@
         "extension_1_hint": {
           "eng": "For example, if you start with 792, the first calculation you have to do is 972 - 279 = 693."
         },
-        "extension_1_answer": {
+        "extension_1_explanation": {
           "eng": "We can write a three digit number abc (imagine it is as big as possible) as 100×a + 10×b + c. If we rearrange the digits to make it as small as possible it would be cba which we can write as 100×c + 10×b + a. We then subtract to give 100×a + 10×b + c - (100×c + 10×b + a) = 99×a - 99×c = 99×(a - c). So after one step, the number will be a multiple of 99. The only 3 digit numbers that are multiples of 99 are 099, 198, 297, 396, 495, 594, 693, 792, 891, and 990. We only need to check the first five of these (as we will be rearranging the digits anyway) and we can verify that all of them end up giving the answer 495."
         },
-        "extension_1_explanation": {
+        "about": {
           "eng": "D. R. Kaprekar (1905 - 1986) was an Indian school maths teacher who loved playing with numbers. He discovered a number of results in number theory and described various properties of numbers."
-        },
-        "extension_2_statement": {
-          "eng": "https://en.wikipedia.org/wiki/D._R._Kaprekar\nhttps://plus.maths.org/content/mysterious-number-6174"
         }
       },
-      "title": "Fun fact",
+      "title": "Kaprekar’s Number",
       "main_statement": "Choose a four digit number where the digits are not all the same.\nRearrange the digits to get the largest and smallest possible numbers these digits can make.\nSubtract the smallest number from the largest to get a new number, and carry on repeating the operation for each new number. You will always end up at the same number.",
-      "main_answer": "For example if you start with 4252, you should do the calculation 5422 - 2245 = 3177. Then do 7731 - 1377 and keep going.",
+      "main_hint": "For example if you start with 4252, you should do the calculation 5422 - 2245 = 3177. Then do 7731 - 1377 and keep going.",
       "main_explanation": "You always end up with the number 6174. This is known as Kaprekar’s number. For example 5432 – 2345 = 3087\n8730 – 0378 = 8352\n8532 – 2358 = 6174\n7641 – 1467 = 6174",
       "extension_1_statement": "What happens when you do this process with 3 digit numbers (where not all the digits are the same)? Can you explain why you always end up at the same number? Note that if you find 99 as an answer at any stage, this would then give 099 as the smallest number and 990 as the biggest.",
       "extension_1_hint": "For example, if you start with 792, the first calculation you have to do is 972 - 279 = 693.",
-      "extension_1_answer": "We can write a three digit number abc (imagine it is as big as possible) as 100×a + 10×b + c. If we rearrange the digits to make it as small as possible it would be cba which we can write as 100×c + 10×b + a. We then subtract to give 100×a + 10×b + c - (100×c + 10×b + a) = 99×a - 99×c = 99×(a - c). So after one step, the number will be a multiple of 99. The only 3 digit numbers that are multiples of 99 are 099, 198, 297, 396, 495, 594, 693, 792, 891, and 990. We only need to check the first five of these (as we will be rearranging the digits anyway) and we can verify that all of them end up giving the answer 495.",
-      "extension_1_explanation": "D. R. Kaprekar (1905 - 1986) was an Indian school maths teacher who loved playing with numbers. He discovered a number of results in number theory and described various properties of numbers.",
-      "extension_2_statement": "https://en.wikipedia.org/wiki/D._R._Kaprekar\nhttps://plus.maths.org/content/mysterious-number-6174"
+      "extension_1_explanation": "We can write a three digit number abc (imagine it is as big as possible) as 100×a + 10×b + c. If we rearrange the digits to make it as small as possible it would be cba which we can write as 100×c + 10×b + a. We then subtract to give 100×a + 10×b + c - (100×c + 10×b + a) = 99×a - 99×c = 99×(a - c). So after one step, the number will be a multiple of 99. The only 3 digit numbers that are multiples of 99 are 099, 198, 297, 396, 495, 594, 693, 792, 891, and 990. We only need to check the first five of these (as we will be rearranging the digits anyway) and we can verify that all of them end up giving the answer 495.",
+      "about": "D. R. Kaprekar (1905 - 1986) was an Indian school maths teacher who loved playing with numbers. He discovered a number of results in number theory and described various properties of numbers."
     },
     {
       "id": "palindrome_cube",
       "card_no": "H3",
-      "metadata_type": "Palindrome Cube",
+      "references": "https://proofwiki.org/wiki/Sequence_of_Palindromic_Cubes\nhttps://oeis.org/",
+      "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
         "title": {},
         "main_statement": {},
-        "main_answer": {},
+        "main_hint": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
-        "extension_1_answer": {},
         "extension_1_explanation": {},
-        "extension_2_statement": {}
+        "about": {}
       },
       "_translatedFields": {
         "metadata_type": {
-          "eng": "Palindrome Cube"
+          "eng": "Fun Fact"
         },
         "title": {
-          "eng": "Fun fact"
+          "eng": "Palindrome Cube"
         },
         "main_statement": {
           "eng": "10662526601 = 2201³ is the only known palindromic cube whose cube root is not palindromic (a palindrome is a number that reads the same backwards as forwards)."
         },
-        "main_answer": {
+        "main_hint": {
           "eng": "Take the number 1030301. It is a palindrome. It’s cube root is 101, which is also a palindrome. Can you find other examples that are both palindromes? (Remember that all one digit numbers are palindromes!)"
         },
         "main_explanation": {
@@ -1008,53 +970,53 @@
         "extension_1_hint": {
           "eng": "Remember all one digit numbers are palindromes."
         },
-        "extension_1_answer": {
+        "extension_1_explanation": {
           "eng": "The five numbers are 1²=1, 2²=4, 3²=9, 11²=121, 22²=484"
         },
-        "extension_1_explanation": {
+        "about": {
           "eng": "People have used computers to try and find another palindromic number whose cube root is not palindromic but no one has found one. This might be because there exists one that is bigger than the numbers that have been tested so far, or it might be that no more exist."
-        },
-        "extension_2_statement": {
-          "eng": "https://proofwiki.org/wiki/Sequence_of_Palindromic_Cubes\nhttps://oeis.org/"
         }
       },
-      "title": "Fun fact",
+      "title": "Palindrome Cube",
       "main_statement": "10662526601 = 2201³ is the only known palindromic cube whose cube root is not palindromic (a palindrome is a number that reads the same backwards as forwards).",
-      "main_answer": "Take the number 1030301. It is a palindrome. It’s cube root is 101, which is also a palindrome. Can you find other examples that are both palindromes? (Remember that all one digit numbers are palindromes!)",
+      "main_hint": "Take the number 1030301. It is a palindrome. It’s cube root is 101, which is also a palindrome. Can you find other examples that are both palindromes? (Remember that all one digit numbers are palindromes!)",
       "main_explanation": "According to the On-line Encyclopedia of Integer Sequences, The sequence of positive integers whose cube is palindromic begins:\n1, 2, 7, 11, 101, 111, 1001, 2201, 10001, 10101, …\nThe corresponding sequence of palindromic cubes begins:\n1, 8, 343, 1331, 1030301, 1367631, 1003003001, 10662526601, 1000300030001, …\n2201 is the smallest (and only one known so far) which is itself non-palindromic.",
       "extension_1_statement": "There are 5 palindromic square numbers between 1 and 100 (inclusive) whose square root is also a palindrome. Can you find them all?",
       "extension_1_hint": "Remember all one digit numbers are palindromes.",
-      "extension_1_answer": "The five numbers are 1²=1, 2²=4, 3²=9, 11²=121, 22²=484",
-      "extension_1_explanation": "People have used computers to try and find another palindromic number whose cube root is not palindromic but no one has found one. This might be because there exists one that is bigger than the numbers that have been tested so far, or it might be that no more exist.",
-      "extension_2_statement": "https://proofwiki.org/wiki/Sequence_of_Palindromic_Cubes\nhttps://oeis.org/"
+      "extension_1_explanation": "The five numbers are 1²=1, 2²=4, 3²=9, 11²=121, 22²=484",
+      "about": "People have used computers to try and find another palindromic number whose cube root is not palindromic but no one has found one. This might be because there exists one that is bigger than the numbers that have been tested so far, or it might be that no more exist."
     },
     {
       "id": "four_colours",
       "card_no": "H4",
-      "metadata_type": "Four Colours",
+      "main_exp_image_asset_1": "images/four_colours/image_0.png",
+      "main_exp_image_asset_2": "images/four_colours/image_1.png",
+      "ext_hint_image_asset_1": "images/four_colours/image_2.png",
+      "ext_expl_image_asset_1": "images/four_colours/image_3.png",
+      "references": "https://mathshistory.st-andrews.ac.uk/HistTopics/The_four_colour_theorem/\nhttps://www.mathsisfun.com/activity/coloring.html",
+      "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
         "title": {},
         "main_statement": {},
-        "main_answer": {},
+        "main_hint": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
-        "extension_1_answer": {},
         "extension_1_explanation": {},
-        "extension_2_statement": {}
+        "about": {}
       },
       "_translatedFields": {
         "metadata_type": {
-          "eng": "Four Colours"
+          "eng": "Fun Fact"
         },
         "title": {
-          "eng": "Fun fact"
+          "eng": "Four Colours"
         },
         "main_statement": {
           "eng": "It takes at most four colours to colour every map such that no two adjacent regions (regions that share a border) are the same colour."
         },
-        "main_answer": {
+        "main_hint": {
           "eng": "Can you colour a map of Africa with five colours so that no two countries that touch are filled in with the same colour? Can you also succeed with four colours? How about three colours?"
         },
         "main_explanation": {
@@ -1066,53 +1028,49 @@
         "extension_1_hint": {
           "eng": "Your map should essentially look like this:"
         },
-        "extension_1_answer": {
+        "extension_1_explanation": {
           "eng": "The idea of the proof of the four colour theorem is to find necessary conditions for being a minimal counterexample (this means a minimal non-4-colourable map) and thus to concentrate on maps with these necessary conditions. One of these many necessary conditions is to show that in a minimal counterexample with 12 countries, all countries must have exactly five neighbours. However this can be coloured in like this:\n\n\nThe proof involves checking around 1500 maps like this!"
         },
-        "extension_1_explanation": {
+        "about": {
           "eng": "The proof of the four colour theorem was famously tricky, and comes from graph theory, where mathematicians investigate an equivalent problem of colouring vertices of a network so that no edge has endpoints the same colour. The original four-colour proof was attempted by Alfred Kempe in 1879, but unfortunately Percy John Heawood found an error 11 years later. However his work was not useless, as Percy was able to prove the five-colour theorem (that one can colour a map with no two adjacent regions the sample colour using at most 5 colours) based on Kempe's work. The four colour theorem was finally proved in 1976 by Kenneth Appel, Wolfgang Haken, and John Koch using a computer to check it. This was the first major theorem to be proved using a computer. They checked around 1500 configurations using about 1200 hours of computer time. Some people were sceptical about a proof using a computer but independent verification soon convinced everyone that the four colour theorem had finally been proved."
-        },
-        "extension_2_statement": {
-          "eng": "https://mathshistory.st-andrews.ac.uk/HistTopics/The_four_colour_theorem/\nhttps://www.mathsisfun.com/activity/coloring.html"
         }
       },
-      "title": "Fun fact",
+      "title": "Four Colours",
       "main_statement": "It takes at most four colours to colour every map such that no two adjacent regions (regions that share a border) are the same colour.",
-      "main_answer": "Can you colour a map of Africa with five colours so that no two countries that touch are filled in with the same colour? Can you also succeed with four colours? How about three colours?",
+      "main_hint": "Can you colour a map of Africa with five colours so that no two countries that touch are filled in with the same colour? Can you also succeed with four colours? How about three colours?",
       "main_explanation": "The four color theorem says that given any separation of a plane into contiguous regions, producing a figure called a map, no more than four colours are required to colour the regions of the map so that no two adjacent regions have the same colour. We can see why it is not possible with three colours by looking at the situation around Rwanda: \n\n\n\nIf we try using red, blue and green we can get this far:\n\n\nBut we can’t colour Rwanda using red (because it shares a border with Uganda and Burundi) green (because of Tanzania) or blue (Democratic Republic of Congo). We definitely need another colour. \n\nThe proof that only four colours are needed is very tricky, but the extension will give you an insight into how it is done.",
       "extension_1_statement": "Can you draw a map with 12 countries such that every country has exactly five neighbours, and then colour it in using only 4 colours?",
       "extension_1_hint": "Your map should essentially look like this:",
-      "extension_1_answer": "The idea of the proof of the four colour theorem is to find necessary conditions for being a minimal counterexample (this means a minimal non-4-colourable map) and thus to concentrate on maps with these necessary conditions. One of these many necessary conditions is to show that in a minimal counterexample with 12 countries, all countries must have exactly five neighbours. However this can be coloured in like this:\n\n\nThe proof involves checking around 1500 maps like this!",
-      "extension_1_explanation": "The proof of the four colour theorem was famously tricky, and comes from graph theory, where mathematicians investigate an equivalent problem of colouring vertices of a network so that no edge has endpoints the same colour. The original four-colour proof was attempted by Alfred Kempe in 1879, but unfortunately Percy John Heawood found an error 11 years later. However his work was not useless, as Percy was able to prove the five-colour theorem (that one can colour a map with no two adjacent regions the sample colour using at most 5 colours) based on Kempe's work. The four colour theorem was finally proved in 1976 by Kenneth Appel, Wolfgang Haken, and John Koch using a computer to check it. This was the first major theorem to be proved using a computer. They checked around 1500 configurations using about 1200 hours of computer time. Some people were sceptical about a proof using a computer but independent verification soon convinced everyone that the four colour theorem had finally been proved.",
-      "extension_2_statement": "https://mathshistory.st-andrews.ac.uk/HistTopics/The_four_colour_theorem/\nhttps://www.mathsisfun.com/activity/coloring.html"
+      "extension_1_explanation": "The idea of the proof of the four colour theorem is to find necessary conditions for being a minimal counterexample (this means a minimal non-4-colourable map) and thus to concentrate on maps with these necessary conditions. One of these many necessary conditions is to show that in a minimal counterexample with 12 countries, all countries must have exactly five neighbours. However this can be coloured in like this:\n\n\nThe proof involves checking around 1500 maps like this!",
+      "about": "The proof of the four colour theorem was famously tricky, and comes from graph theory, where mathematicians investigate an equivalent problem of colouring vertices of a network so that no edge has endpoints the same colour. The original four-colour proof was attempted by Alfred Kempe in 1879, but unfortunately Percy John Heawood found an error 11 years later. However his work was not useless, as Percy was able to prove the five-colour theorem (that one can colour a map with no two adjacent regions the sample colour using at most 5 colours) based on Kempe's work. The four colour theorem was finally proved in 1976 by Kenneth Appel, Wolfgang Haken, and John Koch using a computer to check it. This was the first major theorem to be proved using a computer. They checked around 1500 configurations using about 1200 hours of computer time. Some people were sceptical about a proof using a computer but independent verification soon convinced everyone that the four colour theorem had finally been proved."
     },
     {
       "id": "ramajun",
       "card_no": "H5",
-      "metadata_type": "Ramanujan",
+      "references": "https://en.wikipedia.org/wiki/Bernard_Fr%C3%A9nicle_de_Bessy\nhttps://en.wikipedia.org/wiki/1729_(number)\nhttps://en.wikipedia.org/wiki/Taxicab_number",
+      "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
         "title": {},
         "main_statement": {},
-        "main_answer": {},
+        "main_hint": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
-        "extension_1_answer": {},
         "extension_1_explanation": {},
-        "extension_2_statement": {}
+        "about": {}
       },
       "_translatedFields": {
         "metadata_type": {
-          "eng": "Ramanujan"
+          "eng": "Fun Fact"
         },
         "title": {
-          "eng": "Fun fact"
+          "eng": "Ramanujan"
         },
         "main_statement": {
           "eng": "1729 is the smallest number that can be written as a sum of two cubed numbers in two different ways."
         },
-        "main_answer": {
+        "main_hint": {
           "eng": "72 can be expressed as 2³ + 4³ but it is the only way with two positive cubes. Can you find the two ways to make 1729?"
         },
         "main_explanation": {
@@ -1124,53 +1082,49 @@
         "extension_1_hint": {
           "eng": "The number is between 90 and 100."
         },
-        "extension_1_answer": {
+        "extension_1_explanation": {
           "eng": "91 can be written as 6³+(-5)³ = 216 - 125 =91 or 4³+3³=64+27=91"
         },
-        "extension_1_explanation": {
+        "about": {
           "eng": "Bernard Frénicle de Bessy wrote about the number 1729 in 1657, but it was made popular by G. H. Hardy telling a story about Srinivasa Ramanujan in about 1919: “I remember once going to see him when he was ill at Putney. I had ridden in taxi cab number 1729 and remarked that the number seemed to me rather a dull one, and that I hoped it was not an unfavourable omen. \"No,\" he replied, \"it is a very interesting number; it is the smallest number expressible as the sum of two cubes in two different ways.\" 1729 is now called a “taxicab” number. It is the second taxi cab number. The first is 2 because it is the smallest number that can be written in one way as the sum of two cubes. 87539319 is the third taxi cab number because it is the smallest number that can be written in three different ways as the sum of two cubes. No one knows what the taxicab numbers are above the 6th one."
-        },
-        "extension_2_statement": {
-          "eng": "https://en.wikipedia.org/wiki/Bernard_Fr%C3%A9nicle_de_Bessy\nhttps://en.wikipedia.org/wiki/1729_(number)\nhttps://en.wikipedia.org/wiki/Taxicab_number"
         }
       },
-      "title": "Fun fact",
+      "title": "Ramanujan",
       "main_statement": "1729 is the smallest number that can be written as a sum of two cubed numbers in two different ways.",
-      "main_answer": "72 can be expressed as 2³ + 4³ but it is the only way with two positive cubes. Can you find the two ways to make 1729?",
+      "main_hint": "72 can be expressed as 2³ + 4³ but it is the only way with two positive cubes. Can you find the two ways to make 1729?",
       "main_explanation": "1³ + 12³ = 1 + 1728 = 1729 and also 9³ + 10³ = 729 + 1000 = 1729",
       "extension_1_statement": "If you change the problem to allow the cube of a negative number e.g. (-3)³=27 then the smallest number you can make is under a 100. Can you find the number and the two ways to make it?",
       "extension_1_hint": "The number is between 90 and 100.",
-      "extension_1_answer": "91 can be written as 6³+(-5)³ = 216 - 125 =91 or 4³+3³=64+27=91",
-      "extension_1_explanation": "Bernard Frénicle de Bessy wrote about the number 1729 in 1657, but it was made popular by G. H. Hardy telling a story about Srinivasa Ramanujan in about 1919: “I remember once going to see him when he was ill at Putney. I had ridden in taxi cab number 1729 and remarked that the number seemed to me rather a dull one, and that I hoped it was not an unfavourable omen. \"No,\" he replied, \"it is a very interesting number; it is the smallest number expressible as the sum of two cubes in two different ways.\" 1729 is now called a “taxicab” number. It is the second taxi cab number. The first is 2 because it is the smallest number that can be written in one way as the sum of two cubes. 87539319 is the third taxi cab number because it is the smallest number that can be written in three different ways as the sum of two cubes. No one knows what the taxicab numbers are above the 6th one.",
-      "extension_2_statement": "https://en.wikipedia.org/wiki/Bernard_Fr%C3%A9nicle_de_Bessy\nhttps://en.wikipedia.org/wiki/1729_(number)\nhttps://en.wikipedia.org/wiki/Taxicab_number"
+      "extension_1_explanation": "91 can be written as 6³+(-5)³ = 216 - 125 =91 or 4³+3³=64+27=91",
+      "about": "Bernard Frénicle de Bessy wrote about the number 1729 in 1657, but it was made popular by G. H. Hardy telling a story about Srinivasa Ramanujan in about 1919: “I remember once going to see him when he was ill at Putney. I had ridden in taxi cab number 1729 and remarked that the number seemed to me rather a dull one, and that I hoped it was not an unfavourable omen. \"No,\" he replied, \"it is a very interesting number; it is the smallest number expressible as the sum of two cubes in two different ways.\" 1729 is now called a “taxicab” number. It is the second taxi cab number. The first is 2 because it is the smallest number that can be written in one way as the sum of two cubes. 87539319 is the third taxi cab number because it is the smallest number that can be written in three different ways as the sum of two cubes. No one knows what the taxicab numbers are above the 6th one."
     },
     {
       "id": "folding_paper",
       "card_no": "H7",
-      "metadata_type": "Folding Paper",
+      "references": "https://www.mathscareers.org.uk/article/how-many-times-can-you-fold-a-sheet-of-paper/",
+      "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
         "title": {},
         "main_statement": {},
-        "main_answer": {},
+        "main_hint": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
-        "extension_1_answer": {},
         "extension_1_explanation": {},
-        "extension_2_statement": {}
+        "about": {}
       },
       "_translatedFields": {
         "metadata_type": {
-          "eng": "Folding Paper"
+          "eng": "Fun Fact"
         },
         "title": {
-          "eng": "Fun fact"
+          "eng": "Folding Paper"
         },
         "main_statement": {
           "eng": "If you could fold a piece of paper in half only 42 times, it would reach the Moon!"
         },
-        "main_answer": {
+        "main_hint": {
           "eng": "Let us say that the paper thickness is about 0.1 millimeter (or 0.0039 inch). If you fold it once on itself, how thick would it be? What about it you fold it once more on itself? What about if you fold it 10 times?"
         },
         "main_explanation": {
@@ -1182,53 +1136,49 @@
         "extension_1_hint": {
           "eng": "Make sure you convert 0.1mm to meters or 200m to millimeters first."
         },
-        "extension_1_answer": {
+        "extension_1_explanation": {
           "eng": "You would need to fold the paper 21 times. 200m is 200000mm. You need to solve (0.1mm)×2ⁿ = 200000 for n. We can solve equations like these using logarithms or just trial and error - keep multiplying by 2 until you have reached the height of the tower … 20 is nearly enough, but you would need 21 folds to reach over 200m tall."
         },
-        "extension_1_explanation": {
+        "about": {
           "eng": "Try to fold a piece paper 6 times, remember to fold it completely over itself at each repetition. Can you fold it a seventh time? An eighth? How far can you go? Maybe we need a larger piece of paper to begin with! It was thought for years that 7 was the maximum number of times a piece of paper could be folded, but in 2002 American teenager Britney Gallivan demonstrated that a sheet of paper can be folded 12 times, provided that it is long enough and thin enough.  Britney Gallivan demonstrated this by using a 1200m length of toilet paper, which provided her with both the length and thinness which she required.  Britney even came up with a formula that showed how long the piece of paper would have to be so it can be folded n times:\n\n\\[$$ L = \\frac{\\pi \\times t}{6} (2^n + 4)(2^n - 1) $$\\]\\< L = π×t×(2ⁿ + 4)(2ⁿ - 1) ∕ 6 \\>\n\nL is the length of paper required, t is the thickness of the paper and n is how many folds you can make.\n\nTen years later in 2012 a group of students beat Britney’s record by taking 16km of toilet roll and folding it in one direction 13 times."
-        },
-        "extension_2_statement": {
-          "eng": "https://www.mathscareers.org.uk/article/how-many-times-can-you-fold-a-sheet-of-paper/"
         }
       },
-      "title": "Fun fact",
+      "title": "Folding Paper",
       "main_statement": "If you could fold a piece of paper in half only 42 times, it would reach the Moon!",
-      "main_answer": "Let us say that the paper thickness is about 0.1 millimeter (or 0.0039 inch). If you fold it once on itself, how thick would it be? What about it you fold it once more on itself? What about if you fold it 10 times?",
+      "main_hint": "Let us say that the paper thickness is about 0.1 millimeter (or 0.0039 inch). If you fold it once on itself, how thick would it be? What about it you fold it once more on itself? What about if you fold it 10 times?",
       "main_explanation": "The distance between the Earth and the Moon is a bit less than 400000 kilometers (or 250000 miles). For us the paper is 0.1 millimeter (mm) thick. If we fold the paper once, its thickness would be doubled, so it becomes 0.2mm. Folding it again gives 0.4mm. If we fold it 10 times, it becomes (0.1mm)×2¹⁰ (two to the power 10). Now, if we compute (0.1mm)×2⁴², the result is 440 000km!",
       "extension_1_statement": "How many times would you need to fold the same piece of paper to reach the height of Britam Tower, the highest skyscraper in Nairobi? (200m, or 640 ft)",
       "extension_1_hint": "Make sure you convert 0.1mm to meters or 200m to millimeters first.",
-      "extension_1_answer": "You would need to fold the paper 21 times. 200m is 200000mm. You need to solve (0.1mm)×2ⁿ = 200000 for n. We can solve equations like these using logarithms or just trial and error - keep multiplying by 2 until you have reached the height of the tower … 20 is nearly enough, but you would need 21 folds to reach over 200m tall.",
-      "extension_1_explanation": "Try to fold a piece paper 6 times, remember to fold it completely over itself at each repetition. Can you fold it a seventh time? An eighth? How far can you go? Maybe we need a larger piece of paper to begin with! It was thought for years that 7 was the maximum number of times a piece of paper could be folded, but in 2002 American teenager Britney Gallivan demonstrated that a sheet of paper can be folded 12 times, provided that it is long enough and thin enough.  Britney Gallivan demonstrated this by using a 1200m length of toilet paper, which provided her with both the length and thinness which she required.  Britney even came up with a formula that showed how long the piece of paper would have to be so it can be folded n times:\n\n\\[$$ L = \\frac{\\pi \\times t}{6} (2^n + 4)(2^n - 1) $$\\]\\< L = π×t×(2ⁿ + 4)(2ⁿ - 1) ∕ 6 \\>\n\nL is the length of paper required, t is the thickness of the paper and n is how many folds you can make.\n\nTen years later in 2012 a group of students beat Britney’s record by taking 16km of toilet roll and folding it in one direction 13 times.",
-      "extension_2_statement": "https://www.mathscareers.org.uk/article/how-many-times-can-you-fold-a-sheet-of-paper/"
+      "extension_1_explanation": "You would need to fold the paper 21 times. 200m is 200000mm. You need to solve (0.1mm)×2ⁿ = 200000 for n. We can solve equations like these using logarithms or just trial and error - keep multiplying by 2 until you have reached the height of the tower … 20 is nearly enough, but you would need 21 folds to reach over 200m tall.",
+      "about": "Try to fold a piece paper 6 times, remember to fold it completely over itself at each repetition. Can you fold it a seventh time? An eighth? How far can you go? Maybe we need a larger piece of paper to begin with! It was thought for years that 7 was the maximum number of times a piece of paper could be folded, but in 2002 American teenager Britney Gallivan demonstrated that a sheet of paper can be folded 12 times, provided that it is long enough and thin enough.  Britney Gallivan demonstrated this by using a 1200m length of toilet paper, which provided her with both the length and thinness which she required.  Britney even came up with a formula that showed how long the piece of paper would have to be so it can be folded n times:\n\n\\[$$ L = \\frac{\\pi \\times t}{6} (2^n + 4)(2^n - 1) $$\\]\\< L = π×t×(2ⁿ + 4)(2ⁿ - 1) ∕ 6 \\>\n\nL is the length of paper required, t is the thickness of the paper and n is how many folds you can make.\n\nTen years later in 2012 a group of students beat Britney’s record by taking 16km of toilet roll and folding it in one direction 13 times."
     },
     {
       "id": "prime_removal",
       "card_no": "H8",
-      "metadata_type": "Prime Removal",
+      "references": "https://en.wikipedia.org/wiki/Truncatable_prime",
+      "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
         "title": {},
         "main_statement": {},
-        "main_answer": {},
+        "main_hint": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
-        "extension_1_answer": {},
         "extension_1_explanation": {},
-        "extension_2_statement": {}
+        "about": {}
       },
       "_translatedFields": {
         "metadata_type": {
-          "eng": "Prime Removal"
+          "eng": "Fun Fact"
         },
         "title": {
-          "eng": "Fun fact"
+          "eng": "Prime Removal"
         },
         "main_statement": {
           "eng": "73939133 is the largest prime number that, if you keep removing digits from the right, will always leave a prime number."
         },
-        "main_answer": {
+        "main_hint": {
           "eng": "If you take away the last digit the number would be 7393913, which is a prime number. Keep going ..."
         },
         "main_explanation": {
@@ -1240,53 +1190,49 @@
         "extension_1_hint": {
           "eng": "23 is the first one because 23 and 3 are both prime numbers."
         },
-        "extension_1_answer": {
+        "extension_1_explanation": {
           "eng": "The two digit left-truncatable primes are: 13, 17, 23, 37, 43, 47, 53, 67, 73, 83, 97\nThe three digit left-truncatable primes are: 113, 137, 167, 173, 197, 223, 283, 313, 317, 337, 347, 353, 367, 373, 383, 397, 443, 467, 523, 547, 613, 617, 643, 647, 653, 673, 683, 743, 773, 797, 823, 853, 883, 937, 947, 953, 967, 983, 997"
         },
-        "extension_1_explanation": {
+        "about": {
           "eng": "Interestingly there are 4260 left-truncatable primes but only 83 right-truncatable primes. If you repeatedly remove the first and last digit of a prime number and it stays prime, it is called a left-and-right-truncatable prime. There are 920720315 of those!"
-        },
-        "extension_2_statement": {
-          "eng": "https://en.wikipedia.org/wiki/Truncatable_prime"
         }
       },
-      "title": "Fun fact",
+      "title": "Prime Removal",
       "main_statement": "73939133 is the largest prime number that, if you keep removing digits from the right, will always leave a prime number.",
-      "main_answer": "If you take away the last digit the number would be 7393913, which is a prime number. Keep going ...",
+      "main_hint": "If you take away the last digit the number would be 7393913, which is a prime number. Keep going ...",
       "main_explanation": "A right-truncatable prime is a prime number that remains a prime when you successively remove the last digit. We can look for the biggest right-truncatable prime by starting with the one digit primes 2, 3, 5, and 7. Then try to add another digit to the right of these so that the new numbers are also prime. We could have 23, 29, 31, 37, 53, 59, 71, 73, and 79. Now we try to add another digit. We could have 233, 239, 293, 311, 313, 317, 373, 379, 593, 599, 719, 733, 739, and 797. If we keep going with this process we end up with these eight digit numbers 23399339, 29399999, 37337999, 59393339, and 73939133. There are no nine digit prime numbers that start with any of these eight digits so the biggest right-truncatable number is 73939133.",
       "extension_1_statement": "A left-truncatable prime is a prime number that remains a prime when you successively remove the first digit. E.g. 137 is a prime number, so is 37 and so is 7 so 137 is a left-truncatable prime. The biggest one is 357686312646216567629137. There are eleven 2 digit ones, can you find them all? Can you find more 3 digit ones?",
       "extension_1_hint": "23 is the first one because 23 and 3 are both prime numbers.",
-      "extension_1_answer": "The two digit left-truncatable primes are: 13, 17, 23, 37, 43, 47, 53, 67, 73, 83, 97\nThe three digit left-truncatable primes are: 113, 137, 167, 173, 197, 223, 283, 313, 317, 337, 347, 353, 367, 373, 383, 397, 443, 467, 523, 547, 613, 617, 643, 647, 653, 673, 683, 743, 773, 797, 823, 853, 883, 937, 947, 953, 967, 983, 997",
-      "extension_1_explanation": "Interestingly there are 4260 left-truncatable primes but only 83 right-truncatable primes. If you repeatedly remove the first and last digit of a prime number and it stays prime, it is called a left-and-right-truncatable prime. There are 920720315 of those!",
-      "extension_2_statement": "https://en.wikipedia.org/wiki/Truncatable_prime"
+      "extension_1_explanation": "The two digit left-truncatable primes are: 13, 17, 23, 37, 43, 47, 53, 67, 73, 83, 97\nThe three digit left-truncatable primes are: 113, 137, 167, 173, 197, 223, 283, 313, 317, 337, 347, 353, 367, 373, 383, 397, 443, 467, 523, 547, 613, 617, 643, 647, 653, 673, 683, 743, 773, 797, 823, 853, 883, 937, 947, 953, 967, 983, 997",
+      "about": "Interestingly there are 4260 left-truncatable primes but only 83 right-truncatable primes. If you repeatedly remove the first and last digit of a prime number and it stays prime, it is called a left-and-right-truncatable prime. There are 920720315 of those!"
     },
     {
       "id": "shuffling_cards",
       "card_no": "H9",
-      "metadata_type": "Shuffling Cards",
+      "references": "https://nrich.maths.org/5402\nhttps://math.hmc.edu/funfacts/making-history-by-card-shuffling/",
+      "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
         "title": {},
         "main_statement": {},
-        "main_answer": {},
+        "main_hint": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
-        "extension_1_answer": {},
         "extension_1_explanation": {},
-        "extension_2_statement": {}
+        "about": {}
       },
       "_translatedFields": {
         "metadata_type": {
-          "eng": "Shuffling Cards"
+          "eng": "Fun Fact"
         },
         "title": {
-          "eng": "Fun fact"
+          "eng": "Shuffling Cards"
         },
         "main_statement": {
           "eng": "If you shuffle a deck of cards properly, it’s more than likely that the exact order of the cards you get has never been seen before in the whole history of the universe."
         },
-        "main_answer": {
+        "main_hint": {
           "eng": "How many arrangements of the 52 cards can we have? Maybe this is too big to start with. Let's try out a smaller number of 3 cards, how many different arrangements can we have? Now try 4 cards?\nCan we now use this to get to the 52 cards?"
         },
         "main_explanation": {
@@ -1298,59 +1244,51 @@
         "extension_1_hint": {
           "eng": "What is the chance of guessing the top card correctly?"
         },
-        "extension_1_answer": {
+        "extension_1_explanation": {
           "eng": "The chance of guessing the first card is 1 ∕ 52. The chance of then getting the second card right is 1 ∕ 51 and then 1 ∕ 50 for the third card. So the chance of guessing all three correctly is (1 ∕ 52)×(1 ∕ 51)×(1 ∕ 50) = 0.0000075415. Multiply this by the 1000000 people guessing gives you 7.51478.. So you would only expect around 7 people to guess correctly."
         },
-        "extension_1_explanation": {
+        "about": {
           "eng": "52! is around 8×10⁶⁷. If someone shuffled a deck of cards once per second since the beginning of the universe (let’s say around 14 billion years ago) they would only have shuffled the deck 10¹⁸ times.\n\nTherefore when you shuffle a deck, it is almost certain that you are the first person to play with the cards in exactly that order."
-        },
-        "extension_2_statement": {
-          "eng": "https://nrich.maths.org/5402\nhttps://math.hmc.edu/funfacts/making-history-by-card-shuffling/"
         }
       },
-      "title": "Fun fact",
+      "title": "Shuffling Cards",
       "main_statement": "If you shuffle a deck of cards properly, it’s more than likely that the exact order of the cards you get has never been seen before in the whole history of the universe.",
-      "main_answer": "How many arrangements of the 52 cards can we have? Maybe this is too big to start with. Let's try out a smaller number of 3 cards, how many different arrangements can we have? Now try 4 cards?\nCan we now use this to get to the 52 cards?",
+      "main_hint": "How many arrangements of the 52 cards can we have? Maybe this is too big to start with. Let's try out a smaller number of 3 cards, how many different arrangements can we have? Now try 4 cards?\nCan we now use this to get to the 52 cards?",
       "main_explanation": "We want to work out how many different combinations of 52 cards there are. Let us start with thinking about just 3 cards. We could compare this to thinking about the number of ways 3 people could sit in three numbered chairs. Any of the three people could sit on the first chair, then either of the 2 remaining people could sit on the second chair and then there is 1 person left who would have no choice but to sit on the only remaining chair. We can multiply the number of choices for each chair (3×2×1 = 6) to find how many different ways there are for the 3 people to be arranged. It is interesting to note that the pattern here is taking the initial number then multiplying consecutively by the next smallest integer until you reach 1. This process has a name, it is called Factorial. The symbol for it is !. e.g. 3! = 6. Generally if you want to find the number of different ways you can rearrange n items, you can find n! = n!×(n - 1)!×(n - 2)!×…×1 The number of ways to shuffle 52 cards is 52! = 52×51×50×…×3×2×1 which is roughly equal to  8×10⁶⁷",
       "extension_1_statement": "Take a deck of 52 cards, shuffle them as much as you can, then try to guess which exact cards will be the top 3 cards (in order). Did you get your guess right? \nNow if we assume that there are 1 million people doing exactly this procedure, we would expect around 7 people to guess right.",
       "extension_1_hint": "What is the chance of guessing the top card correctly?",
-      "extension_1_answer": "The chance of guessing the first card is 1 ∕ 52. The chance of then getting the second card right is 1 ∕ 51 and then 1 ∕ 50 for the third card. So the chance of guessing all three correctly is (1 ∕ 52)×(1 ∕ 51)×(1 ∕ 50) = 0.0000075415. Multiply this by the 1000000 people guessing gives you 7.51478.. So you would only expect around 7 people to guess correctly.",
-      "extension_1_explanation": "52! is around 8×10⁶⁷. If someone shuffled a deck of cards once per second since the beginning of the universe (let’s say around 14 billion years ago) they would only have shuffled the deck 10¹⁸ times.\n\nTherefore when you shuffle a deck, it is almost certain that you are the first person to play with the cards in exactly that order.",
-      "extension_2_statement": "https://nrich.maths.org/5402\nhttps://math.hmc.edu/funfacts/making-history-by-card-shuffling/"
+      "extension_1_explanation": "The chance of guessing the first card is 1 ∕ 52. The chance of then getting the second card right is 1 ∕ 51 and then 1 ∕ 50 for the third card. So the chance of guessing all three correctly is (1 ∕ 52)×(1 ∕ 51)×(1 ∕ 50) = 0.0000075415. Multiply this by the 1000000 people guessing gives you 7.51478.. So you would only expect around 7 people to guess correctly.",
+      "about": "52! is around 8×10⁶⁷. If someone shuffled a deck of cards once per second since the beginning of the universe (let’s say around 14 billion years ago) they would only have shuffled the deck 10¹⁸ times.\n\nTherefore when you shuffle a deck, it is almost certain that you are the first person to play with the cards in exactly that order."
     },
     {
       "id": "square_triangular_numbers",
       "card_no": "H10",
       "image_asset_1": "images/square_triangular_numbers/image_0.png",
       "image_asset_2": "images/square_triangular_numbers/image_1.png",
-      "metadata_type": "Square numbers and triangular numbers",
+      "references": "https://www.geogebra.org/m/ZXAP0QPv \nhttps://nrich.maths.org/2274\nhttps://en.wikipedia.org/wiki/Triangular_number#Applications",
+      "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
         "title": {},
         "main_statement": {},
         "main_hint": {},
-        "main_answer": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
-        "extension_1_answer": {},
         "extension_1_explanation": {},
-        "extension_2_statement": {}
+        "about": {}
       },
       "_translatedFields": {
         "metadata_type": {
-          "eng": "Square numbers and triangular numbers"
+          "eng": "Fun Fact"
         },
         "title": {
-          "eng": "Fun fact"
+          "eng": "Square numbers and triangular numbers"
         },
         "main_statement": {
           "eng": "The first six triangular numbers are 1, 3, 6, 10, and 15\nThe first six square numbers are 1, 4, 9, 16, and 25\nAny square number bigger than 1 is the sum of two consecutive triangular numbers."
         },
         "main_hint": {
-          "eng": "images/square_triangular_numbers/image_2.png"
-        },
-        "main_answer": {
           "eng": "Triangular numbers can be drawn with dots in the shape of a triangle. Square numbers can be drawn with dots in the shape of a square grid. See if you can work this one out visually first. Can you express it algebraically as well?"
         },
         "main_explanation": {
@@ -1362,54 +1300,49 @@
         "extension_1_hint": {
           "eng": "Starting with a small triangular number might help. Can you use the pattern of triangles and squares to help you? What square could be the sum of the 250ᵗʰ triangular number and another triangular number? Think about the 250ᵗʰ square number and how it relates to the 250ᵗʰ triangular number."
         },
-        "extension_1_answer": {
+        "extension_1_explanation": {
           "eng": "Let us look at a smaller example first. We could find the 5ᵗʰ triangular number using this square:\n\nWe are looking for the number of purple squares. We can do ½×(5×5 - 5) = 10 to get the pink triangle. And then adding on the 5 squares in the diagonal gives the purple triangle. So we have 15.\n\nFor the 250ᵗʰ triangular number, we are looking for the number of squares in the black “triangle”. It will be roughly ½×250×250, except that the diagonal will be included. So we calculate ½×(250×250 - 5) to find the blue triangle and then add 250 on to find the black triangle. The answer is 31375.\n\nWe can extend this logic to find a formula for the nth triangular number\n½×(n×n - n) + n = ½×(n² +2×n - n) = ½×(n² + n) = ½×n×(n + 1)\n\nCheck: ½×250×251 = 31375\n\nUsing the formula, we can also see that consecutive triangular numbers add to a square number. Consecutive triangular numbers can be represented as ½×(n - 1)×n and ½×n×(n + 1).\nIf we add these consecutive triangular numbers and simplify we can find:\n ½×(n - 1)×n + ½×n×(n + 1)=  ½×((n - 1)×n + n×(n + 1)) = ½×(n² - n + n²  + n) = n²"
         },
-        "extension_1_explanation": {
+        "about": {
           "eng": "The formula for the nᵗʰ triangular number is also exactly equal to the summation 1 + 2 + 3 + … + n and so it is a quick way to add up lists of consecutive numbers! This formula was written down by the Irish monk Dicuil in about 816AD but was possibly already known to the Pythagoreans in the 5th century BC."
-        },
-        "extension_2_statement": {
-          "eng": "https://www.geogebra.org/m/ZXAP0QPv \nhttps://nrich.maths.org/2274\nhttps://en.wikipedia.org/wiki/Triangular_number#Applications"
         }
       },
-      "title": "Fun fact",
+      "title": "Square numbers and triangular numbers",
       "main_statement": "The first six triangular numbers are 1, 3, 6, 10, and 15\nThe first six square numbers are 1, 4, 9, 16, and 25\nAny square number bigger than 1 is the sum of two consecutive triangular numbers.",
-      "main_hint": "images/square_triangular_numbers/image_2.png",
-      "main_answer": "Triangular numbers can be drawn with dots in the shape of a triangle. Square numbers can be drawn with dots in the shape of a square grid. See if you can work this one out visually first. Can you express it algebraically as well?",
+      "main_hint": "Triangular numbers can be drawn with dots in the shape of a triangle. Square numbers can be drawn with dots in the shape of a square grid. See if you can work this one out visually first. Can you express it algebraically as well?",
       "main_explanation": "We first show this visually, in the image below you can see that 4 = 1 + 3,  9 = 3 + 6, 16 = 6 + 10, and 25 = 10 + 15. \n\nIf we take T = triangular and S = square, then we can draw the S-number as an S-grid of points, the smaller T-number forms the upper T of points, the larger T-number forms the lower T AND the diagonal of points.\nThese are consecutive triangular numbers making a square.\nThe side length in points of the bigger T-number is the square root of the S-number.",
       "extension_1_statement": "Find the 250ᵗʰ triangular number.",
       "extension_1_hint": "Starting with a small triangular number might help. Can you use the pattern of triangles and squares to help you? What square could be the sum of the 250ᵗʰ triangular number and another triangular number? Think about the 250ᵗʰ square number and how it relates to the 250ᵗʰ triangular number.",
-      "extension_1_answer": "Let us look at a smaller example first. We could find the 5ᵗʰ triangular number using this square:\n\nWe are looking for the number of purple squares. We can do ½×(5×5 - 5) = 10 to get the pink triangle. And then adding on the 5 squares in the diagonal gives the purple triangle. So we have 15.\n\nFor the 250ᵗʰ triangular number, we are looking for the number of squares in the black “triangle”. It will be roughly ½×250×250, except that the diagonal will be included. So we calculate ½×(250×250 - 5) to find the blue triangle and then add 250 on to find the black triangle. The answer is 31375.\n\nWe can extend this logic to find a formula for the nth triangular number\n½×(n×n - n) + n = ½×(n² +2×n - n) = ½×(n² + n) = ½×n×(n + 1)\n\nCheck: ½×250×251 = 31375\n\nUsing the formula, we can also see that consecutive triangular numbers add to a square number. Consecutive triangular numbers can be represented as ½×(n - 1)×n and ½×n×(n + 1).\nIf we add these consecutive triangular numbers and simplify we can find:\n ½×(n - 1)×n + ½×n×(n + 1)=  ½×((n - 1)×n + n×(n + 1)) = ½×(n² - n + n²  + n) = n²",
-      "extension_1_explanation": "The formula for the nᵗʰ triangular number is also exactly equal to the summation 1 + 2 + 3 + … + n and so it is a quick way to add up lists of consecutive numbers! This formula was written down by the Irish monk Dicuil in about 816AD but was possibly already known to the Pythagoreans in the 5th century BC.",
-      "extension_2_statement": "https://www.geogebra.org/m/ZXAP0QPv \nhttps://nrich.maths.org/2274\nhttps://en.wikipedia.org/wiki/Triangular_number#Applications"
+      "extension_1_explanation": "Let us look at a smaller example first. We could find the 5ᵗʰ triangular number using this square:\n\nWe are looking for the number of purple squares. We can do ½×(5×5 - 5) = 10 to get the pink triangle. And then adding on the 5 squares in the diagonal gives the purple triangle. So we have 15.\n\nFor the 250ᵗʰ triangular number, we are looking for the number of squares in the black “triangle”. It will be roughly ½×250×250, except that the diagonal will be included. So we calculate ½×(250×250 - 5) to find the blue triangle and then add 250 on to find the black triangle. The answer is 31375.\n\nWe can extend this logic to find a formula for the nth triangular number\n½×(n×n - n) + n = ½×(n² +2×n - n) = ½×(n² + n) = ½×n×(n + 1)\n\nCheck: ½×250×251 = 31375\n\nUsing the formula, we can also see that consecutive triangular numbers add to a square number. Consecutive triangular numbers can be represented as ½×(n - 1)×n and ½×n×(n + 1).\nIf we add these consecutive triangular numbers and simplify we can find:\n ½×(n - 1)×n + ½×n×(n + 1)=  ½×((n - 1)×n + n×(n + 1)) = ½×(n² - n + n²  + n) = n²",
+      "about": "The formula for the nᵗʰ triangular number is also exactly equal to the summation 1 + 2 + 3 + … + n and so it is a quick way to add up lists of consecutive numbers! This formula was written down by the Irish monk Dicuil in about 816AD but was possibly already known to the Pythagoreans in the 5th century BC."
     },
     {
       "id": "lychrel_numbers",
       "card_no": "HQ",
-      "metadata_type": "Lychrel Numbers",
+      "references": "https://lycee.samicharity.co.uk/2020/02/06/lychrel-numbers/\nhttps://en.wikipedia.org/wiki/Lychrel_number#196_palindrome_quest\nhttp://datagenetics.com/blog/october12015/index.html",
+      "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
         "title": {},
         "main_statement": {},
-        "main_answer": {},
+        "main_hint": {},
         "main_explanation": {},
         "extension_1_statement": {},
         "extension_1_hint": {},
-        "extension_1_answer": {},
         "extension_1_explanation": {},
-        "extension_2_statement": {}
+        "about": {}
       },
       "_translatedFields": {
         "metadata_type": {
-          "eng": "Lychrel Numbers"
+          "eng": "Fun Fact"
         },
         "title": {
-          "eng": "Fun fact"
+          "eng": "Lychrel Numbers"
         },
         "main_statement": {
           "eng": "Take a positive integer (whole number). Reverse the digits to get a new number. Add the two numbers together. Repeat this process until you get a palindrome (a number that reads the same forwards and backwards).\nCan you find a starting number that doesn’t end up at a palindrome? Nobody knows if this is possible."
         },
-        "main_answer": {
+        "main_hint": {
           "eng": "Pick a positive integer (whole number), e.g. 57. Reverse the digits to get 75. Adding gives 57 +75 = 132. Then reverse this new number and add together. You get 132 + 231 = 353. This is a palindrome as it reads the same forwards as backwards, so we stop. Can you find a number that takes longer to reach a palindrome?"
         },
         "main_explanation": {
@@ -1421,25 +1354,506 @@
         "extension_1_hint": {
           "eng": "Most smaller 3-digit numbers take only 1 step to become a palindrome, but try using bigger digits that will mean you have to carry when you add (e.g. 8 + 9 = 17 so you will have to carry the 1)."
         },
-        "extension_1_answer": {
+        "extension_1_explanation": {
           "eng": "There are lots of options, but 122 takes 1 step, 109 takes 2 steps, 199 takes 3 steps and 192 takes 4 steps."
         },
-        "extension_1_explanation": {
+        "about": {
           "eng": "If you change the base of the problem to binary then 10110 (22 in decimal) is a Lychrel number. The name Lychrel comes from a rough anagram of Wade Van Landingham’s girlfriend Cheryl."
-        },
-        "extension_2_statement": {
-          "eng": "https://lycee.samicharity.co.uk/2020/02/06/lychrel-numbers/\nhttps://en.wikipedia.org/wiki/Lychrel_number#196_palindrome_quest\nhttp://datagenetics.com/blog/october12015/index.html"
         }
       },
-      "title": "Fun fact",
+      "title": "Lychrel Numbers",
       "main_statement": "Take a positive integer (whole number). Reverse the digits to get a new number. Add the two numbers together. Repeat this process until you get a palindrome (a number that reads the same forwards and backwards).\nCan you find a starting number that doesn’t end up at a palindrome? Nobody knows if this is possible.",
-      "main_answer": "Pick a positive integer (whole number), e.g. 57. Reverse the digits to get 75. Adding gives 57 +75 = 132. Then reverse this new number and add together. You get 132 + 231 = 353. This is a palindrome as it reads the same forwards as backwards, so we stop. Can you find a number that takes longer to reach a palindrome?",
+      "main_hint": "Pick a positive integer (whole number), e.g. 57. Reverse the digits to get 75. Adding gives 57 +75 = 132. Then reverse this new number and add together. You get 132 + 231 = 353. This is a palindrome as it reads the same forwards as backwards, so we stop. Can you find a number that takes longer to reach a palindrome?",
       "main_explanation": "Some numbers end up in a palindrome after one step, e.g. 243: 243 +342 = 585. Some take a bit longer, e.g. 87: \n87 + 78 = 165, \n165 + 561 = 726, \n726 + 627 = 1353, \n1353 + 3531 = 4884.\nSome numbers take a very long time – 89 takes an unusually large 24 steps (the most of any number under 10,000) to reach the palindrome 8813200023188.\nA number is called a Lychrel number if it never reaches a palindrome. No one has proved that a Lychrel number exists. One possibility is 196 - the first billion steps have been carried out by computers and it hasn’t reached a palindrome… but this does not prove it never will!",
       "extension_1_statement": "Can you find different 3-digit numbers that take 1, 2, 3, and 4 steps to become a palindrome?",
       "extension_1_hint": "Most smaller 3-digit numbers take only 1 step to become a palindrome, but try using bigger digits that will mean you have to carry when you add (e.g. 8 + 9 = 17 so you will have to carry the 1).",
-      "extension_1_answer": "There are lots of options, but 122 takes 1 step, 109 takes 2 steps, 199 takes 3 steps and 192 takes 4 steps.",
-      "extension_1_explanation": "If you change the base of the problem to binary then 10110 (22 in decimal) is a Lychrel number. The name Lychrel comes from a rough anagram of Wade Van Landingham’s girlfriend Cheryl.",
-      "extension_2_statement": "https://lycee.samicharity.co.uk/2020/02/06/lychrel-numbers/\nhttps://en.wikipedia.org/wiki/Lychrel_number#196_palindrome_quest\nhttp://datagenetics.com/blog/october12015/index.html"
+      "extension_1_explanation": "There are lots of options, but 122 takes 1 step, 109 takes 2 steps, 199 takes 3 steps and 192 takes 4 steps.",
+      "about": "If you change the base of the problem to binary then 10110 (22 in decimal) is a Lychrel number. The name Lychrel comes from a rough anagram of Wade Van Landingham’s girlfriend Cheryl."
+    },
+    {
+      "id": "fifteen",
+      "card_no": "S1",
+      "ext_expl_image_asset_1": "images/fifteen/image_1.png",
+      "references": "https://www.ms.uky.edu/~lee/ma310sp15/gameoffifteen.pdf\nhttps://en.wikipedia.org/wiki/Number_Scrabble",
+      "metadata_type": "Game",
+      "_translations": {
+        "metadata_type": {},
+        "title": {},
+        "main_statement": {},
+        "main_further_instructions": {},
+        "main_hint": {},
+        "extension_1_statement": {},
+        "about": {}
+      },
+      "_translatedFields": {
+        "metadata_type": {
+          "eng": "Game"
+        },
+        "title": {
+          "eng": "Fifteen"
+        },
+        "main_statement": {
+          "eng": "This is a game for two players (or a group split into two teams). Take the A and 2 to 9 cards of any suit and place them face up in order. A = 1 in this game. Take it in turns to choose one of the cards and place it in front of you. The first player that has exactly three cards that add up to 15 is the winner. You can have more than three cards, but you only win if three of them add up to 15."
+        },
+        "main_further_instructions": {
+          "eng": "Remember you can’t use two numbers to make 15, you can’t use four numbers, it must be three numbers. You can have more than three cards in your hand and use only 3 of them. The game is a draw if all the cards have been chosen and nobody can make 15."
+        },
+        "main_hint": {
+          "eng": "Write down all the combinations of three numbers that add up to 15. How can you be sure that you have found all the combinations? Which numbers appear in 2, 3, and 4 of these combinations?\nThink about other games you might have played that this is similar to. Is it an advantage to go first or second?"
+        },
+        "extension_1_statement": {
+          "eng": "Try playing the game again, but with the cards arranged like this to start with. \n\nWhat do you notice about the way the numbers are arranged? Does it remind you of any other game?"
+        },
+        "about": {
+          "eng": "This game is interesting because it is the same as the game tic-tac-toe/naughts and crosses. The technical term for this is isomorphic. In mathematics it is often helpful, when faced with a new problem, to relate it to one you already know how to solve."
+        }
+      },
+      "title": "Fifteen",
+      "main_statement": "This is a game for two players (or a group split into two teams). Take the A and 2 to 9 cards of any suit and place them face up in order. A = 1 in this game. Take it in turns to choose one of the cards and place it in front of you. The first player that has exactly three cards that add up to 15 is the winner. You can have more than three cards, but you only win if three of them add up to 15.",
+      "main_further_instructions": "Remember you can’t use two numbers to make 15, you can’t use four numbers, it must be three numbers. You can have more than three cards in your hand and use only 3 of them. The game is a draw if all the cards have been chosen and nobody can make 15.",
+      "main_hint": "Write down all the combinations of three numbers that add up to 15. How can you be sure that you have found all the combinations? Which numbers appear in 2, 3, and 4 of these combinations?\nThink about other games you might have played that this is similar to. Is it an advantage to go first or second?",
+      "extension_1_statement": "Try playing the game again, but with the cards arranged like this to start with. \n\nWhat do you notice about the way the numbers are arranged? Does it remind you of any other game?",
+      "about": "This game is interesting because it is the same as the game tic-tac-toe/naughts and crosses. The technical term for this is isomorphic. In mathematics it is often helpful, when faced with a new problem, to relate it to one you already know how to solve."
+    },
+    {
+      "id": "patience",
+      "card_no": "S2",
+      "references": "https://nrich.maths.org/1194\nhttps://www.solsuite.com/games/elevens.htm",
+      "metadata_type": "Game",
+      "_translations": {
+        "metadata_type": {},
+        "title": {},
+        "main_statement": {},
+        "main_further_instructions": {},
+        "main_hint": {},
+        "extension_1_statement": {},
+        "about": {}
+      },
+      "_translatedFields": {
+        "metadata_type": {
+          "eng": "Game"
+        },
+        "title": {
+          "eng": "Patience"
+        },
+        "main_statement": {
+          "eng": "This is a one player game of patience. Lay out a grid of 8 cards in 2 rows of 4 cards, face up and hold the remaining cards. If you find two cards in the grid that sum to 11 you can put new cards from your hand on top of them (here A = 1). If you find the J, Q or K cards you can also put a new card on top of each. The objective of the game is to put down all the cards."
+        },
+        "main_further_instructions": {
+          "eng": "Remove the Jokers before starting. A has a value of 1 in this game. If you manage to play all your cards, the last stage of the game is to pick up pairs of piles of cards whose top cards add up to 11, or three piles whose top cards are J, Q, K. You have won the game if you can pick up all the cards. If you can’t put down all your cards, count how many are left"
+        },
+        "main_hint": {
+          "eng": "This game is mostly luck - but you need to think carefully about how many J, Q and K you cover to win the final stage!"
+        },
+        "extension_1_statement": {
+          "eng": "A similar game uses 10 cards face up and you have to remove pairs that add up to 13 (A = 1, J = 11, Q = 12, and K=13). The K can be removed on its own. Each time you remove cards you replace them with new ones. The aim is to finish playing all the cards in the deck. \nYou could make up your own version of this type of game by choosing the number to sum to, how many cards are face up to start with and what to do with the face cards. Can you design a game that can be won about half of the time?"
+        },
+        "about": {
+          "eng": "These types of games are often called Patience or Solitaire. Patience because you need a lot of patience to try and win, and Solitaire because you can play them on your own. Although many variations of Patience are down to chance, it is interesting to use mathematics to analyse the probability of winning."
+        }
+      },
+      "title": "Patience",
+      "main_statement": "This is a one player game of patience. Lay out a grid of 8 cards in 2 rows of 4 cards, face up and hold the remaining cards. If you find two cards in the grid that sum to 11 you can put new cards from your hand on top of them (here A = 1). If you find the J, Q or K cards you can also put a new card on top of each. The objective of the game is to put down all the cards.",
+      "main_further_instructions": "Remove the Jokers before starting. A has a value of 1 in this game. If you manage to play all your cards, the last stage of the game is to pick up pairs of piles of cards whose top cards add up to 11, or three piles whose top cards are J, Q, K. You have won the game if you can pick up all the cards. If you can’t put down all your cards, count how many are left",
+      "main_hint": "This game is mostly luck - but you need to think carefully about how many J, Q and K you cover to win the final stage!",
+      "extension_1_statement": "A similar game uses 10 cards face up and you have to remove pairs that add up to 13 (A = 1, J = 11, Q = 12, and K=13). The K can be removed on its own. Each time you remove cards you replace them with new ones. The aim is to finish playing all the cards in the deck. \nYou could make up your own version of this type of game by choosing the number to sum to, how many cards are face up to start with and what to do with the face cards. Can you design a game that can be won about half of the time?",
+      "about": "These types of games are often called Patience or Solitaire. Patience because you need a lot of patience to try and win, and Solitaire because you can play them on your own. Although many variations of Patience are down to chance, it is interesting to use mathematics to analyse the probability of winning."
+    },
+    {
+      "id": "twenty_one",
+      "card_no": "S3",
+      "references": "https://en.wikipedia.org/wiki/Nim\nhttps://en.wikipedia.org/wiki/Nim#The_21_game",
+      "metadata_type": "Game",
+      "_translations": {
+        "metadata_type": {},
+        "title": {},
+        "main_statement": {},
+        "main_further_instructions": {},
+        "main_hint": {},
+        "extension_1_statement": {},
+        "about": {}
+      },
+      "_translatedFields": {
+        "metadata_type": {
+          "eng": "Game"
+        },
+        "title": {
+          "eng": "Twenty-one"
+        },
+        "main_statement": {
+          "eng": "Two players take it in turn to count up, starting from 1 and counting 1, 2, or 3 numbers at a time. Each player continues counting from where the other player stops. The player who says 21 loses."
+        },
+        "main_further_instructions": {
+          "eng": "An example game: P1 = Player 1, P2 = Player 2. \nP1: 1,2,3       P2: 4 \nP1: 5,6          P2: 7,8,9 \nP1: 10           P2: 11,12,13\nP1: 14,15,16 P2:17,18,19\nP1: 20           P2: 21\nPlayer 1 wins!"
+        },
+        "main_hint": {
+          "eng": "The person who says 20 wins, as they force the next person to say 21. How can you make sure you say 20? Try to work backwards. After you have played several times you might work out who is going to win before you reach 20 - think about how you know this. Can you work out if it is better to go first or second? Can you make sure you always win?"
+        },
+        "extension_1_statement": {
+          "eng": "There are many ways to change this game. You could be allowed to say up to 4 consecutive numbers instead of 3, or change the goal number of 21 to something different, or change the rule so that the player who says 21 is now the winner, not the loser. Can you still work out how to win when the rules are changed? \n\nThe original game can be changed to a group of players who play in a circle, starting clockwise. Just for fun you can have new rules that if someone says two numbers in a row, the direction is reversed. If someone says three numbers in a row you skip one person in the circle. The person to say 21 makes up a new rule e.g. “Instead of the number 5 you have to say potato”. The game starts again at number 1 but you have to remember the new rule! If anyone makes a mistake you start again at 1. You can play that if someone makes two mistakes they are out of the game. The last person still playing is the winner!"
+        },
+        "about": {
+          "eng": "21 is a simple version of the set of games, Nim. It is sometimes called a Misère game - meaning a game that you play to lose. It is thought to have originated in China and is first mentioned in European history at the start of the 16ᵗʰ century. The game was originally played with 21 stones, and you have to pick 1, 2, or 3 stones at a time and the loser is the last one to pick a stone."
+        }
+      },
+      "title": "Twenty-one",
+      "main_statement": "Two players take it in turn to count up, starting from 1 and counting 1, 2, or 3 numbers at a time. Each player continues counting from where the other player stops. The player who says 21 loses.",
+      "main_further_instructions": "An example game: P1 = Player 1, P2 = Player 2. \nP1: 1,2,3       P2: 4 \nP1: 5,6          P2: 7,8,9 \nP1: 10           P2: 11,12,13\nP1: 14,15,16 P2:17,18,19\nP1: 20           P2: 21\nPlayer 1 wins!",
+      "main_hint": "The person who says 20 wins, as they force the next person to say 21. How can you make sure you say 20? Try to work backwards. After you have played several times you might work out who is going to win before you reach 20 - think about how you know this. Can you work out if it is better to go first or second? Can you make sure you always win?",
+      "extension_1_statement": "There are many ways to change this game. You could be allowed to say up to 4 consecutive numbers instead of 3, or change the goal number of 21 to something different, or change the rule so that the player who says 21 is now the winner, not the loser. Can you still work out how to win when the rules are changed? \n\nThe original game can be changed to a group of players who play in a circle, starting clockwise. Just for fun you can have new rules that if someone says two numbers in a row, the direction is reversed. If someone says three numbers in a row you skip one person in the circle. The person to say 21 makes up a new rule e.g. “Instead of the number 5 you have to say potato”. The game starts again at number 1 but you have to remember the new rule! If anyone makes a mistake you start again at 1. You can play that if someone makes two mistakes they are out of the game. The last person still playing is the winner!",
+      "about": "21 is a simple version of the set of games, Nim. It is sometimes called a Misère game - meaning a game that you play to lose. It is thought to have originated in China and is first mentioned in European history at the start of the 16ᵗʰ century. The game was originally played with 21 stones, and you have to pick 1, 2, or 3 stones at a time and the loser is the last one to pick a stone."
+    },
+    {
+      "id": "nim",
+      "card_no": "S4",
+      "references": "https://wild.maths.org/tags/fun-drips\nhttps://plus.maths.org/content/play-win-nim",
+      "metadata_type": "Game",
+      "_translations": {
+        "metadata_type": {},
+        "title": {},
+        "main_statement": {},
+        "main_further_instructions": {},
+        "main_hint": {},
+        "extension_1_statement": {},
+        "about": {}
+      },
+      "_translatedFields": {
+        "metadata_type": {
+          "eng": "Game"
+        },
+        "title": {
+          "eng": "Nim"
+        },
+        "main_statement": {
+          "eng": "|\n| | |\n| | | | |\n\nArrange 9 sticks in 3 rows as shown. Two players take it in turn to remove one or more sticks from a single row. The loser is the person to take the last stick. Can you find a winning strategy?"
+        },
+        "main_further_instructions": {
+          "eng": "You can remove as many sticks as you like each turn as long as they come from the same row. For example an opening move could be to take all 5 sticks from the bottom row. You must take at least one stick each turn. You are trying to leave just one stick left for your opponent to be forced to take and therefore lose the game."
+        },
+        "main_hint": {
+          "eng": "Try to think a few moves ahead. For example if you can remove a stick to leave this pattern\n| |\n| | \nthen you will be able to win.\nTry to work out if it is better to go first or second."
+        },
+        "extension_1_statement": {
+          "eng": "Try changing the starting number and pattern of sticks. You could try rows of 3,5,7 or 1,3,5,7 sticks."
+        },
+        "about": {
+          "eng": "This is an ancient game that owes its current name to Charles Bouton, who also developed a theory for how you can always play to win. His strategy involves binary numbers and can be found here https://plus.maths.org/content/play-win-nim. You can play different variations of the game (also called drips) online here https://wild.maths.org/tags/fun-drips"
+        }
+      },
+      "title": "Nim",
+      "main_statement": "|\n| | |\n| | | | |\n\nArrange 9 sticks in 3 rows as shown. Two players take it in turn to remove one or more sticks from a single row. The loser is the person to take the last stick. Can you find a winning strategy?",
+      "main_further_instructions": "You can remove as many sticks as you like each turn as long as they come from the same row. For example an opening move could be to take all 5 sticks from the bottom row. You must take at least one stick each turn. You are trying to leave just one stick left for your opponent to be forced to take and therefore lose the game.",
+      "main_hint": "Try to think a few moves ahead. For example if you can remove a stick to leave this pattern\n| |\n| | \nthen you will be able to win.\nTry to work out if it is better to go first or second.",
+      "extension_1_statement": "Try changing the starting number and pattern of sticks. You could try rows of 3,5,7 or 1,3,5,7 sticks.",
+      "about": "This is an ancient game that owes its current name to Charles Bouton, who also developed a theory for how you can always play to win. His strategy involves binary numbers and can be found here https://plus.maths.org/content/play-win-nim. You can play different variations of the game (also called drips) online here https://wild.maths.org/tags/fun-drips"
+    },
+    {
+      "id": "mastermind",
+      "card_no": "S5",
+      "references": "https://en.wikipedia.org/wiki/Mastermind_(board_game)\nhttps://lycee.samicharity.co.uk/2017/09/21/mastermind-problems/",
+      "metadata_type": "Game",
+      "_translations": {
+        "metadata_type": {},
+        "title": {},
+        "main_statement": {},
+        "main_further_instructions": {},
+        "main_hint": {},
+        "extension_1_statement": {},
+        "about": {}
+      },
+      "_translatedFields": {
+        "metadata_type": {
+          "eng": "Game"
+        },
+        "title": {
+          "eng": "Mastermind"
+        },
+        "main_statement": {
+          "eng": "This is a two player game. Player 1 secretly chooses four cards and puts them in a row face down. Player 2 has seven attempts to guess the suits (clubs, diamonds, hearts, spades) of these cards, in order. Player 2 guesses by laying four cards in a row face up. Player 1 looks at the suits, and tells them how many suits they guessed in the correct position (x), and how many other suits they have guessed correctly but in the wrong position (o). Player 2 uses this information to make a better guess next time."
+        },
+        "main_further_instructions": {
+          "eng": "Here is how a game might work:\nPlayer 1 chooses 1) 4 of Hearts, 2) 3 of Clubs, 3) 8 of Spades, 4) 10 of Spades and places them face down.\nPlayer 2 lays down for example: 1) 6 of Hearts, 2) 4 of Spades, 3) J of Diamonds, 4) 3 of Spades.\nPlayer 2 has three correct suits (Heart, Spade and Spade) and two in the correct position - 1) and 4) so Player 1 would say “you have two in the correct position and one in the wrong position”, but doesn’t say which ones - an easy way to record this would be xxo. Then player 2 would guess again. They might think that it was the last two cards that were perfectly correct, so keep these and guess a different first two. Recording the results on pen and paper will be necessary and would look like this:\nHSDS  xxo\nCCDS  xoo \nNote that it is just the suits we are interested in, not the numbers. Player 1 is not saying which ones are correct, just saying how many are correct. Player 2 keeps guessing until all four are correct."
+        },
+        "main_hint": {
+          "eng": "For the guesser: Your first guess will be at random but after that you should be using logic to work out what the solution might be. One good strategy for beginners is just change one card at a time, but as you play more you may find a better optimal strategy.\nFor the setter: Think about whether it is best to have all the same suit, all different, or some the same."
+        },
+        "extension_1_statement": {
+          "eng": "Try playing the game by having to guess the numbers of the cards - 1 (A) to 10 - instead of the suits. There will be more options so it will be a lot harder. You could even use J, Q, K too."
+        },
+        "about": {
+          "eng": "This game can be played with numbers, letters, symbols or colours as in the popular board game."
+        }
+      },
+      "title": "Mastermind",
+      "main_statement": "This is a two player game. Player 1 secretly chooses four cards and puts them in a row face down. Player 2 has seven attempts to guess the suits (clubs, diamonds, hearts, spades) of these cards, in order. Player 2 guesses by laying four cards in a row face up. Player 1 looks at the suits, and tells them how many suits they guessed in the correct position (x), and how many other suits they have guessed correctly but in the wrong position (o). Player 2 uses this information to make a better guess next time.",
+      "main_further_instructions": "Here is how a game might work:\nPlayer 1 chooses 1) 4 of Hearts, 2) 3 of Clubs, 3) 8 of Spades, 4) 10 of Spades and places them face down.\nPlayer 2 lays down for example: 1) 6 of Hearts, 2) 4 of Spades, 3) J of Diamonds, 4) 3 of Spades.\nPlayer 2 has three correct suits (Heart, Spade and Spade) and two in the correct position - 1) and 4) so Player 1 would say “you have two in the correct position and one in the wrong position”, but doesn’t say which ones - an easy way to record this would be xxo. Then player 2 would guess again. They might think that it was the last two cards that were perfectly correct, so keep these and guess a different first two. Recording the results on pen and paper will be necessary and would look like this:\nHSDS  xxo\nCCDS  xoo \nNote that it is just the suits we are interested in, not the numbers. Player 1 is not saying which ones are correct, just saying how many are correct. Player 2 keeps guessing until all four are correct.",
+      "main_hint": "For the guesser: Your first guess will be at random but after that you should be using logic to work out what the solution might be. One good strategy for beginners is just change one card at a time, but as you play more you may find a better optimal strategy.\nFor the setter: Think about whether it is best to have all the same suit, all different, or some the same.",
+      "extension_1_statement": "Try playing the game by having to guess the numbers of the cards - 1 (A) to 10 - instead of the suits. There will be more options so it will be a lot harder. You could even use J, Q, K too.",
+      "about": "This game can be played with numbers, letters, symbols or colours as in the popular board game."
+    },
+    {
+      "id": "latin_squares",
+      "card_no": "S6",
+      "references": "https://www.mathsisfun.com/puzzles/index.html\nhttps://www.wikiwand.com/en/Mutually_orthogonal_Latin_squares",
+      "metadata_type": "Game",
+      "_translations": {
+        "metadata_type": {},
+        "title": {},
+        "main_statement": {},
+        "main_further_instructions": {},
+        "main_hint": {},
+        "extension_1_statement": {},
+        "about": {}
+      },
+      "_translatedFields": {
+        "metadata_type": {
+          "eng": "Game"
+        },
+        "title": {
+          "eng": "Latin Squares"
+        },
+        "main_statement": {
+          "eng": "Select the 16 J, Q, K and A cards from a pack. Try to put them in a 4 by 4 square so that each rank (J, Q, K, A) and each suit (Clubs, Diamonds, Hearts, Spades) appears only once in each row and column."
+        },
+        "main_further_instructions": {
+          "eng": "This could be a one player puzzle or get a group of people to try it together as it is quite tricky!"
+        },
+        "main_hint": {
+          "eng": "Start by ignoring the suits and try to get the ranks in a square so that each rank appears only once in every row and column."
+        },
+        "extension_1_statement": {
+          "eng": "Create a 5 x 5 square with the same rules but this time include all the 10,J,Q,K,A. You will need an extra suit: you could draw a 10, J, Q, K and A on five separate pieces of paper, making up a new suit of your choice."
+        },
+        "about": {
+          "eng": "This puzzle is an example of a Latin square. Interestingly, if the problem had involved 6 ranks of playing cards it would have been impossible. But with 7 ranks it is quite easy to find a solution. Latin squares are used in medical trials to ensure every participant is allocated to each treatment for the same time period to prove which is the best treatment."
+        }
+      },
+      "title": "Latin Squares",
+      "main_statement": "Select the 16 J, Q, K and A cards from a pack. Try to put them in a 4 by 4 square so that each rank (J, Q, K, A) and each suit (Clubs, Diamonds, Hearts, Spades) appears only once in each row and column.",
+      "main_further_instructions": "This could be a one player puzzle or get a group of people to try it together as it is quite tricky!",
+      "main_hint": "Start by ignoring the suits and try to get the ranks in a square so that each rank appears only once in every row and column.",
+      "extension_1_statement": "Create a 5 x 5 square with the same rules but this time include all the 10,J,Q,K,A. You will need an extra suit: you could draw a 10, J, Q, K and A on five separate pieces of paper, making up a new suit of your choice.",
+      "about": "This puzzle is an example of a Latin square. Interestingly, if the problem had involved 6 ranks of playing cards it would have been impossible. But with 7 ranks it is quite easy to find a solution. Latin squares are used in medical trials to ensure every participant is allocated to each treatment for the same time period to prove which is the best treatment."
+    },
+    {
+      "id": "gomoku",
+      "card_no": "S7",
+      "references": "https://en.wikipedia.org/wiki/Gomoku",
+      "metadata_type": "Game",
+      "_translations": {
+        "metadata_type": {},
+        "title": {},
+        "main_statement": {},
+        "main_further_instructions": {},
+        "main_hint": {},
+        "extension_1_statement": {},
+        "about": {}
+      },
+      "_translatedFields": {
+        "metadata_type": {
+          "eng": "Game"
+        },
+        "title": {
+          "eng": "Gomoku"
+        },
+        "main_statement": {
+          "eng": "Start by drawing a square grid of 15 by 15 lines. Two players take it in turns to place a counter on any point where lines cross. The player who gets five of their counters in a straight line wins. The line can be vertical, horizontal or diagonal."
+        },
+        "main_further_instructions": {
+          "eng": "This game is traditionally played with black and white counters, but you could use any different counters, or little pieces of paper. You could also draw the grid in pen and then use pencil to mark x or o for each player and then rub them out when you are finished to be able to use the grid again."
+        },
+        "main_hint": {
+          "eng": "It is very important to be watching your opponents moves as well as trying to make a line of 5 yourself. If your opponent has three in a row with nothing at either end - this is called “open 3” - then it is a good idea to use your turn to block one end. If they manage to get “open 4” you have certainly lost! A good attacking strategy might be to aim for two overlapping lines of open 3s - like a cross - so that it is very hard for your opponent to defend."
+        },
+        "extension_1_statement": {
+          "eng": "For advanced players, the first player has a big advantage. This advantage can be removed by starting the game using the “Swap 2” rule. Let’s say at the start of the game player one is crosses (x) and player two is circles (o).\nPlayer one begins the game by marking 3 intersections (two with x, and one with o), player two then chooses one of these three options (i) they take crosses, ending their turn (player one becomes circles and it is now their go), (ii) they stay as circles and add one circle as normal, (iii) they add two circles to the board, but then player one now gets to decide whether they want to steal circles. After this, play as normal."
+        },
+        "about": {
+          "eng": "There is a World Championship tournament for Gomuku. Since 2009 it has used the Swap 2 rule to make it a fair game, no matter who starts. There are also championships for computers to play at Gomuku! So people write an artificial intelligence program and their program plays against someone else’s program to see who wins. There are also computer vs. human competitions - in 2017 a computer called Yixin beat the world champion human player Rudolf Dupszki 2-0."
+        }
+      },
+      "title": "Gomoku",
+      "main_statement": "Start by drawing a square grid of 15 by 15 lines. Two players take it in turns to place a counter on any point where lines cross. The player who gets five of their counters in a straight line wins. The line can be vertical, horizontal or diagonal.",
+      "main_further_instructions": "This game is traditionally played with black and white counters, but you could use any different counters, or little pieces of paper. You could also draw the grid in pen and then use pencil to mark x or o for each player and then rub them out when you are finished to be able to use the grid again.",
+      "main_hint": "It is very important to be watching your opponents moves as well as trying to make a line of 5 yourself. If your opponent has three in a row with nothing at either end - this is called “open 3” - then it is a good idea to use your turn to block one end. If they manage to get “open 4” you have certainly lost! A good attacking strategy might be to aim for two overlapping lines of open 3s - like a cross - so that it is very hard for your opponent to defend.",
+      "extension_1_statement": "For advanced players, the first player has a big advantage. This advantage can be removed by starting the game using the “Swap 2” rule. Let’s say at the start of the game player one is crosses (x) and player two is circles (o).\nPlayer one begins the game by marking 3 intersections (two with x, and one with o), player two then chooses one of these three options (i) they take crosses, ending their turn (player one becomes circles and it is now their go), (ii) they stay as circles and add one circle as normal, (iii) they add two circles to the board, but then player one now gets to decide whether they want to steal circles. After this, play as normal.",
+      "about": "There is a World Championship tournament for Gomuku. Since 2009 it has used the Swap 2 rule to make it a fair game, no matter who starts. There are also championships for computers to play at Gomuku! So people write an artificial intelligence program and their program plays against someone else’s program to see who wins. There are also computer vs. human competitions - in 2017 a computer called Yixin beat the world champion human player Rudolf Dupszki 2-0."
+    },
+    {
+      "id": "sim",
+      "card_no": "S8",
+      "references": "https://www.whatdowedoallday.com/sim-pencil-game/\nhttp://web.math.ucsb.edu/~padraic/ucsb_2013_14/mathcs103_s2014/images/SIM_game.pdf\nhttps://nrich.maths.org/2526\nhttps://en.wikipedia.org/wiki/Theorem_on_friends_and_strangers",
+      "metadata_type": "Game",
+      "_translations": {
+        "metadata_type": {},
+        "title": {},
+        "main_statement": {},
+        "main_further_instructions": {},
+        "main_hint": {},
+        "extension_1_statement": {},
+        "about": {}
+      },
+      "_translatedFields": {
+        "metadata_type": {
+          "eng": "Game"
+        },
+        "title": {
+          "eng": "Sim"
+        },
+        "main_statement": {
+          "eng": "Draw six points in a hexagonal arrangement. Players take turns to draw a straight line between any two points, trying to avoid making a triangle. Each player should use a different colour. The player that completes a triangle with their colour first loses the game."
+        },
+        "main_further_instructions": {
+          "eng": "You might want to draw all the possible lines between the points to start with and then colour over them. This would make the game a bit easier to play. If you don’t have two different colours you could use solid and dotted lines for the two players."
+        },
+        "main_hint": {
+          "eng": "Try to make moves in a way that removes options from your opponent. You might want to try and complete triangles that are of mixed colour."
+        },
+        "extension_1_statement": {
+          "eng": "Draw a 5 by 5 grid of dots. Two players take it in turn to colour a dot (use different colours or an x and a +). The winner is the first player to make a square with four of their points. Squares can be tilted as well as straight."
+        },
+        "about": {
+          "eng": "The Sim pencil game was invented in 1969 by Gustavus Simmons, a cryptographer, who described it in the Journal of Recreational Mathematics. Frank P. Ramsey proved that there always has to be a winner in this game by the “Theorem on Friends and Strangers”. He showed that on completing all the edges of the graph, there must be one triangle that is all the same colour."
+        }
+      },
+      "title": "Sim",
+      "main_statement": "Draw six points in a hexagonal arrangement. Players take turns to draw a straight line between any two points, trying to avoid making a triangle. Each player should use a different colour. The player that completes a triangle with their colour first loses the game.",
+      "main_further_instructions": "You might want to draw all the possible lines between the points to start with and then colour over them. This would make the game a bit easier to play. If you don’t have two different colours you could use solid and dotted lines for the two players.",
+      "main_hint": "Try to make moves in a way that removes options from your opponent. You might want to try and complete triangles that are of mixed colour.",
+      "extension_1_statement": "Draw a 5 by 5 grid of dots. Two players take it in turn to colour a dot (use different colours or an x and a +). The winner is the first player to make a square with four of their points. Squares can be tilted as well as straight.",
+      "about": "The Sim pencil game was invented in 1969 by Gustavus Simmons, a cryptographer, who described it in the Journal of Recreational Mathematics. Frank P. Ramsey proved that there always has to be a winner in this game by the “Theorem on Friends and Strangers”. He showed that on completing all the edges of the graph, there must be one triangle that is all the same colour."
+    },
+    {
+      "id": "stop_dare",
+      "card_no": "S10",
+      "references": "https://en.wikipedia.org/wiki/Pig_(dice_game)\nhttps://nrich.maths.org/1193",
+      "metadata_type": "Game",
+      "_translations": {
+        "metadata_type": {},
+        "title": {},
+        "main_statement": {},
+        "main_further_instructions": {},
+        "main_hint": {},
+        "extension_1_statement": {},
+        "about": {}
+      },
+      "_translatedFields": {
+        "metadata_type": {
+          "eng": "Game"
+        },
+        "title": {
+          "eng": "Stop or Dare"
+        },
+        "main_statement": {
+          "eng": "This is a game for two or three players. Shuffle the deck and place it face down. The first player turns over the top card and continues turning over cards, adding together the value of each card, until they decide to stop and record their score. J = 11 and Q = 12.\nIf an A or a K is turned over, no points are scored in that turn and the turn is finished.\nPlayers take turns until someone reaches 100 or more - this player is the winner."
+        },
+        "main_further_instructions": {
+          "eng": "If the cards are all turned over before the target is reached, just reshuffle the pack and continue."
+        },
+        "main_hint": {
+          "eng": "Try and keep count of how many K and A cards have come up already. This could change how daring you are feeling. If someone else is close to 100 it might be best to turn over more cards than you would normally."
+        },
+        "extension_1_statement": {
+          "eng": "You could try changing the target number, or changing how many cards wipe out your score for that turn. You could also try having K as resetting your entire score to zero to make it more daring."
+        },
+        "about": {
+          "eng": "This game can also be played with Dice and is sometimes called Pig. There are one and two dice versions, and even a version where you can choose how many dice to throw rather than how many times to throw a set number of dice."
+        }
+      },
+      "title": "Stop or Dare",
+      "main_statement": "This is a game for two or three players. Shuffle the deck and place it face down. The first player turns over the top card and continues turning over cards, adding together the value of each card, until they decide to stop and record their score. J = 11 and Q = 12.\nIf an A or a K is turned over, no points are scored in that turn and the turn is finished.\nPlayers take turns until someone reaches 100 or more - this player is the winner.",
+      "main_further_instructions": "If the cards are all turned over before the target is reached, just reshuffle the pack and continue.",
+      "main_hint": "Try and keep count of how many K and A cards have come up already. This could change how daring you are feeling. If someone else is close to 100 it might be best to turn over more cards than you would normally.",
+      "extension_1_statement": "You could try changing the target number, or changing how many cards wipe out your score for that turn. You could also try having K as resetting your entire score to zero to make it more daring.",
+      "about": "This game can also be played with Dice and is sometimes called Pig. There are one and two dice versions, and even a version where you can choose how many dice to throw rather than how many times to throw a set number of dice."
+    },
+    {
+      "id": "twenty_four",
+      "card_no": "SJ",
+      "references": "https://nrich.maths.org/7669\nhttps://nrich.maths.org/1262\nhttp://www.ijastnet.com/journals/Vol_1_No_5_September_2011/20.pdf\nhttps://gottfriedville.net/games/24/index.shtml",
+      "metadata_type": "Game",
+      "_translations": {
+        "metadata_type": {},
+        "title": {},
+        "main_statement": {},
+        "main_further_instructions": {},
+        "main_hint": {},
+        "extension_1_statement": {},
+        "about": {}
+      },
+      "_translatedFields": {
+        "metadata_type": {
+          "eng": "Game"
+        },
+        "title": {
+          "eng": "Twenty-four"
+        },
+        "main_statement": {
+          "eng": "Remove the 10, J, Q, K, and Joker cards from the deck. Shuffle the rest and deal four cards face up on the table so that every player can see them. Each player attempts to make the number 24 silently using all four numbers (A count as 1), and as many operations +, −, × and ÷ and brackets () as needed. The first person to give an answer with an explanation wins and keeps the 4 cards. Keep playing until there are no cards left."
+        },
+        "main_further_instructions": {
+          "eng": "This is a game for two or more players. \nA few combinations might be impossible. In this case, put the cards back and shuffle again to choose another 4."
+        },
+        "main_hint": {
+          "eng": "Think of the factors of 24 to cover i.e, 1×24, 2×12, 3×8, and 4×6. If you have either of the factors in your list, say 1, 2, 3, 4, 6, 8, …  use the remaining numbers to make the other number, or use your numbers to create combinations."
+        },
+        "extension_1_statement": {
+          "eng": "You can play this game like Snap, with 2 or 4 players. Deal the cards (without the 10, J, Q, K, or Jokers) equally to all players. For two players, on the count of three, they each turn over the top two cards from their pile. For four players, they each just turn over one card. Everyone tries to make 24 using all four cards. The first person to do so takes the cards and puts them at the bottom of their pile. Play continues until one player has run out of cards - then the player with the most cards is the winner."
+        },
+        "about": {
+          "eng": "The number 24 is used because it has so many factors. However, an analysis of all the possible combinations of 4 cards shows that the number 2 would have been the best target number! 99.19% of the combinations could be solved, compared to 80.20% for 24. If you are allowed to use factorials (e.g. 3! = 3×2×1 = 6), then you can solve many more combinations for 24."
+        }
+      },
+      "title": "Twenty-four",
+      "main_statement": "Remove the 10, J, Q, K, and Joker cards from the deck. Shuffle the rest and deal four cards face up on the table so that every player can see them. Each player attempts to make the number 24 silently using all four numbers (A count as 1), and as many operations +, −, × and ÷ and brackets () as needed. The first person to give an answer with an explanation wins and keeps the 4 cards. Keep playing until there are no cards left.",
+      "main_further_instructions": "This is a game for two or more players. \nA few combinations might be impossible. In this case, put the cards back and shuffle again to choose another 4.",
+      "main_hint": "Think of the factors of 24 to cover i.e, 1×24, 2×12, 3×8, and 4×6. If you have either of the factors in your list, say 1, 2, 3, 4, 6, 8, …  use the remaining numbers to make the other number, or use your numbers to create combinations.",
+      "extension_1_statement": "You can play this game like Snap, with 2 or 4 players. Deal the cards (without the 10, J, Q, K, or Jokers) equally to all players. For two players, on the count of three, they each turn over the top two cards from their pile. For four players, they each just turn over one card. Everyone tries to make 24 using all four cards. The first person to do so takes the cards and puts them at the bottom of their pile. Play continues until one player has run out of cards - then the player with the most cards is the winner.",
+      "about": "The number 24 is used because it has so many factors. However, an analysis of all the possible combinations of 4 cards shows that the number 2 would have been the best target number! 99.19% of the combinations could be solved, compared to 80.20% for 24. If you are allowed to use factorials (e.g. 3! = 3×2×1 = 6), then you can solve many more combinations for 24."
+    },
+    {
+      "id": "win_twothreedour",
+      "card_no": "SK",
+      "references": "http://andrewjeffrey.co.uk/product/leader-of-the-pack/\nhttps://www.jennettspark.bracknell-forest.sch.uk/wp-content/uploads/2020/04/52-Card-Activities-for-Mathematics.pdf",
+      "metadata_type": "Game",
+      "_translations": {
+        "metadata_type": {},
+        "title": {},
+        "main_statement": {},
+        "main_further_instructions": {},
+        "main_hint": {},
+        "extension_1_statement": {},
+        "about": {}
+      },
+      "_translatedFields": {
+        "metadata_type": {
+          "eng": "Game"
+        },
+        "title": {
+          "eng": "WinTwoThreeFour"
+        },
+        "main_statement": {
+          "eng": "Remove the 10, J, Q, K, and Jokers. Deal each player 9 cards (A = 1 here). Players secretly arrange their cards to make a 4-digit number, a 3-digit number and a 2-digit number. All at once, the players show their three numbers.\nThe biggest 2-digit number gets 2 points, biggest 3-digit gets 3 points, biggest 4-digit gets 4 points. If there is a tie then the points are split between the players."
+        },
+        "main_further_instructions": {
+          "eng": "You could play a certain number of rounds or play until a player gets to a certain score, e.g. 25."
+        },
+        "main_hint": {
+          "eng": "It is tempting to focus on making your 4 digit number as big as possible, but maybe everyone else is trying to do this too! It is important to watch how your opponents are playing and try and adapt your strategy to beat them."
+        },
+        "extension_1_statement": {
+          "eng": "Try playing this so that the smallest 2-digit number gets 2 points, smallest 3-digit number gets 3 points and smallest 4-digit number gets 4 points."
+        },
+        "about": {
+          "eng": "This game featured in Andrew Jeffrey’s Leader of the Pack book - which has 52 games and activities to do with a deck of cards. It is simple to understand the rules but very interesting to try and find a strategy to win."
+        }
+      },
+      "title": "WinTwoThreeFour",
+      "main_statement": "Remove the 10, J, Q, K, and Jokers. Deal each player 9 cards (A = 1 here). Players secretly arrange their cards to make a 4-digit number, a 3-digit number and a 2-digit number. All at once, the players show their three numbers.\nThe biggest 2-digit number gets 2 points, biggest 3-digit gets 3 points, biggest 4-digit gets 4 points. If there is a tie then the points are split between the players.",
+      "main_further_instructions": "You could play a certain number of rounds or play until a player gets to a certain score, e.g. 25.",
+      "main_hint": "It is tempting to focus on making your 4 digit number as big as possible, but maybe everyone else is trying to do this too! It is important to watch how your opponents are playing and try and adapt your strategy to beat them.",
+      "extension_1_statement": "Try playing this so that the smallest 2-digit number gets 2 points, smallest 3-digit number gets 3 points and smallest 4-digit number gets 4 points.",
+      "about": "This game featured in Andrew Jeffrey’s Leader of the Pack book - which has 52 games and activities to do with a deck of cards. It is simple to understand the rules but very interesting to try and find a strategy to win."
     }
   ],
   "_xlsxPath": "data/cards_data.xlsx"

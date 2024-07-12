@@ -28,7 +28,19 @@
     }
   },
   "data_pipe": {},
-  "generator": {},
+  "generator": {
+    "card_page_gen": {
+      "flow_type": "generator",
+      "flow_name": "card_page_gen",
+      "parameter_list": {
+        "input_data_list": "cards",
+        "output_flow_name": "card_page_@gen.id",
+        "output_flow_type": "template",
+        "output_flow_subtype": "generated"
+      },
+      "_xlsxPath": "templates/card_generators.xlsx"
+    }
+  },
   "global": {},
   "template": {
     "app_menu": {
@@ -41,10 +53,170 @@
       "flow_name": "card_button",
       "_xlsxPath": "templates/cards_template.xlsx"
     },
+    "card_page": {
+      "flow_type": "template",
+      "flow_name": "card_page",
+      "_xlsxPath": "templates/cards_template.xlsx"
+    },
     "cards": {
       "flow_type": "template",
       "flow_name": "cards",
       "_xlsxPath": "templates/cards_template.xlsx"
+    },
+    "card_page_alphanumerics": {
+      "flow_name": "card_page_alphanumerics",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_dealing_cards": {
+      "flow_name": "card_page_dealing_cards",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_diff_paths": {
+      "flow_name": "card_page_diff_paths",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_fifteen": {
+      "flow_name": "card_page_fifteen",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_folding_paper": {
+      "flow_name": "card_page_folding_paper",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_four_colours": {
+      "flow_name": "card_page_four_colours",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_gomoku": {
+      "flow_name": "card_page_gomoku",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_honey_bees": {
+      "flow_name": "card_page_honey_bees",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_house": {
+      "flow_name": "card_page_house",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_kaprekars_no": {
+      "flow_name": "card_page_kaprekars_no",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_knockdown": {
+      "flow_name": "card_page_knockdown",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_latin_squares": {
+      "flow_name": "card_page_latin_squares",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_lost_cards": {
+      "flow_name": "card_page_lost_cards",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_lychrel_numbers": {
+      "flow_name": "card_page_lychrel_numbers",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_mastermind": {
+      "flow_name": "card_page_mastermind",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_mean": {
+      "flow_name": "card_page_mean",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_newspaper": {
+      "flow_name": "card_page_newspaper",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_nim": {
+      "flow_name": "card_page_nim",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_onetwothreefourfive": {
+      "flow_name": "card_page_onetwothreefourfive",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_palindrome_cube": {
+      "flow_name": "card_page_palindrome_cube",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_patience": {
+      "flow_name": "card_page_patience",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_prime_removal": {
+      "flow_name": "card_page_prime_removal",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_ramajun": {
+      "flow_name": "card_page_ramajun",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_shuffling_cards": {
+      "flow_name": "card_page_shuffling_cards",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_sim": {
+      "flow_name": "card_page_sim",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_square_triangular_numbers": {
+      "flow_name": "card_page_square_triangular_numbers",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_stop_dare": {
+      "flow_name": "card_page_stop_dare",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_sword_josephus": {
+      "flow_name": "card_page_sword_josephus",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_twenty_four": {
+      "flow_name": "card_page_twenty_four",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_twenty_one": {
+      "flow_name": "card_page_twenty_one",
+      "flow_subtype": "generated",
+      "flow_type": "template"
+    },
+    "card_page_win_twothreedour": {
+      "flow_name": "card_page_win_twothreedour",
+      "flow_subtype": "generated",
+      "flow_type": "template"
     },
     "home_screen": {
       "flow_type": "template",
