@@ -8,7 +8,7 @@ config.google_drive = {
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/vmc-app-content",
-  content_tag_latest: "0.0.4"
+  content_tag_latest: "0.0.5"
 }
 
 // Override any app constants here
