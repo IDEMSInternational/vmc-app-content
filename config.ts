@@ -11,6 +11,8 @@ config.git = {
   content_tag_latest: "0.0.5"
 }
 
+config.api.db_name = "vmc"
+
 // Override any app constants here
 config.app_config.APP_HEADER_DEFAULTS.title = "Virtual Maths Camp"
 config.app_config.APP_SIDEMENU_DEFAULTS.title = "Virtual Maths Camp"
