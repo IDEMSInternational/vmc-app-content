@@ -2,13 +2,17 @@ import { generateDeploymentConfig } from "scripts";
 const config = generateDeploymentConfig("virtual_maths_camp")
 
 config.google_drive = {
-  sheets_folder_ids: ["1Iso9GuH6XTDCUFyKToFnjmFNm1Jjt3BB"],
-  assets_folder_ids: ["1PFerozfE6i97cMQZNZeo8gA2kHgYlXqI"],
+  sheets_folders: [
+    { id: "1Iso9GuH6XTDCUFyKToFnjmFNm1Jjt3BB", name: "Virtual Maths Camp" },
+  ],
+  assets_folders: [
+    { id: "1PFerozfE6i97cMQZNZeo8gA2kHgYlXqI", name: "Virtual Maths Camp" },
+  ]
 }
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/vmc-app-content",
-  content_tag_latest: "0.0.5"
+  content_tag_latest: "0.0.6"
 }
 
 config.api.db_name = "vmc"
