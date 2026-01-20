@@ -1,0 +1,20 @@
+{
+  "flow_type": "template",
+  "flow_name": "home_screen",
+  "status": "released",
+  "rows": [
+    {
+      "type": "title",
+      "name": "title_home",
+      "value": "Virtual Maths Cards"
+    },
+    {
+      "type": "begin_template",
+      "name": "cards_home",
+      "value": "cards"
+    },
+    {
+      "type": "end_template"
+    }
+  ]
+}

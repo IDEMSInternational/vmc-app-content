@@ -1,0 +1,68 @@
+{
+  "flow_type": "template",
+  "flow_name": "card_button",
+  "status": "released",
+  "rows": [
+    {
+      "name": "card_id",
+      "value": "knockdown"
+    },
+    {
+      "name": "card_no",
+      "value": "C1"
+    },
+    {
+      "name": "svg",
+      "value": "svg"
+    },
+    {
+      "name": "card_asset_name",
+      "value": "@local.card_no.@local.svg"
+    },
+    {
+      "name": "card_asset",
+      "value": "playing_cards/@local.card_asset_name"
+    },
+    {
+      "name": "card_concat",
+      "value": "cards.@local.card_id"
+    },
+    {
+      "name": "card_data",
+      "value": "@data.@local.card_concat"
+    },
+    {
+      "name": "now",
+      "value": "@calc(timestamp())"
+    },
+    {
+      "name": "click_history",
+      "value": "_click_history"
+    },
+    {
+      "name": "click_history_field_name",
+      "value": "card_@local.card_data.id@local.click_history"
+    },
+    {
+      "name": "click_history_value",
+      "value": "@fields.@local.click_history_field_name ;  @local.now",
+      "condition": "!!(@fields.@local.click_history_field_name)",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "click_history_value",
+      "value": "@local.now",
+      "condition": "!(@fields.@local.click_history_field_name)"
+    },
+    {
+      "type": "begin_button",
+      "name": "button_@local.card_data.id",
+      "value": "@local.card_data.metadata_type:\n@local.card_data.title",
+      "action_list": "click | go_to: card_page_@local.card_data.id;\nclick | set_field: @local.click_history_field_name: @local.click_history_value",
+      "parameter_list": "variant: card-portrait;\nimage_asset: @local.card_asset;"
+    },
+    {
+      "type": "end_button"
+    }
+  ]
+}

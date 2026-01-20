@@ -1,0 +1,398 @@
+{
+  "flow_type": "template",
+  "flow_name": "card_page",
+  "status": "released",
+  "rows": [
+    {
+      "name": "card_id",
+      "value": "knockdown"
+    },
+    {
+      "name": "card_concat",
+      "value": "cards.@local.card_id"
+    },
+    {
+      "name": "card_data",
+      "value": "@data.@local.card_concat"
+    },
+    {
+      "type": "title",
+      "name": "title",
+      "value": "@local.card_data.title"
+    },
+    {
+      "type": "text",
+      "name": "metadata_type",
+      "value": "@local.card_data.metadata_type"
+    },
+    {
+      "type": "begin display group"
+    },
+    {
+      "type": "text",
+      "name": "main_statement",
+      "value": "@local.card_data.main_statement",
+      "condition": "!!@local.card_data.main_statement"
+    },
+    {
+      "type": "image",
+      "name": "image_asset_1",
+      "value": "@local.card_data.image_asset_1",
+      "condition": "!!@local.card_data.image_asset_1"
+    },
+    {
+      "type": "image",
+      "name": "image_asset_2",
+      "value": "@local.card_data.image_asset_2",
+      "condition": "!!@local.card_data.image_asset_1"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_accordion"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "acc_1",
+      "value": "Further Instructions",
+      "condition": "!!@local.card_data.main_further_instructions",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "text",
+      "name": "main_further_instructions",
+      "value": "@local.card_data.main_further_instructions"
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "acc_2",
+      "value": "Hint ",
+      "condition": "!!@local.card_data.main_hint",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "text",
+      "name": "main_hint",
+      "value": "@local.card_data.main_hint"
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "acc_3",
+      "value": "Answer",
+      "condition": "!!@local.card_data.main_answer",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "text",
+      "name": "main_answer",
+      "value": "@local.card_data.main_answer"
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "acc_4",
+      "value": "Explanation",
+      "condition": "!!@local.card_data.main_explanation_1;\n!!@local.card_data.main_exp_image_asset_1;\n!!@local.card_data.main_explanation_2;\n!!@local.card_data.main_exp_image_asset_2;\n!!@local.card_data.main_exp_image_asset_2_1;\n!!@local.card_data.main_explanation_3;\n!!@local.card_data.main_exp_image_asset_3;\n!!@local.card_data.main_explanation_4;\n!!@local.card_data.main_exp_image_asset_4;\n!!@local.card_data.main_explanation_5",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "text",
+      "name": "main_explanation_1",
+      "value": "@local.card_data.main_explanation_1"
+    },
+    {
+      "type": "image",
+      "name": "main_exp_image_asset_1",
+      "value": "@local.card_data.main_exp_image_asset_1"
+    },
+    {
+      "type": "text",
+      "name": "main_explanation_2",
+      "value": "@local.card_data.main_explanation_2"
+    },
+    {
+      "type": "image",
+      "name": "main_exp_image_asset_2",
+      "value": "@local.card_data.main_exp_image_asset_2"
+    },
+    {
+      "type": "image",
+      "name": "main_exp_image_asset_2_1",
+      "value": "@local.card_data.main_exp_image_asset_2_1"
+    },
+    {
+      "type": "text",
+      "name": "main_explanation_3",
+      "value": "@local.card_data.main_explanation_3"
+    },
+    {
+      "type": "image",
+      "name": "main_exp_image_asset_3",
+      "value": "@local.card_data.main_exp_image_asset_3"
+    },
+    {
+      "type": "text",
+      "name": "main_explanation_4",
+      "value": "@local.card_data.main_explanation_4"
+    },
+    {
+      "type": "image",
+      "name": "main_exp_image_asset_4",
+      "value": "@local.card_data.main_exp_image_asset_4"
+    },
+    {
+      "type": "text",
+      "name": "main_explanation_5",
+      "value": "@local.card_data.main_explanation_5"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "end_accordion"
+    },
+    {
+      "type": "begin_accordion"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "acc_5",
+      "value": "Extension 1",
+      "condition": "!!@local.card_data.extension_1_statement;\n!!@local.card_data.extension_1_image_1",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "text",
+      "name": "extension_1_statement",
+      "value": "@local.card_data.extension_1_statement"
+    },
+    {
+      "type": "image",
+      "name": "extension_1_image_1  ",
+      "value": "@local.card_data.extension_1_image_1  "
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "acc_6",
+      "value": "Hint",
+      "condition": "!!@local.card_data.extension_1_hint",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "text",
+      "name": "extension_1_hint",
+      "value": "@local.card_data.extension_1_hint"
+    },
+    {
+      "type": "image",
+      "name": "ext_hint_image_asset_1   "
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "acc_7",
+      "value": "Answer",
+      "condition": "!!@local.card_data.extension_1_answer",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "text",
+      "name": "extension_1_answer",
+      "value": "@local.card_data.extension_1_answer"
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "acc_8",
+      "value": "Explanation",
+      "condition": "!!@local.card_data.extension_1_explanation;\n!!@local.card_data.ext_1_expl_image_asset",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "text",
+      "name": "extension_1_explanation",
+      "value": "@local.card_data.extension_1_explanation"
+    },
+    {
+      "type": "image",
+      "name": "ext_1_expl_image_asset",
+      "value": "@local.card_data.ext_1_expl_image_asset"
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "acc_8_1",
+      "value": "Explanation",
+      "condition": "!!@local.card_data.extension_1_explanation_2",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "text",
+      "name": "extension_1_explanation_2",
+      "value": "@local.card_data.extension_1_explanation_2"
+    },
+    {
+      "type": "image",
+      "name": "ext_1_expl_image_asset_2  ",
+      "value": "@local.card_data.ext_1_expl_image_asset_2  "
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "acc_8_1",
+      "value": "Explanation",
+      "condition": "!!@local.card_data.extension_1_explanation_3",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "text",
+      "name": "extension_1_explanation_3",
+      "value": "@local.card_data.extension_1_explanation_3"
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "end_accordion"
+    },
+    {
+      "type": "begin_accordion"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "acc_9",
+      "value": "Extension 2",
+      "condition": "!!@local.card_data.extension_2_statement;\n!!@local.card_data.extension_2_image_1",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "text",
+      "name": "extension_2_statement",
+      "value": "@local.card_data.extension_2_statement"
+    },
+    {
+      "type": "image",
+      "name": "extension_2_image_1    ",
+      "value": "@local.card_data.extension_2_image_1    "
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "acc_10",
+      "value": "Hint",
+      "condition": "!!@local.card_data.extension_2_hint",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "text",
+      "name": "extension_2_hint",
+      "value": "@local.card_data.extension_2_hint"
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "acc_11",
+      "value": "Answer",
+      "condition": "!!@local.card_data.extension_2_answer",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "text",
+      "name": "extension_2_answer",
+      "value": "@local.card_data.extension_2_answer"
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "acc_12",
+      "value": "Explanation",
+      "action_list": "                                                                                     \"",
+      "condition": "!!@local.card_data.extension_2_explanation",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "text",
+      "name": "extension_2_explanation",
+      "value": "@local.card_data.extension_2_explanation"
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "end_accordion"
+    },
+    {
+      "type": "begin_accordion"
+    },
+    {
+      "type": "begin_accordion_section",
+      "name": "acc_13",
+      "value": "Attribution",
+      "condition": "!!@local.card_data.about;\n!!@local.card_data.references",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "begin_display_group",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "text",
+      "name": "about",
+      "value": "@local.card_data.about"
+    },
+    {
+      "type": "text",
+      "name": "references",
+      "value": "@local.card_data.references"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "end_accordion_section"
+    },
+    {
+      "type": "end_accordion"
+    }
+  ]
+}

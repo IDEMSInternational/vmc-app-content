@@ -292,8 +292,7 @@
           "args": [
             "card_page_@local.card_data.id"
           ],
-          "_raw": "click | go_to: card_page_@local.card_data.id",
-          "_cleaned": "click | go_to: card_page_@local.card_data.id"
+          "_raw": "click | go_to: card_page_@local.card_data.id"
         },
         {
           "trigger": "click",
@@ -302,8 +301,7 @@
             "@local.click_history_field_name",
             "@local.click_history_value"
           ],
-          "_raw": "click | set_field: @local.click_history_field_name: @local.click_history_value",
-          "_cleaned": "click | set_field: @local.click_history_field_name: @local.click_history_value"
+          "_raw": "click | set_field: @local.click_history_field_name: @local.click_history_value"
         }
       ],
       "parameter_list": {
@@ -354,14 +352,6 @@
                 "type": "local",
                 "fieldName": "card_data"
               }
-            ],
-            "_cleaned": [
-              {
-                "fullExpression": "click | go_to: card_page_@local.card_data.id",
-                "matchedExpression": "@local.card_data.id",
-                "type": "local",
-                "fieldName": "card_data"
-              }
             ]
           },
           "1": {
@@ -384,20 +374,6 @@
               ]
             },
             "_raw": [
-              {
-                "fullExpression": "click | set_field: @local.click_history_field_name: @local.click_history_value",
-                "matchedExpression": "@local.click_history_field_name",
-                "type": "local",
-                "fieldName": "click_history_field_name"
-              },
-              {
-                "fullExpression": "click | set_field: @local.click_history_field_name: @local.click_history_value",
-                "matchedExpression": "@local.click_history_value",
-                "type": "local",
-                "fieldName": "click_history_value"
-              }
-            ],
-            "_cleaned": [
               {
                 "fullExpression": "click | set_field: @local.click_history_field_name: @local.click_history_value",
                 "matchedExpression": "@local.click_history_field_name",
@@ -437,7 +413,6 @@
           "name",
           "action_list.0.args.0",
           "action_list.0._raw",
-          "action_list.0._cleaned",
           "_nested_name"
         ],
         "@local.card_data.metadata_type": [
@@ -448,13 +423,11 @@
         ],
         "@local.click_history_field_name": [
           "action_list.1.args.0",
-          "action_list.1._raw",
-          "action_list.1._cleaned"
+          "action_list.1._raw"
         ],
         "@local.click_history_value": [
           "action_list.1.args.1",
-          "action_list.1._raw",
-          "action_list.1._cleaned"
+          "action_list.1._raw"
         ],
         "@local.card_asset": [
           "parameter_list.image_asset"
@@ -462,5 +435,9 @@
       }
     }
   ],
-  "_xlsxPath": "templates/cards_template.xlsx"
+  "_source": {
+    "name": "Virtual Maths Camp",
+    "path": "templates/cards_template.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1FRFYiFjOTVzLb19-1BAO3gwScZAw7c3sjL50zOuKFhY"
+  }
 }

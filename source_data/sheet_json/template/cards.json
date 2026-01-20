@@ -1,0 +1,83 @@
+{
+  "flow_type": "template",
+  "flow_name": "cards",
+  "status": "released",
+  "rows": [
+    {
+      "type": "begin_display_group",
+      "name": "dg_top"
+    },
+    {
+      "name": "now",
+      "value": "@calc(timestamp())"
+    },
+    {
+      "name": "click_history",
+      "value": "_click_history"
+    },
+    {
+      "name": "click_history_field_name",
+      "value": "random_activity@local.click_history"
+    },
+    {
+      "name": "click_history_value",
+      "value": "@fields.@local.click_history_field_name ;  @local.now",
+      "condition": "!!(@fields.@local.click_history_field_name)"
+    },
+    {
+      "name": "click_history_value",
+      "value": "@local.now",
+      "condition": "!(@fields.@local.click_history_field_name)"
+    },
+    {
+      "type": "begin_items",
+      "value": "@data.cards",
+      "parameter_list": "shuffle;\nlimit: 1;"
+    },
+    {
+      "type": "button",
+      "name": "button_random",
+      "value": "Give me a card",
+      "action_list": "click | emit: force_reload;\nclick | go_to: card_page_@item.id;\nclick | set_field: @local.click_history_field_name: @local.click_history_value",
+      "parameter_list": "style: navigation"
+    },
+    {
+      "type": "end_items"
+    },
+    {
+      "type": "end_display_group"
+    },
+    {
+      "type": "begin_display_grid",
+      "name": "grid_1",
+      "parameter_list": "item_width: 160px;\nitem_border: none;\ngrid_width: 100%;\ngrid_gap: 16px;"
+    },
+    {
+      "type": "begin_items",
+      "name": "cards",
+      "value": "@data.cards"
+    },
+    {
+      "type": "begin_template",
+      "name": "card_button_@item.id",
+      "value": "card_button"
+    },
+    {
+      "name": "card_id",
+      "value": "@item.id"
+    },
+    {
+      "name": "card_no",
+      "value": "@item.card_no"
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "end_items"
+    },
+    {
+      "type": "end_display_grid"
+    }
+  ]
+}
