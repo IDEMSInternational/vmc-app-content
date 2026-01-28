@@ -1,0 +1,588 @@
+{
+  "template_components": {
+    "data": [
+      {
+        "type": "accordion",
+        "count": 4
+      },
+      {
+        "type": "accordion_section",
+        "count": 15
+      },
+      {
+        "type": "begin display group",
+        "count": 1
+      },
+      {
+        "type": "button",
+        "count": 4
+      },
+      {
+        "type": "debug_toggle",
+        "count": 1
+      },
+      {
+        "type": "display_grid",
+        "count": 1
+      },
+      {
+        "type": "display_group",
+        "count": 5
+      },
+      {
+        "type": "image",
+        "count": 12
+      },
+      {
+        "type": "items",
+        "count": 2
+      },
+      {
+        "type": "round_button",
+        "count": 3
+      },
+      {
+        "type": "set_variable",
+        "count": 77
+      },
+      {
+        "type": "template",
+        "count": 54
+      },
+      {
+        "type": "text",
+        "count": 22
+      },
+      {
+        "type": "title",
+        "count": 2
+      }
+    ]
+  },
+  "template_actions": {
+    "data": [
+      {
+        "type": "\"",
+        "count": 1
+      },
+      {
+        "type": "emit: completed",
+        "count": 54
+      },
+      {
+        "type": "emit: force_reload",
+        "count": 1
+      },
+      {
+        "type": "emit: uncompleted",
+        "count": 54
+      },
+      {
+        "type": "go_to",
+        "count": 3
+      },
+      {
+        "type": "set_field",
+        "count": 2
+      }
+    ]
+  },
+  "assets_size": {
+    "data": [
+      {
+        "assets": "total",
+        "KB": "1513 KB",
+        "MB": "1.5 MB"
+      },
+      {
+        "assets": "unused",
+        "KB": "8250 KB",
+        "MB": "8.3 MB"
+      }
+    ]
+  },
+  "assets_unused": {
+    "data": [
+      {
+        "path": "images/fifteen/image_0.png",
+        "size_kb": 63
+      },
+      {
+        "path": "images/house/image_2.png",
+        "size_kb": 11.2
+      },
+      {
+        "path": "images/house/image_3.png",
+        "size_kb": 63.3
+      },
+      {
+        "path": "images/newspaper/image_0.png",
+        "size_kb": 12.7
+      },
+      {
+        "path": "images/square_and_triangular_numbers/image_0.png",
+        "size_kb": 19.3
+      },
+      {
+        "path": "images/square_and_triangular_numbers/image_1.png",
+        "size_kb": 17.6
+      },
+      {
+        "path": "images/square_and_triangular_numbers/image_2.png",
+        "size_kb": 8
+      },
+      {
+        "path": "playing_cards/C1.svg",
+        "size_kb": 11.1
+      },
+      {
+        "path": "playing_cards/C10.svg",
+        "size_kb": 14.9
+      },
+      {
+        "path": "playing_cards/C2.svg",
+        "size_kb": 8.4
+      },
+      {
+        "path": "playing_cards/C3.svg",
+        "size_kb": 9
+      },
+      {
+        "path": "playing_cards/C4.svg",
+        "size_kb": 9.7
+      },
+      {
+        "path": "playing_cards/C5.svg",
+        "size_kb": 10.3
+      },
+      {
+        "path": "playing_cards/C6.svg",
+        "size_kb": 10.9
+      },
+      {
+        "path": "playing_cards/C7.svg",
+        "size_kb": 11.6
+      },
+      {
+        "path": "playing_cards/C8.svg",
+        "size_kb": 12.2
+      },
+      {
+        "path": "playing_cards/C9.svg",
+        "size_kb": 13.5
+      },
+      {
+        "path": "playing_cards/CJ.svg",
+        "size_kb": 449.7
+      },
+      {
+        "path": "playing_cards/CK.svg",
+        "size_kb": 1108.9
+      },
+      {
+        "path": "playing_cards/CQ.svg",
+        "size_kb": 1090.8
+      },
+      {
+        "path": "playing_cards/D1.svg",
+        "size_kb": 11.6
+      },
+      {
+        "path": "playing_cards/D10.svg",
+        "size_kb": 17.1
+      },
+      {
+        "path": "playing_cards/D2.svg",
+        "size_kb": 11.6
+      },
+      {
+        "path": "playing_cards/D3.svg",
+        "size_kb": 11.8
+      },
+      {
+        "path": "playing_cards/D4.svg",
+        "size_kb": 12.4
+      },
+      {
+        "path": "playing_cards/D5.svg",
+        "size_kb": 13
+      },
+      {
+        "path": "playing_cards/D6.svg",
+        "size_kb": 13.6
+      },
+      {
+        "path": "playing_cards/D7.svg",
+        "size_kb": 14.1
+      },
+      {
+        "path": "playing_cards/D8.svg",
+        "size_kb": 14.7
+      },
+      {
+        "path": "playing_cards/D9.svg",
+        "size_kb": 15.3
+      },
+      {
+        "path": "playing_cards/DJ.svg",
+        "size_kb": 394.7
+      },
+      {
+        "path": "playing_cards/DK.svg",
+        "size_kb": 650
+      },
+      {
+        "path": "playing_cards/DQ.svg",
+        "size_kb": 364.7
+      },
+      {
+        "path": "playing_cards/H1.svg",
+        "size_kb": 11.9
+      },
+      {
+        "path": "playing_cards/H10.svg",
+        "size_kb": 15.6
+      },
+      {
+        "path": "playing_cards/H2.svg",
+        "size_kb": 10.6
+      },
+      {
+        "path": "playing_cards/H3.svg",
+        "size_kb": 11.1
+      },
+      {
+        "path": "playing_cards/H4.svg",
+        "size_kb": 11.9
+      },
+      {
+        "path": "playing_cards/H5.svg",
+        "size_kb": 12.1
+      },
+      {
+        "path": "playing_cards/H6.svg",
+        "size_kb": 12.5
+      },
+      {
+        "path": "playing_cards/H7.svg",
+        "size_kb": 13
+      },
+      {
+        "path": "playing_cards/H8.svg",
+        "size_kb": 13.5
+      },
+      {
+        "path": "playing_cards/H9.svg",
+        "size_kb": 14
+      },
+      {
+        "path": "playing_cards/HJ.svg",
+        "size_kb": 616
+      },
+      {
+        "path": "playing_cards/HK.svg",
+        "size_kb": 757
+      },
+      {
+        "path": "playing_cards/HQ.svg",
+        "size_kb": 607.8
+      },
+      {
+        "path": "playing_cards/S1.svg",
+        "size_kb": 23.7
+      },
+      {
+        "path": "playing_cards/S10.svg",
+        "size_kb": 11.2
+      },
+      {
+        "path": "playing_cards/S1_alt.svg",
+        "size_kb": 11.5
+      },
+      {
+        "path": "playing_cards/S2.svg",
+        "size_kb": 5.7
+      },
+      {
+        "path": "playing_cards/S3.svg",
+        "size_kb": 6.3
+      },
+      {
+        "path": "playing_cards/S4.svg",
+        "size_kb": 6.9
+      },
+      {
+        "path": "playing_cards/S5.svg",
+        "size_kb": 7.5
+      },
+      {
+        "path": "playing_cards/S6.svg",
+        "size_kb": 8.1
+      },
+      {
+        "path": "playing_cards/S7.svg",
+        "size_kb": 8.6
+      },
+      {
+        "path": "playing_cards/S8.svg",
+        "size_kb": 9.2
+      },
+      {
+        "path": "playing_cards/S9.svg",
+        "size_kb": 9.8
+      },
+      {
+        "path": "playing_cards/SJ.svg",
+        "size_kb": 686
+      },
+      {
+        "path": "playing_cards/SK.svg",
+        "size_kb": 400.8
+      },
+      {
+        "path": "playing_cards/SQ.svg",
+        "size_kb": 425.5
+      },
+      {
+        "path": "playing_cards/joker_1.svg",
+        "size_kb": 10.6
+      },
+      {
+        "path": "playing_cards/joker_2.svg",
+        "size_kb": 11
+      }
+    ]
+  },
+  "assets_missing": {
+    "data": [
+      {
+        "path": "@local.card_no.@local.svg",
+        "count": 3,
+        "missing": true
+      },
+      {
+        "path": "@local.svg",
+        "count": 1,
+        "missing": true
+      },
+      {
+        "path": "images/fifteen/image_1.png",
+        "count": 2,
+        "missing": true
+      },
+      {
+        "path": "images/square_triangular_numbers/image_0.png",
+        "count": 2,
+        "missing": true
+      },
+      {
+        "path": "images/square_triangular_numbers/image_1.png",
+        "count": 2,
+        "missing": true
+      },
+      {
+        "path": "images/square_triangular_numbers/image_2.png",
+        "count": 2,
+        "missing": true
+      }
+    ]
+  },
+  "asset_summary": {
+    "data": [
+      {
+        "path": "images/avoid_the_river/image_0.png",
+        "count": 2,
+        "size_kb": 7.2
+      },
+      {
+        "path": "images/benfords_law/image_0.png",
+        "count": 2,
+        "size_kb": 14.9
+      },
+      {
+        "path": "images/benfords_law/image_1.png",
+        "count": 2,
+        "size_kb": 32.9
+      },
+      {
+        "path": "images/benfords_law/image_2.png",
+        "count": 2,
+        "size_kb": 34.5
+      },
+      {
+        "path": "images/card_sums/image_0.png",
+        "count": 2,
+        "size_kb": 20.4
+      },
+      {
+        "path": "images/colouring/image_0.png",
+        "count": 2,
+        "size_kb": 1.4
+      },
+      {
+        "path": "images/colouring/image_1.png",
+        "count": 2,
+        "size_kb": 2
+      },
+      {
+        "path": "images/colouring/image_2.png",
+        "count": 2,
+        "size_kb": 108.8
+      },
+      {
+        "path": "images/counting_squares/image_0.png",
+        "count": 2,
+        "size_kb": 27.7
+      },
+      {
+        "path": "images/counting_squares/image_1.png",
+        "count": 2,
+        "size_kb": 18.1
+      },
+      {
+        "path": "images/counting_squares/image_2.png",
+        "count": 2,
+        "size_kb": 25
+      },
+      {
+        "path": "images/four_colours/image_0.png",
+        "count": 2,
+        "size_kb": 202.5
+      },
+      {
+        "path": "images/four_colours/image_1.png",
+        "count": 2,
+        "size_kb": 221.6
+      },
+      {
+        "path": "images/four_colours/image_2.png",
+        "count": 2,
+        "size_kb": 55
+      },
+      {
+        "path": "images/four_colours/image_3.png",
+        "count": 2,
+        "size_kb": 108.4
+      },
+      {
+        "path": "images/going_to_school/image_0.png",
+        "count": 2,
+        "size_kb": 8.6
+      },
+      {
+        "path": "images/house/image_0.png",
+        "count": 2,
+        "size_kb": 61.9
+      },
+      {
+        "path": "images/house/image_1.png",
+        "count": 2,
+        "size_kb": 69.3
+      },
+      {
+        "path": "images/pieces_of_cake/image_0.png",
+        "count": 2,
+        "size_kb": 38.8
+      },
+      {
+        "path": "images/ponghau_ki/image_0.png",
+        "count": 2,
+        "size_kb": 78.3
+      },
+      {
+        "path": "images/ponghau_ki/image_1.png",
+        "count": 2,
+        "size_kb": 13.9
+      },
+      {
+        "path": "images/ponghau_ki/image_2.png",
+        "count": 1,
+        "size_kb": 21.3
+      },
+      {
+        "path": "images/table_handshakes/image_0.png",
+        "count": 2,
+        "size_kb": 12.6
+      },
+      {
+        "path": "images/table_handshakes/image_1.png",
+        "count": 2,
+        "size_kb": 20.3
+      },
+      {
+        "path": "images/table_handshakes/image_2.png",
+        "count": 2,
+        "size_kb": 19.9
+      },
+      {
+        "path": "images/table_handshakes/image_3.png",
+        "count": 2,
+        "size_kb": 16.1
+      },
+      {
+        "path": "images/table_handshakes/image_4.png",
+        "count": 2,
+        "size_kb": 24.7
+      },
+      {
+        "path": "images/triangular_slices/image_0.png",
+        "count": 2,
+        "size_kb": 60.9
+      },
+      {
+        "path": "images/triangular_slices/image_1.png",
+        "count": 2,
+        "size_kb": 5.8
+      },
+      {
+        "path": "images/triangular_slices/image_2.png",
+        "count": 2,
+        "size_kb": 12.7
+      },
+      {
+        "path": "images/triangular_slices/image_3.png",
+        "count": 2,
+        "size_kb": 24.5
+      },
+      {
+        "path": "images/two_distances/image_0.png",
+        "count": 2,
+        "size_kb": 7.8
+      },
+      {
+        "path": "images/two_distances/image_1.png",
+        "count": 2,
+        "size_kb": 105.3
+      },
+      {
+        "path": "images/two_distances/image_2.png",
+        "count": 2,
+        "size_kb": 29.8
+      }
+    ]
+  },
+  "flows_by_type": {
+    "data": [
+      {
+        "type": "data_list",
+        "subtype": null,
+        "total": 5
+      },
+      {
+        "type": "generator",
+        "subtype": null,
+        "total": 1
+      },
+      {
+        "type": "template",
+        "subtype": null,
+        "total": 6
+      },
+      {
+        "type": "template",
+        "subtype": "generated",
+        "total": 52
+      }
+    ]
+  }
+}

@@ -20,5 +20,9 @@
       "_nested_name": "cards_home"
     }
   ],
-  "_xlsxPath": "templates/navigation.xlsx"
+  "_source": {
+    "name": "Virtual Maths Camp",
+    "path": "templates/navigation.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1xUSyGGEfcTcRDk31wvZenveRpGLOsHDEaNiunrg2kWQ"
+  }
 }
