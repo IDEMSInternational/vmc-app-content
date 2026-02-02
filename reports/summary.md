@@ -9,7 +9,7 @@
 | button | 4 |
 | debug_toggle | 1 |
 | display_grid | 1 |
-| display_group | 5 |
+| display_group | 9 |
 | image | 12 |
 | items | 2 |
 | round_button | 3 |

@@ -44,7 +44,7 @@
       "type": "image",
       "name": "image_asset_2",
       "value": "@local.card_data.image_asset_2",
-      "condition": "!!@local.card_data.image_asset_1"
+      "condition": "!!@local.card_data.image_asset_2"
     },
     {
       "type": "end_display_group"
@@ -101,7 +101,7 @@
       "type": "begin_accordion_section",
       "name": "acc_4",
       "value": "Explanation",
-      "condition": "!!@local.card_data.main_explanation_1;\n!!@local.card_data.main_exp_image_asset_1;\n!!@local.card_data.main_explanation_2;\n!!@local.card_data.main_exp_image_asset_2;\n!!@local.card_data.main_exp_image_asset_2_1;\n!!@local.card_data.main_explanation_3;\n!!@local.card_data.main_exp_image_asset_3;\n!!@local.card_data.main_explanation_4;\n!!@local.card_data.main_exp_image_asset_4;\n!!@local.card_data.main_explanation_5",
+      "condition": "!!(@local.card_data.main_explanation_1) || !!(@local.card_data.main_exp_image_asset_1) || !!(@local.card_data.main_explanation_2) || !!(@local.card_data.main_exp_image_asset_2) || !!(@local.card_data.main_exp_image_asset_2_1) || !!(@local.card_data.main_explanation_3) || !!(@local.card_data.main_exp_image_asset_3) || !!(@local.card_data.main_explanation_4) || !!(@local.card_data.main_exp_image_asset_4) || !!(@local.card_data.main_explanation_5)",
       "parameter_list": "style: column"
     },
     {
@@ -111,52 +111,62 @@
     {
       "type": "text",
       "name": "main_explanation_1",
-      "value": "@local.card_data.main_explanation_1"
+      "value": "@local.card_data.main_explanation_1",
+      "condition": "!!(@local.card_data.main_explanation_1)"
     },
     {
       "type": "image",
       "name": "main_exp_image_asset_1",
-      "value": "@local.card_data.main_exp_image_asset_1"
+      "value": "@local.card_data.main_exp_image_asset_1",
+      "condition": "!!(@local.card_data.main_exp_image_asset_1)"
     },
     {
       "type": "text",
       "name": "main_explanation_2",
-      "value": "@local.card_data.main_explanation_2"
+      "value": "@local.card_data.main_explanation_2",
+      "condition": "!!(@local.card_data.main_explanation_2)"
     },
     {
       "type": "image",
       "name": "main_exp_image_asset_2",
-      "value": "@local.card_data.main_exp_image_asset_2"
+      "value": "@local.card_data.main_exp_image_asset_2",
+      "condition": "!!(@local.card_data.main_exp_image_asset_2)"
     },
     {
       "type": "image",
       "name": "main_exp_image_asset_2_1",
-      "value": "@local.card_data.main_exp_image_asset_2_1"
+      "value": "@local.card_data.main_exp_image_asset_2_1",
+      "condition": "!!(@local.card_data.main_exp_image_asset_2_1)"
     },
     {
       "type": "text",
       "name": "main_explanation_3",
-      "value": "@local.card_data.main_explanation_3"
+      "value": "@local.card_data.main_explanation_3",
+      "condition": "!!(@local.card_data.main_explanation_3)"
     },
     {
       "type": "image",
       "name": "main_exp_image_asset_3",
-      "value": "@local.card_data.main_exp_image_asset_3"
+      "value": "@local.card_data.main_exp_image_asset_3",
+      "condition": "!!(@local.card_data.main_exp_image_asset_3)"
     },
     {
       "type": "text",
       "name": "main_explanation_4",
-      "value": "@local.card_data.main_explanation_4"
+      "value": "@local.card_data.main_explanation_4",
+      "condition": "!!(@local.card_data.main_explanation_4)"
     },
     {
       "type": "image",
       "name": "main_exp_image_asset_4",
-      "value": "@local.card_data.main_exp_image_asset_4"
+      "value": "@local.card_data.main_exp_image_asset_4",
+      "condition": "!!(@local.card_data.main_exp_image_asset_4)"
     },
     {
       "type": "text",
       "name": "main_explanation_5",
-      "value": "@local.card_data.main_explanation_5"
+      "value": "@local.card_data.main_explanation_5",
+      "condition": "!!(@local.card_data.main_explanation_5)"
     },
     {
       "type": "end_display_group"
@@ -174,7 +184,7 @@
       "type": "begin_accordion_section",
       "name": "acc_5",
       "value": "Extension 1",
-      "condition": "!!@local.card_data.extension_1_statement;\n!!@local.card_data.extension_1_image_1",
+      "condition": "!!(@local.card_data.extension_1_statement) || !!(@local.card_data.extension_1_image_1)",
       "parameter_list": "style: column"
     },
     {
@@ -184,12 +194,14 @@
     {
       "type": "text",
       "name": "extension_1_statement",
-      "value": "@local.card_data.extension_1_statement"
+      "value": "@local.card_data.extension_1_statement",
+      "condition": "!!(@local.card_data.extension_1_statement)"
     },
     {
       "type": "image",
       "name": "extension_1_image_1  ",
-      "value": "@local.card_data.extension_1_image_1  "
+      "value": "@local.card_data.extension_1_image_1  ",
+      "condition": "!!(@local.card_data.extension_1_image_1)"
     },
     {
       "type": "end_display_group"
@@ -201,17 +213,27 @@
       "type": "begin_accordion_section",
       "name": "acc_6",
       "value": "Hint",
-      "condition": "!!@local.card_data.extension_1_hint",
+      "condition": "!!(@local.card_data.extension_1_hint) || !!(@local.card_data.ext_hint_image_asset_1)",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "begin_display_group",
       "parameter_list": "style: column"
     },
     {
       "type": "text",
       "name": "extension_1_hint",
-      "value": "@local.card_data.extension_1_hint"
+      "value": "@local.card_data.extension_1_hint",
+      "condition": "!!(@local.card_data.extension_1_hint)"
     },
     {
       "type": "image",
-      "name": "ext_hint_image_asset_1   "
+      "name": "ext_hint_image_asset_1",
+      "value": "@local.card_data.ext_hint_image_asset_1",
+      "condition": "!!(@local.card_data.ext_hint_image_asset_1)"
+    },
+    {
+      "type": "end_display_group"
     },
     {
       "type": "end_accordion_section"
@@ -233,47 +255,65 @@
     },
     {
       "type": "begin_accordion_section",
-      "name": "acc_8",
+      "name": "acc_8_1",
       "value": "Explanation",
-      "condition": "!!@local.card_data.extension_1_explanation;\n!!@local.card_data.ext_1_expl_image_asset",
+      "condition": "!!(@local.card_data.extension_1_explanation) || !!(@local.card_data.ext_1_expl_image_asset)",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "begin_display_group",
       "parameter_list": "style: column"
     },
     {
       "type": "text",
       "name": "extension_1_explanation",
-      "value": "@local.card_data.extension_1_explanation"
+      "value": "@local.card_data.extension_1_explanation",
+      "condition": "!!(@local.card_data.extension_1_explanation)"
     },
     {
       "type": "image",
       "name": "ext_1_expl_image_asset",
-      "value": "@local.card_data.ext_1_expl_image_asset"
+      "value": "@local.card_data.ext_1_expl_image_asset",
+      "condition": "!!(@local.card_data.ext_1_expl_image_asset)"
+    },
+    {
+      "type": "end_display_group"
     },
     {
       "type": "end_accordion_section"
     },
     {
       "type": "begin_accordion_section",
-      "name": "acc_8_1",
+      "name": "acc_8_2",
       "value": "Explanation",
-      "condition": "!!@local.card_data.extension_1_explanation_2",
+      "condition": "!!(@local.card_data.extension_1_explanation_2) || !!(@local.card_data.ext_1_expl_image_asset_2)",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "begin_display_group",
       "parameter_list": "style: column"
     },
     {
       "type": "text",
       "name": "extension_1_explanation_2",
-      "value": "@local.card_data.extension_1_explanation_2"
+      "value": "@local.card_data.extension_1_explanation_2",
+      "condition": "!!(@local.card_data.extension_1_explanation_2)"
     },
     {
       "type": "image",
       "name": "ext_1_expl_image_asset_2  ",
-      "value": "@local.card_data.ext_1_expl_image_asset_2  "
+      "value": "@local.card_data.ext_1_expl_image_asset_2  ",
+      "condition": "!!(@local.card_data.ext_1_expl_image_asset_2)"
+    },
+    {
+      "type": "end_display_group"
     },
     {
       "type": "end_accordion_section"
     },
     {
       "type": "begin_accordion_section",
-      "name": "acc_8_1",
+      "name": "acc_8_3",
       "value": "Explanation",
       "condition": "!!@local.card_data.extension_1_explanation_3",
       "parameter_list": "style: column"
@@ -296,18 +336,27 @@
       "type": "begin_accordion_section",
       "name": "acc_9",
       "value": "Extension 2",
-      "condition": "!!@local.card_data.extension_2_statement;\n!!@local.card_data.extension_2_image_1",
+      "condition": "!!(@local.card_data.extension_2_statement) || !!(@local.card_data.extension_2_image_1)",
+      "parameter_list": "style: column"
+    },
+    {
+      "type": "begin_display_group",
       "parameter_list": "style: column"
     },
     {
       "type": "text",
       "name": "extension_2_statement",
-      "value": "@local.card_data.extension_2_statement"
+      "value": "@local.card_data.extension_2_statement",
+      "condition": "!!(@local.card_data.extension_2_statement)"
     },
     {
       "type": "image",
       "name": "extension_2_image_1    ",
-      "value": "@local.card_data.extension_2_image_1    "
+      "value": "@local.card_data.extension_2_image_1    ",
+      "condition": "!!(@local.card_data.extension_2_image_1)"
+    },
+    {
+      "type": "end_display_group"
     },
     {
       "type": "end_accordion_section"
@@ -368,7 +417,7 @@
       "type": "begin_accordion_section",
       "name": "acc_13",
       "value": "Attribution",
-      "condition": "!!@local.card_data.about;\n!!@local.card_data.references",
+      "condition": "!!(@local.card_data.about) || !!(@local.card_data.references)",
       "parameter_list": "style: column"
     },
     {
@@ -378,12 +427,14 @@
     {
       "type": "text",
       "name": "about",
-      "value": "@local.card_data.about"
+      "value": "@local.card_data.about",
+      "condition": "!!(@local.card_data.about)"
     },
     {
       "type": "text",
       "name": "references",
-      "value": "@local.card_data.references"
+      "value": "@local.card_data.references",
+      "condition": "!!(@local.card_data.references)"
     },
     {
       "type": "end_display_group"

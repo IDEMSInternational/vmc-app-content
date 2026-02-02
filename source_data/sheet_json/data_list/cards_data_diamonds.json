@@ -85,7 +85,7 @@
       "title::eng": "Colouring",
       "main_statement::eng": "How many possible three-stripe flags similar to the one below are there if only 5 colours are available and two touching stripes must NOT have the same colour.",
       "image_asset_1": "images/colouring/image_0.png",
-      "main_hint::eng": "Think about how many different colours could go in the first section, then the second ...",
+      "main_hint::eng": "Think about how many different colours could go in the first section, then the second.",
       "main_answer::eng": "The correct answer is 80",
       "main_explanation_1::eng": "There is a choice of 5 colours for the first section. Once a colour has been chosen, the second section cannot be the same. So there are only four colours to choose from for the second section. For the third section, there are four colours to choose from, as it cannot be the same colour as the second one yet it can be the same colour as the first one. Thus, the number of tricolour flags with 5 colours to choose from are 5×4×4 = 80.",
       "extension_1_statement::eng": "In how many different ways can I paint the five walls of a pentagonal room using red, blue and green paint so that no two neighbouring walls are the same colour?",
