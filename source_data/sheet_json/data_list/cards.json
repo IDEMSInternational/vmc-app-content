@@ -9,7 +9,7 @@
       "card_no": "C1",
       "metadata_type::eng": "Puzzles",
       "title::eng": "Knockdown",
-      "main_statement::eng": "Pegs numbered 1 to 50 are placed in order in a line, with number 1 on the left.\nThey are then knocked over, one at a time, following these two rules:\nStarting with the first standing peg on the left, alternate pegs are knocked down, until the end of the row is reached.\nEach time the end of the row is reached, repeat the previous rule.\nWhat is the number of the last peg to be knocked down?\n\n(second version with QR code)",
+      "main_statement::eng": "Pegs numbered 1 to 50 are placed in order in a line, with number 1 on the left.\nThey are then knocked over, one at a time, following these two rules:\nStarting with the first standing peg on the left, alternate pegs are knocked down, until the end of the row is reached.\nEach time the end of the row is reached, repeat the previous rule.\nWhat is the number of the last peg to be knocked down?",
       "main_hint::eng": "What happens if you only had 5 pegs? What about 10 or 20? Can you spot the pattern?",
       "main_answer::eng": "The correct answer is 32",
       "extension_1_statement::eng": "Pegs numbered 1 to 1050 are placed in order in a line, with number 1 on the left.\nThey are then knocked over, one at a time, following these two rules:\nStarting with the first standing peg on the left, alternate pegs are knocked down, until the end of the row is reached.\nEach time the end of the row is reached, repeat the previous rule.\nWhat is the number of the last peg to be knocked down?",

@@ -12,7 +12,7 @@ config.google_drive = {
 
 config.git = {
   content_repo: "https://github.com/IDEMSInternational/vmc-app-content",
-  content_tag_latest: "0.1.0"
+  content_tag_latest: "0.1.1"
 }
 
 config.api.db_name = "vmc"
