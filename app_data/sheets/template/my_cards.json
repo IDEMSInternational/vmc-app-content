@@ -1,0 +1,169 @@
+{
+  "flow_type": "template",
+  "flow_name": "my_cards",
+  "status": "released",
+  "rows": [
+    {
+      "type": "title",
+      "name": "title",
+      "value": "My Cards",
+      "_translations": {
+        "value": {}
+      },
+      "_nested_name": "title"
+    },
+    {
+      "type": "display_grid",
+      "name": "dg_favourite",
+      "parameter_list": {
+        "item_width": "160px",
+        "item_border": "none"
+      },
+      "rows": [
+        {
+          "type": "items",
+          "value": "@data.cards",
+          "rows": [
+            {
+              "type": "template",
+              "name": "card_button_@item.id",
+              "value": "card_button",
+              "condition": "@fields.@item.favourite_field",
+              "rows": [
+                {
+                  "name": "card_id",
+                  "value": "@item.id",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "type": "set_variable",
+                  "_nested_name": "dg_favourite.items_1.card_button_@item.id.card_id",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "@item.id",
+                        "matchedExpression": "@item.id",
+                        "type": "item",
+                        "fieldName": "id"
+                      }
+                    ],
+                    "_nested_name": [
+                      {
+                        "fullExpression": "dg_favourite.items_1.card_button_@item.id.card_id",
+                        "matchedExpression": "@item.id.card_id",
+                        "type": "item",
+                        "fieldName": "id"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@item.id": [
+                      "value"
+                    ],
+                    "@item.id.card_id": [
+                      "_nested_name"
+                    ]
+                  }
+                },
+                {
+                  "name": "card_no",
+                  "value": "@item.card_no",
+                  "_translations": {
+                    "value": {}
+                  },
+                  "type": "set_variable",
+                  "_nested_name": "dg_favourite.items_1.card_button_@item.id.card_no",
+                  "_dynamicFields": {
+                    "value": [
+                      {
+                        "fullExpression": "@item.card_no",
+                        "matchedExpression": "@item.card_no",
+                        "type": "item",
+                        "fieldName": "card_no"
+                      }
+                    ],
+                    "_nested_name": [
+                      {
+                        "fullExpression": "dg_favourite.items_1.card_button_@item.id.card_no",
+                        "matchedExpression": "@item.id.card_no",
+                        "type": "item",
+                        "fieldName": "id"
+                      }
+                    ]
+                  },
+                  "_dynamicDependencies": {
+                    "@item.card_no": [
+                      "value"
+                    ],
+                    "@item.id.card_no": [
+                      "_nested_name"
+                    ]
+                  }
+                }
+              ],
+              "_nested_name": "dg_favourite.items_1.card_button_@item.id",
+              "_dynamicFields": {
+                "name": [
+                  {
+                    "fullExpression": "card_button_@item.id",
+                    "matchedExpression": "@item.id",
+                    "type": "item",
+                    "fieldName": "id"
+                  }
+                ],
+                "condition": [
+                  {
+                    "fullExpression": "@fields.@item.favourite_field",
+                    "matchedExpression": "@item.favourite_field",
+                    "type": "item",
+                    "fieldName": "favourite_field"
+                  }
+                ],
+                "_nested_name": [
+                  {
+                    "fullExpression": "dg_favourite.items_1.card_button_@item.id",
+                    "matchedExpression": "@item.id",
+                    "type": "item",
+                    "fieldName": "id"
+                  }
+                ]
+              },
+              "_dynamicDependencies": {
+                "@item.id": [
+                  "name",
+                  "_nested_name"
+                ],
+                "@item.favourite_field": [
+                  "condition"
+                ]
+              }
+            }
+          ],
+          "name": "items_1",
+          "_nested_name": "dg_favourite.items_1",
+          "_dynamicFields": {
+            "value": [
+              {
+                "fullExpression": "@data.cards",
+                "matchedExpression": "@data.cards",
+                "type": "data",
+                "fieldName": "cards"
+              }
+            ]
+          },
+          "_dynamicDependencies": {
+            "@data.cards": [
+              "value"
+            ]
+          }
+        }
+      ],
+      "_nested_name": "dg_favourite"
+    }
+  ],
+  "_source": {
+    "name": "Virtual Maths Camp",
+    "path": "templates/cards_template.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1FRFYiFjOTVzLb19-1BAO3gwScZAw7c3sjL50zOuKFhY"
+  }
+}

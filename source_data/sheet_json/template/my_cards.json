@@ -1,0 +1,44 @@
+{
+  "flow_type": "template",
+  "flow_name": "my_cards",
+  "status": "released",
+  "rows": [
+    {
+      "type": "title",
+      "name": "title",
+      "value": "My Cards"
+    },
+    {
+      "type": "begin_display_grid",
+      "name": "dg_favourite",
+      "parameter_list": "item_width: 160px;\nitem_border: none;"
+    },
+    {
+      "type": "begin_items",
+      "value": "@data.cards"
+    },
+    {
+      "type": "begin_template",
+      "name": "card_button_@item.id",
+      "value": "card_button",
+      "condition": "@fields.@item.favourite_field"
+    },
+    {
+      "name": "card_id",
+      "value": "@item.id"
+    },
+    {
+      "name": "card_no",
+      "value": "@item.card_no"
+    },
+    {
+      "type": "end_template"
+    },
+    {
+      "type": "end_items"
+    },
+    {
+      "type": "end_display_grid"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "cards_group",
+  "data_list_name": "cards_group",
+  "status": "released",
+  "rows": [
+    {
+      "id": "spades",
+      "title::eng": "Spades",
+      "text::eng": "Games"
+    },
+    {
+      "id": "diamonds",
+      "title::eng": "Diamonds",
+      "text::eng": "Activities"
+    },
+    {
+      "id": "clubs",
+      "title::eng": "Clubs",
+      "text::eng": "Counting (puzzles)"
+    },
+    {
+      "id": "hearts",
+      "title::eng": "Hearts",
+      "text::eng": "Fun Fact"
+    }
+  ]
+}
