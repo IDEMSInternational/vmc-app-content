@@ -6,17 +6,19 @@
 | accordion | 4 |
 | accordion_section | 15 |
 | begin display group | 1 |
-| button | 4 |
+| button | 5 |
+| carousel | 1 |
 | debug_toggle | 1 |
 | display_grid | 1 |
 | display_group | 9 |
 | image | 12 |
-| items | 2 |
+| items | 5 |
 | round_button | 3 |
-| set_variable | 77 |
-| template | 54 |
-| text | 22 |
-| title | 2 |
+| set_variable | 90 |
+| template | 55 |
+| text | 23 |
+| title | 4 |
+| toggle_bar | 1 |
 </details>
 
 <details >
@@ -28,8 +30,8 @@
 | emit: completed | 54 |
 | emit: force_reload | 1 |
 | emit: uncompleted | 54 |
-| go_to | 3 |
-| set_field | 2 |
+| go_to | 4 |
+| set_field | 4 |
 </details>
 
 <details open>
@@ -37,7 +39,7 @@
 
 | assets | KB | MB |
 | --- | --- | --- |
-| total | 1513 KB | 1.5 MB |
+| total | 1515 KB | 1.5 MB |
 | unused | 8250 KB | 8.3 MB |
 </details>
 
@@ -145,10 +147,12 @@ Assets that are used within sheets and also can be found in the synced asset dat
 | images/counting_squares/image_0.png | 27.7 | 2 |
 | images/counting_squares/image_1.png | 18.1 | 2 |
 | images/counting_squares/image_2.png | 25 | 2 |
+| images/fine_heart.svg | 1.2 | 2 |
 | images/four_colours/image_0.png | 202.5 | 2 |
 | images/four_colours/image_1.png | 221.6 | 2 |
 | images/four_colours/image_2.png | 55 | 2 |
 | images/four_colours/image_3.png | 108.4 | 2 |
+| images/full_heart.svg | 0.7 | 2 |
 | images/going_to_school/image_0.png | 8.6 | 2 |
 | images/house/image_0.png | 61.9 | 2 |
 | images/house/image_1.png | 69.3 | 2 |
@@ -175,8 +179,8 @@ Assets that are used within sheets and also can be found in the synced asset dat
 
 | type | subtype | total |
 | --- | --- | --- |
-| data_list |  | 5 |
+| data_list |  | 6 |
 | generator |  | 1 |
-| template |  | 6 |
+| template |  | 7 |
 | template | generated | 52 |
 </details>

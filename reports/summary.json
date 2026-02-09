@@ -15,7 +15,11 @@
       },
       {
         "type": "button",
-        "count": 4
+        "count": 5
+      },
+      {
+        "type": "carousel",
+        "count": 1
       },
       {
         "type": "debug_toggle",
@@ -35,7 +39,7 @@
       },
       {
         "type": "items",
-        "count": 2
+        "count": 5
       },
       {
         "type": "round_button",
@@ -43,19 +47,23 @@
       },
       {
         "type": "set_variable",
-        "count": 77
+        "count": 90
       },
       {
         "type": "template",
-        "count": 54
+        "count": 55
       },
       {
         "type": "text",
-        "count": 22
+        "count": 23
       },
       {
         "type": "title",
-        "count": 2
+        "count": 4
+      },
+      {
+        "type": "toggle_bar",
+        "count": 1
       }
     ]
   },
@@ -79,11 +87,11 @@
       },
       {
         "type": "go_to",
-        "count": 3
+        "count": 4
       },
       {
         "type": "set_field",
-        "count": 2
+        "count": 4
       }
     ]
   },
@@ -91,7 +99,7 @@
     "data": [
       {
         "assets": "total",
-        "KB": "1513 KB",
+        "KB": "1515 KB",
         "MB": "1.5 MB"
       },
       {
@@ -445,6 +453,11 @@
         "size_kb": 25
       },
       {
+        "path": "images/fine_heart.svg",
+        "count": 2,
+        "size_kb": 1.2
+      },
+      {
         "path": "images/four_colours/image_0.png",
         "count": 2,
         "size_kb": 202.5
@@ -463,6 +476,11 @@
         "path": "images/four_colours/image_3.png",
         "count": 2,
         "size_kb": 108.4
+      },
+      {
+        "path": "images/full_heart.svg",
+        "count": 2,
+        "size_kb": 0.7
       },
       {
         "path": "images/going_to_school/image_0.png",
@@ -566,7 +584,7 @@
       {
         "type": "data_list",
         "subtype": null,
-        "total": 5
+        "total": 6
       },
       {
         "type": "generator",
@@ -576,7 +594,7 @@
       {
         "type": "template",
         "subtype": null,
-        "total": 6
+        "total": 7
       },
       {
         "type": "template",

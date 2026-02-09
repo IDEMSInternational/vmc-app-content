@@ -47,6 +47,10 @@
     "md5Checksum": "932673c05168ec3eb0defd5116724f9b",
     "size_kb": 63
   },
+  "images/fine_heart.svg": {
+    "md5Checksum": "27684cf9a7647bee5ca980193f7952eb",
+    "size_kb": 1.2
+  },
   "images/four_colours/image_0.png": {
     "md5Checksum": "c86fe18ce37767359512b12f0bfb151f",
     "size_kb": 202.5
@@ -62,6 +66,10 @@
   "images/four_colours/image_3.png": {
     "md5Checksum": "b150a8fbdd3bcfe745b6b28fdcc91c65",
     "size_kb": 108.4
+  },
+  "images/full_heart.svg": {
+    "md5Checksum": "4d0e444ccacac0a7249e11f75f658a70",
+    "size_kb": 0.7
   },
   "images/going_to_school/image_0.png": {
     "md5Checksum": "d998abe96cca3274e2ad035fc2d37192",

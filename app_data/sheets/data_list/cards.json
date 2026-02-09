@@ -7,7 +7,9 @@
     {
       "id": "knockdown",
       "card_no": "C1",
+      "group": "clubs",
       "references": "https://nrich.maths.org/11677",
+      "favourite_field": "knockdown_favourite",
       "metadata_type": "Puzzles",
       "_translations": {
         "metadata_type": {},
@@ -61,7 +63,9 @@
     {
       "id": "onetwothreefourfive",
       "card_no": "C2",
+      "group": "clubs",
       "references": "https://nrich.maths.org/2344 \nhttps://www.mathsisfun.com/algebra/triangular-numbers.html",
+      "favourite_field": "onetwothreefourfive_favourite",
       "metadata_type": "Puzzles",
       "_translations": {
         "metadata_type": {},
@@ -145,7 +149,9 @@
     {
       "id": "mean",
       "card_no": "C3",
+      "group": "clubs",
       "references": "https://www.mathsisfun.com/mean.html\nhttps://www.mathsisfun.com/median.html",
+      "favourite_field": "mean_favourite",
       "metadata_type": "Puzzles",
       "_translations": {
         "metadata_type": {},
@@ -229,9 +235,11 @@
     {
       "id": "house",
       "card_no": "C4",
+      "group": "clubs",
       "image_asset_1": "images/house/image_0.png",
       "image_asset_2": "images/house/image_1.png",
       "references": "https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg\nhttps://www.transum.org/Maths/Activity/without/\nhttps://datagenetics.com/blog/december22018/index.html\nhttps://nrich.maths.org/2326\nhttps://www.youtube.com/watch?v=W18FDEA1jRQ",
+      "favourite_field": "house_favourite",
       "metadata_type": "Puzzles",
       "_translations": {
         "metadata_type": {},
@@ -315,7 +323,9 @@
     {
       "id": "honey_bees",
       "card_no": "C5",
+      "group": "clubs",
       "references": "https://nrich.maths.org/5668\nhttps://en.wikipedia.org/wiki/Cross-multiplication#Rule_of_Three",
+      "favourite_field": "honey_bees_favourite",
       "metadata_type": "Puzzles",
       "_translations": {
         "metadata_type": {},
@@ -399,7 +409,9 @@
     {
       "id": "alphanumerics",
       "card_no": "C6",
+      "group": "clubs",
       "references": "https://en.wikipedia.org/wiki/Verbal_arithmetic\nhttps://www.dcode.fr/cryptarithm-solver\nhttp://www.iread.it/cryptarithms.php",
+      "favourite_field": "alphanumerics_favourite",
       "metadata_type": "Puzzles",
       "_translations": {
         "metadata_type": {},
@@ -483,7 +495,9 @@
     {
       "id": "newspaper",
       "card_no": "C7",
+      "group": "clubs",
       "references": "https://nrich.maths.org/7180",
+      "favourite_field": "newspaper_favourite",
       "metadata_type": "Puzzles",
       "_translations": {
         "metadata_type": {},
@@ -567,7 +581,9 @@
     {
       "id": "sword_josephus",
       "card_no": "C8",
+      "group": "clubs",
       "references": "https://lycee.samicharity.co.uk/2016/10/20/sword-of-josephus/",
+      "favourite_field": "sword_josephus_favourite",
       "metadata_type": "Puzzles",
       "_translations": {
         "metadata_type": {},
@@ -631,7 +647,9 @@
     {
       "id": "restaurant",
       "card_no": "C9",
+      "group": "clubs",
       "references": "https://nrich.maths.org/2458\nhttps://www.ukmt.org.uk/",
+      "favourite_field": "restaurant_favourite",
       "metadata_type": "Puzzles",
       "_translations": {
         "metadata_type": {},
@@ -695,10 +713,12 @@
     {
       "id": "two_distances",
       "card_no": "C10",
+      "group": "clubs",
       "image_asset_1": "images/two_distances/image_0.png",
       "main_exp_image_asset_1": "images/two_distances/image_1.png",
       "ext_1_expl_image_asset_1": "images/two_distances/image_2.png",
       "references": "https://www.theguardian.com/science/2019/oct/21/can-you-solve-it-the-four-points-two-distances-problem\nhttps://www.solipsys.co.uk/new/FourPointsTwoDistancesProof.html?RSS\nhttp://datagenetics.com/blog/october12019/index.html\nhttps://arxiv.org/pdf/math/0304192.pdf",
+      "favourite_field": "two_distances_favourite",
       "metadata_type": "Puzzles",
       "_translations": {
         "metadata_type": {},
@@ -762,7 +782,9 @@
     {
       "id": "dealing_cards",
       "card_no": "CJ",
+      "group": "clubs",
       "references": "https://lycee.samicharity.co.uk/2018/12/03/wrapping-presents/",
+      "favourite_field": "dealing_cards_favourite",
       "metadata_type": "Puzzles",
       "_translations": {
         "metadata_type": {},
@@ -846,7 +868,9 @@
     {
       "id": "lost_cards",
       "card_no": "CQ",
+      "group": "clubs",
       "references": "https://betterexplained.com/articles/fun-with-modular-arithmetic/",
+      "favourite_field": "lost_cards_favourite",
       "metadata_type": "Puzzles",
       "_translations": {
         "metadata_type": {},
@@ -930,7 +954,9 @@
     {
       "id": "monkey_business",
       "card_no": "CK",
+      "group": "clubs",
       "references": "https://mathsclub.samicharity.co.uk/en/monkey-business\nhttps://tasks.illustrativemathematics.org/content-standards/tasks/938\nhttps://nrich.maths.org/countingfactors\nhttps://en.wikipedia.org/wiki/Highly_composite_number",
+      "favourite_field": "monkey_business_favourite",
       "metadata_type": "Puzzles",
       "_translations": {
         "metadata_type": {},
@@ -1014,11 +1040,13 @@
     {
       "id": "table_handshake",
       "card_no": "D1",
+      "group": "diamonds",
       "main_exp_image_asset_1": "images/table_handshakes/image_0.png",
       "main_exp_image_asset_2": "images/table_handshakes/image_1.png",
       "main_exp_image_asset_2_1": "images/table_handshakes/image_2.png",
       "main_exp_image_asset_3": "images/table_handshakes/image_3.png",
       "main_exp_image_asset_4": "images/table_handshakes/image_4.png",
+      "favourite_field": "table_handshake_favourite",
       "metadata_type": "Activities",
       "_translations": {
         "metadata_type": {},
@@ -1117,11 +1145,13 @@
     {
       "id": "triang_slices",
       "card_no": "D2",
+      "group": "diamonds",
       "image_asset_1": "images/triangular_slices/image_0.png",
       "main_exp_image_asset_1": "images/triangular_slices/image_1.png",
       "main_exp_image_asset_2": "images/triangular_slices/image_2.png",
       "main_exp_image_asset_3": "images/triangular_slices/image_3.png",
       "references": "https://garethrees.org/2013/06/11/tabular/",
+      "favourite_field": "triang_slices_favourite",
       "metadata_type": "Activities",
       "_translations": {
         "metadata_type": {},
@@ -1220,7 +1250,9 @@
     {
       "id": "scoring_goals",
       "card_no": "D3",
+      "group": "diamonds",
       "references": "https://www.mathsisfun.com/combinatorics/combinations-permutations.html \n\nhttps://betterexplained.com/articles/easy-permutations-and-combinations/",
+      "favourite_field": "scoring_goals_favourite",
       "metadata_type": "Activities",
       "_translations": {
         "metadata_type": {},
@@ -1304,10 +1336,12 @@
     {
       "id": "colouring",
       "card_no": "D4",
+      "group": "diamonds",
       "image_asset_1": "images/colouring/image_0.png",
       "extension_1_image_1": "images/colouring/image_1.png",
       "ext_1_expl_image_asset_1": "images/colouring/image_2.png",
       "references": "https://nrich.maths.org/600",
+      "favourite_field": "colouring_favourite",
       "metadata_type": "Activities",
       "_translations": {
         "metadata_type": {},
@@ -1371,8 +1405,10 @@
     {
       "id": "avoid_river",
       "card_no": "D5",
+      "group": "diamonds",
       "image_asset_1": "images/avoid_the_river/image_0.png",
       "references": "https://en.wikipedia.org/wiki/Catalan_number",
+      "favourite_field": "avoid_river_favourite",
       "metadata_type": "Activities",
       "_translations": {
         "metadata_type": {},
@@ -1456,7 +1492,9 @@
     {
       "id": "shaking_hands",
       "card_no": "D6",
+      "group": "diamonds",
       "references": "https://nrich.maths.org/6708 \n\nhttps://www.nctm.org/Publications/Teaching-Children-Mathematics/Blog/Reflecting-on-the-Handshake-Problem/ \n\nhttps://www.mathsisfun.com/algebra/triangular-numbers.html \n\nhttps://en.wikipedia.org/wiki/Triangular_number",
+      "favourite_field": "shaking_hands_favourite",
       "metadata_type": "Activities",
       "_translations": {
         "metadata_type": {},
@@ -1540,8 +1578,10 @@
     {
       "id": "cake_pieces",
       "card_no": "D7",
+      "group": "diamonds",
       "main_exp_image_asset_1": "images/pieces_of_cake/image_0.png",
       "references": "http://www.murderousmaths.co.uk/teacher/pizza.htm",
+      "favourite_field": "cake_pieces_favourite",
       "metadata_type": "Activities",
       "_translations": {
         "metadata_type": {},
@@ -1625,7 +1665,9 @@
     {
       "id": "mixed_socks",
       "card_no": "D8",
+      "group": "diamonds",
       "references": "https://nrich.maths.org/166",
+      "favourite_field": "mixed_socks_favourite",
       "metadata_type": "Activities",
       "_translations": {
         "metadata_type": {},
@@ -1709,10 +1751,12 @@
     {
       "id": "count_squares",
       "card_no": "D9",
+      "group": "diamonds",
       "image_asset_1": "images/counting_squares/image_0.png",
       "extension_1_image_1": "images/counting_squares/image_1.png",
       "ext_1_expl_image_asset_1": "images/counting_squares/image_2.png",
       "references": "https://mathsclub.samicharity.co.uk/en/counting-squares \n\nhttps://mathforlove.com/wp-content/uploads/2019/12/On-the-Grid-1-Square-Counting.pdf \n\nhttps://brilliant.org/discussions/thread/squares-on-a-grid/",
+      "favourite_field": "count_squares_favourite",
       "metadata_type": "Activities",
       "_translations": {
         "metadata_type": {},
@@ -1796,8 +1840,10 @@
     {
       "id": "going_to_school",
       "card_no": "D10",
+      "group": "diamonds",
       "image_asset_1": "images/going_to_school/image_0.png",
       "references": "https://www.mathsisfun.com/combinatorics/combinations-permutations.html",
+      "favourite_field": "going_to_school_favourite",
       "metadata_type": "Activities",
       "_translations": {
         "metadata_type": {},
@@ -1881,7 +1927,9 @@
     {
       "id": "diff_paths",
       "card_no": "DJ",
+      "group": "diamonds",
       "references": "https://en.wikipedia.org/wiki/Factorial\n\nhttps://www.mathsisfun.com/numbers/factorial.html",
+      "favourite_field": "diff_paths_favourite",
       "metadata_type": "Activities",
       "_translations": {
         "metadata_type": {},
@@ -1965,7 +2013,9 @@
     {
       "id": "bar_stools",
       "card_no": "DQ",
+      "group": "diamonds",
       "references": "http://datagenetics.com/blog/june52020/index.html \n\nhttp://datagenetics.com/blog/october22015/index.html \n\nhttps://www.mathsisfun.com/numbers/fibonacci-sequence.html",
+      "favourite_field": "bar_stools_favourite",
       "metadata_type": "Activities",
       "_translations": {
         "metadata_type": {},
@@ -2049,7 +2099,9 @@
     {
       "id": "paving_paths",
       "card_no": "DK",
+      "group": "diamonds",
       "references": "http://datagenetics.com/blog/june52020/index.htmlm \n\nhttp://datagenetics.com/blog/october22015/index.html \n\nhttps://www.mathsisfun.com/numbers/fibonacci-sequence.html",
+      "favourite_field": "paving_paths_favourite",
       "metadata_type": "Activities",
       "_translations": {
         "metadata_type": {},
@@ -2133,7 +2185,9 @@
     {
       "id": "birthday_probability",
       "card_no": "H1",
+      "group": "hearts",
       "references": "https://betterexplained.com/articles/understanding-the-birthday-paradox/\nhttps://oeis.org/A014088",
+      "favourite_field": "birthday_probability_favourite",
       "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
@@ -2187,7 +2241,9 @@
     {
       "id": "kaprekars_no",
       "card_no": "H2",
+      "group": "hearts",
       "references": "https://en.wikipedia.org/wiki/D._R._Kaprekar\nhttps://plus.maths.org/content/mysterious-number-6174",
+      "favourite_field": "kaprekars_no_favourite",
       "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
@@ -2241,7 +2297,9 @@
     {
       "id": "palindrome_cube",
       "card_no": "H3",
+      "group": "hearts",
       "references": "https://proofwiki.org/wiki/Sequence_of_Palindromic_Cubes\nhttps://oeis.org/",
+      "favourite_field": "palindrome_cube_favourite",
       "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
@@ -2295,11 +2353,13 @@
     {
       "id": "four_colours",
       "card_no": "H4",
+      "group": "hearts",
       "main_exp_image_asset_1": "images/four_colours/image_0.png",
       "main_exp_image_asset_2": "images/four_colours/image_1.png",
       "ext_hint_image_asset_1": "images/four_colours/image_2.png",
       "ext_1_expl_image_asset_1": "images/four_colours/image_3.png",
       "references": "https://mathshistory.st-andrews.ac.uk/HistTopics/The_four_colour_theorem/\nhttps://www.mathsisfun.com/activity/coloring.html",
+      "favourite_field": "four_colours_favourite",
       "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
@@ -2368,7 +2428,9 @@
     {
       "id": "ramajun",
       "card_no": "H5",
+      "group": "hearts",
       "references": "https://en.wikipedia.org/wiki/Bernard_Fr%C3%A9nicle_de_Bessy\nhttps://en.wikipedia.org/wiki/1729_(number)\nhttps://en.wikipedia.org/wiki/Taxicab_number",
+      "favourite_field": "ramajun_favourite",
       "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
@@ -2422,7 +2484,9 @@
     {
       "id": "abundant_numbers",
       "card_no": "H6",
+      "group": "hearts",
       "references": "https://en.wikipedia.org/wiki/Abundant_number\nhttps://nrich.maths.org/1011",
+      "favourite_field": "abundant_numbers_favourite",
       "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
@@ -2486,7 +2550,9 @@
     {
       "id": "folding_paper",
       "card_no": "H7",
+      "group": "hearts",
       "references": "https://www.mathscareers.org.uk/article/how-many-times-can-you-fold-a-sheet-of-paper/",
+      "favourite_field": "folding_paper_favourite",
       "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
@@ -2540,7 +2606,9 @@
     {
       "id": "prime_removal",
       "card_no": "H8",
+      "group": "hearts",
       "references": "https://en.wikipedia.org/wiki/Truncatable_prime",
+      "favourite_field": "prime_removal_favourite",
       "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
@@ -2594,7 +2662,9 @@
     {
       "id": "shuffling_cards",
       "card_no": "H9",
+      "group": "hearts",
       "references": "https://nrich.maths.org/5402\nhttps://math.hmc.edu/funfacts/making-history-by-card-shuffling/",
+      "favourite_field": "shuffling_cards_favourite",
       "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
@@ -2648,10 +2718,12 @@
     {
       "id": "square_triangular_numbers",
       "card_no": "H10",
+      "group": "hearts",
       "main_exp_image_asset_1": "images/square_triangular_numbers/image_0.png",
       "ext_1_expl_image_asset_1": "images/square_triangular_numbers/image_1.png",
       "ext_1_expl_image_asset_2": "images/square_triangular_numbers/image_2.png",
       "references": "https://www.geogebra.org/m/ZXAP0QPv \nhttps://nrich.maths.org/2274\nhttps://en.wikipedia.org/wiki/Triangular_number#Applications",
+      "favourite_field": "square_triangular_numbers_favourite",
       "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
@@ -2720,10 +2792,12 @@
     {
       "id": "benfords_law",
       "card_no": "HJ",
+      "group": "hearts",
       "image_asset_1": "images/benfords_law/image_0.png",
       "main_exp_image_asset_1": "images/benfords_law/image_1.png",
       "main_exp_image_asset_2": "images/benfords_law/image_2.png",
       "references": "https://brilliant.org/wiki/benfords-law/\nhttps://towardsdatascience.com/what-is-benfords-law-and-why-is-it-important-for-data-science-312cb8b61048",
+      "favourite_field": "benfords_law_favourite",
       "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
@@ -2787,7 +2861,9 @@
     {
       "id": "lychrel_numbers",
       "card_no": "HQ",
+      "group": "hearts",
       "references": "https://lycee.samicharity.co.uk/2020/02/06/lychrel-numbers/\nhttps://en.wikipedia.org/wiki/Lychrel_number#196_palindrome_quest\nhttp://datagenetics.com/blog/october12015/index.html",
+      "favourite_field": "lychrel_numbers_favourite",
       "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
@@ -2841,7 +2917,9 @@
     {
       "id": "collatz_conjecture",
       "card_no": "HK",
+      "group": "hearts",
       "references": "https://lycee.samicharity.co.uk/2017/03/17/collatz-conjecture/\nhttps://www.quantamagazine.org/mathematician-terence-tao-and-the-collatz-conjecture-20191211/\nhttps://en.wikipedia.org/wiki/Collatz_conjecture\nhttps://www.quantamagazine.org/cash-for-math-the-erdos-prizes-live-on-20170605/\nhttp://thescienceexplorer.com/universe/earn-two-thousand-dollars-solving-simple-math-problem",
+      "favourite_field": "",
       "metadata_type": "Fun Fact",
       "_translations": {
         "metadata_type": {},
@@ -2899,8 +2977,10 @@
     {
       "id": "fifteen",
       "card_no": "S1",
+      "group": "spades",
       "ext_1_expl_image_asset_1": "images/fifteen/image_1.png",
       "references": "https://www.ms.uky.edu/~lee/ma310sp15/gameoffifteen.pdf\nhttps://en.wikipedia.org/wiki/Number_Scrabble",
+      "favourite_field": "fifteen_favourite",
       "metadata_type": "Game",
       "_translations": {
         "metadata_type": {},
@@ -2944,7 +3024,9 @@
     {
       "id": "patience",
       "card_no": "S2",
+      "group": "spades",
       "references": "https://nrich.maths.org/1194\nhttps://www.solsuite.com/games/elevens.htm",
+      "favourite_field": "patience_favourite",
       "metadata_type": "Game",
       "_translations": {
         "metadata_type": {},
@@ -2988,7 +3070,9 @@
     {
       "id": "twenty_one",
       "card_no": "S3",
+      "group": "spades",
       "references": "https://en.wikipedia.org/wiki/Nim\nhttps://en.wikipedia.org/wiki/Nim#The_21_game",
+      "favourite_field": "twenty_one_favourite",
       "metadata_type": "Game",
       "_translations": {
         "metadata_type": {},
@@ -3032,7 +3116,9 @@
     {
       "id": "nim",
       "card_no": "S4",
+      "group": "spades",
       "references": "https://wild.maths.org/tags/fun-drips\nhttps://plus.maths.org/content/play-win-nim",
+      "favourite_field": "nim_favourite",
       "metadata_type": "Game",
       "_translations": {
         "metadata_type": {},
@@ -3076,7 +3162,9 @@
     {
       "id": "mastermind",
       "card_no": "S5",
+      "group": "spades",
       "references": "https://en.wikipedia.org/wiki/Mastermind_(board_game)\nhttps://lycee.samicharity.co.uk/2017/09/21/mastermind-problems/",
+      "favourite_field": "mastermind_favourite",
       "metadata_type": "Game",
       "_translations": {
         "metadata_type": {},
@@ -3120,7 +3208,9 @@
     {
       "id": "latin_squares",
       "card_no": "S6",
+      "group": "spades",
       "references": "https://www.mathsisfun.com/puzzles/index.html\nhttps://www.wikiwand.com/en/Mutually_orthogonal_Latin_squares",
+      "favourite_field": "latin_squares_favourite",
       "metadata_type": "Game",
       "_translations": {
         "metadata_type": {},
@@ -3164,7 +3254,9 @@
     {
       "id": "gomoku",
       "card_no": "S7",
+      "group": "spades",
       "references": "https://en.wikipedia.org/wiki/Gomoku",
+      "favourite_field": "gomoku_favourite",
       "metadata_type": "Game",
       "_translations": {
         "metadata_type": {},
@@ -3208,7 +3300,9 @@
     {
       "id": "sim",
       "card_no": "S8",
+      "group": "spades",
       "references": "https://www.whatdowedoallday.com/sim-pencil-game/\nhttp://web.math.ucsb.edu/~padraic/ucsb_2013_14/mathcs103_s2014/images/SIM_game.pdf\nhttps://nrich.maths.org/2526\nhttps://en.wikipedia.org/wiki/Theorem_on_friends_and_strangers",
+      "favourite_field": "sim_favourite",
       "metadata_type": "Game",
       "_translations": {
         "metadata_type": {},
@@ -3252,10 +3346,12 @@
     {
       "id": "pong_hau",
       "card_no": "S9",
+      "group": "spades",
       "image_asset_1": "images/ponghau_ki/image_0.png",
       "extension_1_image_1": "images/ponghau_ki/image_1.png",
       "extension_2_image_1": "images/ponghau_ki/image_2.png",
       "references": "https://multiculturalkidblogs.com/2015/09/28/traditional-chinese-game/\nhttps://en.wikipedia.org/wiki/Pong_Hau_K%27i\nhttps://www.whatdowedoallday.com/shisima/",
+      "favourite_field": "pong_hau_favourite",
       "metadata_type": "Game",
       "_translations": {
         "metadata_type": {},
@@ -3304,7 +3400,9 @@
     {
       "id": "stop_dare",
       "card_no": "S10",
+      "group": "spades",
       "references": "https://en.wikipedia.org/wiki/Pig_(dice_game)\nhttps://nrich.maths.org/1193",
+      "favourite_field": "stop_dare_favourite",
       "metadata_type": "Game",
       "_translations": {
         "metadata_type": {},
@@ -3348,7 +3446,9 @@
     {
       "id": "twenty_four",
       "card_no": "SJ",
+      "group": "spades",
       "references": "https://nrich.maths.org/7669\nhttps://nrich.maths.org/1262\nhttp://www.ijastnet.com/journals/Vol_1_No_5_September_2011/20.pdf\nhttps://gottfriedville.net/games/24/index.shtml",
+      "favourite_field": "twenty_four_favourite",
       "metadata_type": "Game",
       "_translations": {
         "metadata_type": {},
@@ -3392,8 +3492,10 @@
     {
       "id": "card_sums",
       "card_no": "SQ",
+      "group": "spades",
       "image_asset_1": "images/card_sums/image_0.png",
       "references": "http://andrewjeffrey.co.uk/product/leader-of-the-pack/\nhttps://www.jennettspark.bracknell-forest.sch.uk/wp-content/uploads/2020/04/52-Card-Activities-for-Mathematics.pdf",
+      "favourite_field": "card_sums_favourite",
       "metadata_type": "Game",
       "_translations": {
         "metadata_type": {},
@@ -3437,7 +3539,9 @@
     {
       "id": "win_twothreedour",
       "card_no": "SK",
+      "group": "spades",
       "references": "http://andrewjeffrey.co.uk/product/leader-of-the-pack/\nhttps://www.jennettspark.bracknell-forest.sch.uk/wp-content/uploads/2020/04/52-Card-Activities-for-Mathematics.pdf",
+      "favourite_field": "win_twothreedour_favourite",
       "metadata_type": "Game",
       "_translations": {
         "metadata_type": {},

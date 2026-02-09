@@ -1,0 +1,81 @@
+{
+  "flow_type": "data_list",
+  "flow_name": "cards_group",
+  "data_list_name": "cards_group",
+  "status": "released",
+  "rows": [
+    {
+      "id": "spades",
+      "title": "Spades",
+      "_translations": {
+        "title": {},
+        "text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Spades"
+        },
+        "text": {
+          "eng": "Games"
+        }
+      },
+      "text": "Games"
+    },
+    {
+      "id": "diamonds",
+      "title": "Diamonds",
+      "_translations": {
+        "title": {},
+        "text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Diamonds"
+        },
+        "text": {
+          "eng": "Activities"
+        }
+      },
+      "text": "Activities"
+    },
+    {
+      "id": "clubs",
+      "title": "Clubs",
+      "_translations": {
+        "title": {},
+        "text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Clubs"
+        },
+        "text": {
+          "eng": "Counting (puzzles)"
+        }
+      },
+      "text": "Counting (puzzles)"
+    },
+    {
+      "id": "hearts",
+      "title": "Hearts",
+      "_translations": {
+        "title": {},
+        "text": {}
+      },
+      "_translatedFields": {
+        "title": {
+          "eng": "Hearts"
+        },
+        "text": {
+          "eng": "Fun Fact"
+        }
+      },
+      "text": "Fun Fact"
+    }
+  ],
+  "_source": {
+    "name": "Virtual Maths Camp",
+    "path": "data/cards_data.xlsx",
+    "url": "https://docs.google.com/spreadsheets/d/1pFjO9cXaJLbOzUpKme9ntKWh16hlS5iIVW7SZnSy5zg"
+  }
+}

@@ -55,6 +55,16 @@
         "path": "data/cards_data.xlsx",
         "url": "https://docs.google.com/spreadsheets/d/1pFjO9cXaJLbOzUpKme9ntKWh16hlS5iIVW7SZnSy5zg"
       }
+    },
+    "cards_group": {
+      "flow_type": "data_list",
+      "flow_name": "cards_group",
+      "data_list_name": "cards_group",
+      "_source": {
+        "name": "Virtual Maths Camp",
+        "path": "data/cards_data.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1pFjO9cXaJLbOzUpKme9ntKWh16hlS5iIVW7SZnSy5zg"
+      }
     }
   },
   "data_pipe": {},
@@ -642,6 +652,15 @@
         "name": "Virtual Maths Camp",
         "path": "templates/navigation.xlsx",
         "url": "https://docs.google.com/spreadsheets/d/1xUSyGGEfcTcRDk31wvZenveRpGLOsHDEaNiunrg2kWQ"
+      }
+    },
+    "my_cards": {
+      "flow_type": "template",
+      "flow_name": "my_cards",
+      "_source": {
+        "name": "Virtual Maths Camp",
+        "path": "templates/cards_template.xlsx",
+        "url": "https://docs.google.com/spreadsheets/d/1FRFYiFjOTVzLb19-1BAO3gwScZAw7c3sjL50zOuKFhY"
       }
     },
     "nav_buttons": {

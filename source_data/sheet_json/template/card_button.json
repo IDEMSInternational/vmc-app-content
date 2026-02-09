@@ -4,6 +4,14 @@
   "status": "released",
   "rows": [
     {
+      "name": "favourite_image_asset",
+      "value": "images/fine_heart.svg"
+    },
+    {
+      "name": "favourite_checked_image_asset",
+      "value": "images/full_heart.svg"
+    },
+    {
       "name": "card_id",
       "value": "knockdown"
     },
@@ -55,11 +63,38 @@
       "condition": "!(@fields.@local.click_history_field_name)"
     },
     {
+      "name": "toggle_history",
+      "value": "_favourite_history"
+    },
+    {
+      "name": "toggle_history_field_name",
+      "value": "ltp_activity_@local.activity_data.id@local.toggle_history"
+    },
+    {
+      "name": "toggle_history_value",
+      "value": "@fields.@local.toggle_history_field_name ;  @local.now",
+      "condition": "!!(@fields.@local.toggle_history_field_name)",
+      "exclude_from_translation": true
+    },
+    {
+      "name": "toggle_history_value",
+      "value": "@local.now",
+      "condition": "!(@fields.@local.toggle_history_field_name)"
+    },
+    {
       "type": "begin_button",
       "name": "button_@local.card_data.id",
       "value": "@local.card_data.metadata_type:\n@local.card_data.title",
       "action_list": "click | go_to: card_page_@local.card_data.id;\nclick | set_field: @local.click_history_field_name: @local.click_history_value",
       "parameter_list": "variant: card-portrait;\nimage_asset: @local.card_asset;"
+    },
+    {
+      "type": "toggle_bar",
+      "name": "toggle_bar_@local.card_data.id",
+      "value": "@fields.@local.card_data.favourite_field",
+      "action_list": "changed | set_field: @local.card_data.favourite_field: this.value;\nchanged | set_field: @local.toggle_history_field_name: @local.toggle_history_value",
+      "parameter_list": "variant: icon; \nicon_true_asset: @local.favourite_checked_image_asset;\nicon_false_asset: @local.favourite_image_asset;",
+      "exclude_from_translation": true
     },
     {
       "type": "end_button"
